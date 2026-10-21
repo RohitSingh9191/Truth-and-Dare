@@ -1,4 +1,5 @@
-// /admin: the owner's review page, protected by ADMIN_PASSWORD (any user name).
+// /admin: the owner's review page, protected by ADMIN_PASSWORD, and by ADMIN_USER when that is
+// set (otherwise any user name works).
 //   /admin            suggestions waiting for review (approve, edit or reject)
 //   /admin/approved   approved suggestions, ready to copy into content/questions/
 //   /admin/feedback   feedback messages
@@ -22,12 +23,15 @@ function safeEqual(a, b) {
   return r === 0;
 }
 
-function authorised(request, password) {
+function authorised(request, password, user) {
   const header = request.headers.get('authorization') || '';
   if (!header.startsWith('Basic ')) return false;
   try {
     const decoded = new TextDecoder().decode(Uint8Array.from(atob(header.slice(6)), (c) => c.charCodeAt(0)));
-    return safeEqual(decoded.slice(decoded.indexOf(':') + 1), password);
+    const split = decoded.indexOf(':');
+    const nameOk = !user || safeEqual(decoded.slice(0, split), user);
+    const passOk = safeEqual(decoded.slice(split + 1), password);
+    return nameOk && passOk;
   } catch {
     return false;
   }
@@ -203,7 +207,7 @@ async function cleanUp(store, now) {
 
 export async function handleAdmin(request, { store, env = {}, loadCards, now = new Date() }) {
   if (!env.ADMIN_PASSWORD) return new Response('Set ADMIN_PASSWORD in Netlify (Site configuration > Environment variables) first.', { status: 503 });
-  if (!authorised(request, env.ADMIN_PASSWORD)) {
+  if (!authorised(request, env.ADMIN_PASSWORD, env.ADMIN_USER)) {
     return new Response('Password needed', { status: 401, headers: { 'www-authenticate': 'Basic realm="TruthSpin admin", charset="UTF-8"', 'cache-control': 'no-store' } });
   }
   const url = new URL(request.url);

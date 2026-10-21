@@ -48,6 +48,55 @@ describe('bottle with names', () => {
     }
   });
 
+  it('random mode (Fair turns off) is really random, not rounds in disguise', () => {
+    const n = 4;
+    const N = 40000;
+    const state = { queue: [], last: -1 };
+    const seq = Array.from({ length: N }, () => nextSeat(n, state, false));
+    // Everyone is picked about equally often (about 1 in 4).
+    const counts = new Array(n).fill(0);
+    for (const s of seq) counts[s]++;
+    for (const c of counts) expect(Math.abs(c - N / n)).toBeLessThan((N / n) * 0.05);
+    // After any player, each of the other three is equally likely to be next (about 1 in 3).
+    const after = Array.from({ length: n }, () => new Array(n).fill(0));
+    for (let i = 1; i < N; i++) after[seq[i - 1]][seq[i]]++;
+    for (let a = 0; a < n; a++) {
+      const total = after[a].reduce((x, y) => x + y, 0);
+      for (let b = 0; b < n; b++) {
+        if (a === b) expect(after[a][b]).toBe(0);
+        else expect(Math.abs(after[a][b] / total - 1 / 3)).toBeLessThan(0.03);
+      }
+    }
+    // Not rounds: a block of 4 turns has all 4 players only about 2 times in 9 (fair mode: always).
+    let full = 0;
+    for (let i = 0; i + n <= N; i += n) if (new Set(seq.slice(i, i + n)).size === n) full++;
+    expect(Math.abs(full / (N / n) - 2 / 9)).toBeLessThan(0.03);
+    // Someone can be picked again before everyone has played, and someone can wait a long time.
+    const lastSeen = new Array(n).fill(-1);
+    let longestWait = 0;
+    seq.forEach((s, i) => {
+      if (lastSeen[s] >= 0) longestWait = Math.max(longestWait, i - lastSeen[s]);
+      lastSeen[s] = i;
+    });
+    expect(longestWait).toBeGreaterThan(2 * n); // impossible in fair mode
+  });
+
+  it('switching Fair turns off and on mid-game works straight away', () => {
+    const state = { queue: [], last: -1 };
+    for (let i = 0; i < 3; i++) nextSeat(5, state, true); // part-way through a fair round
+    let prev = state.last;
+    for (let i = 0; i < 500; i++) {
+      const s = nextSeat(5, state, false);
+      expect(s).not.toBe(prev);
+      prev = s;
+    }
+    // The game clears the round when the switch is flipped (sheets.js), then fair rounds start fresh.
+    const fresh = { queue: [], last: prev };
+    const round = Array.from({ length: 5 }, () => nextSeat(5, fresh, true));
+    expect(new Set(round).size).toBe(5);
+    expect(round[0]).not.toBe(prev);
+  });
+
   it('stops well inside the picked seat, away from the lines between seats', () => {
     for (const n of [2, 3, 6, 12, 20]) {
       const width = 360 / n;

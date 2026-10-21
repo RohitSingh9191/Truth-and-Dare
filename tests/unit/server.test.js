@@ -76,6 +76,14 @@ describe('/admin', () => {
     expect((await handleAdmin(admin('/admin'), { store, env: {} })).status).toBe(503);
   });
 
+  it('checks the user name too when ADMIN_USER is set', async () => {
+    const withUser = { ADMIN_PASSWORD: 'secret-pass', ADMIN_USER: 'rohit' };
+    const as = (name) => new Request(`${SITE}/admin`, { headers: { authorization: `Basic ${btoa(`${name}:secret-pass`)}` } });
+    expect((await handleAdmin(as('owner'), { store, env: withUser })).status).toBe(401);
+    expect((await handleAdmin(as('rohit'), { store, env: withUser })).status).toBe(200);
+    expect((await handleAdmin(as('anyone'), { store, env })).status).toBe(200); // no ADMIN_USER: any name
+  });
+
   it('approves an edited suggestion and lists it for copying, then marks it added', async () => {
     await handleBatch(post([{ k: 'suggest', type: 'dare', level: 'friends', text: 'Do a pressure cooker whistle.' }]), { store });
     const id = keys(store, 's/pending/')[0].slice('s/pending/'.length);

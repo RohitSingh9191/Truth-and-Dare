@@ -64,7 +64,7 @@ export function localServer() {
             ? await handleBatch(request, { store })
             : await handleAdmin(request, {
               store,
-              env: { ADMIN_PASSWORD: password },
+              env: { ADMIN_PASSWORD: password, ADMIN_USER: process.env.ADMIN_USER },
               loadCards: async (level) => JSON.parse(readFileSync(`public/q/${level}.json`, 'utf8')).cards,
             });
           res.statusCode = response.status;

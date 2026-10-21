@@ -107,6 +107,54 @@ test('names sit around the bottle and the picked name lights up', async ({ page 
   await expect(page.locator('#cardPlayer')).toHaveText(picked);
 });
 
+test('with Fair turns off the bottle picks names at random; on, everyone plays once per round', async ({ page }) => {
+  test.setTimeout(150_000);
+  const names = ['Asha', 'Ben', 'Chen', 'Dev'];
+  const spins = async (count) => {
+    const picks = [];
+    for (let i = 0; i < count; i++) {
+      await page.locator(picks.length || (await page.locator('#choice').isVisible()) ? '#againBtn' : '#spinBtn').click();
+      await expect(page.locator('body')).toHaveAttribute('data-phase', 'choice', { timeout: 8000 });
+      await expect(page.locator('.seat.picked')).toHaveCount(1);
+      picks.push(await page.locator('.seat.picked').textContent());
+    }
+    return picks;
+  };
+  const fairSwitch = () => page.getByRole('switch', { name: /Fair turns/ });
+
+  await page.goto('/');
+  await page.locator('#namesBtn').click();
+  const input = page.getByRole('textbox', { name: 'Add a name' });
+  for (const n of names) {
+    await input.fill(n);
+    await input.press('Enter');
+  }
+  await expect(fairSwitch()).toBeChecked(); // on by default
+  await fairSwitch().uncheck();
+  await page.getByRole('button', { name: 'Close' }).click();
+
+  const random = await spins(40);
+  for (let i = 1; i < random.length; i++) expect(random[i], 'never the same name twice in a row').not.toBe(random[i - 1]);
+  for (const n of names) expect(random, `${n} gets picked`).toContain(n);
+  // Fair rounds would give all 4 names in every block of 4 turns. At random that happens only
+  // about 2 times in 9, so some block must miss someone (all 10 full by chance: 1 in 3 million).
+  const blocks = Array.from({ length: 10 }, (_, b) => new Set(random.slice(b * 4, b * 4 + 4)).size);
+  expect(blocks.some((size) => size < 4), `not in rounds: ${random.join(' ')}`).toBe(true);
+
+  // The choice is remembered after the game is closed and opened again.
+  await page.reload();
+  await page.locator('#namesBtn').click();
+  await expect(fairSwitch()).not.toBeChecked();
+
+  // Switched back on: every 4 turns, all 4 names, with no one twice in a row.
+  await fairSwitch().check();
+  await page.getByRole('button', { name: 'Close' }).click();
+  const fair = await spins(12);
+  for (let b = 0; b < 3; b++) expect(new Set(fair.slice(b * 4, b * 4 + 4)).size, `round ${b + 1}: ${fair.join(' ')}`).toBe(4);
+  for (let i = 1; i < fair.length; i++) expect(fair[i]).not.toBe(fair[i - 1]);
+  console.log(`Fair off: ${random.join(' ')}\nFair on:  ${fair.join(' ')}`);
+});
+
 test('18+ levels ask for age, and heat 3 asks everyone to agree', async ({ page }) => {
   await page.goto('/');
   await page.locator('#levelBtn').click();

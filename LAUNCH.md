@@ -18,6 +18,7 @@ Everything is free except the domain (about ₹900–1,900 a year).
    Netlify reads `netlify.toml`, so the settings fill themselves in: build command `npm run build`, publish folder `dist`, functions in `netlify/functions`.
 3. **Site configuration → Environment variables**, add:
    - `ADMIN_PASSWORD`: a long password for your review page (mark it as secret).
+   - `ADMIN_USER` (optional): the user name for the review page. Without it, any user name works with the right password.
 4. Deploy. The game appears at `https://<name>.netlify.app`. Open `/admin` there to check the password works.
 5. **Domain management → Add a domain**: add `truthspin.app` and follow Netlify's DNS steps.
 
@@ -46,7 +47,7 @@ So:
 
 ## 5. Every week (about 15 minutes)
 
-Open `https://truthspin.app/admin` (any user name, your `ADMIN_PASSWORD`).
+Open `https://truthspin.app/admin` and sign in with your `ADMIN_USER` (or any name, if you didn't set one) and `ADMIN_PASSWORD`.
 
 - **Suggestions:** approve (edit the text if needed) or reject. Checklist: nothing dangerous, no real names, nothing sexual below 18+, no alcohol or romance in Kids & Family. Rejected ones are deleted after 30 days.
 - **Approved:** copy the list into `content/questions/<level>.json`. Give each card the next free id (for example `ft069` after `ft068`) and a Hinglish line, push, then tap **Mark all as added**.
