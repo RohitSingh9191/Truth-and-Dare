@@ -1,0 +1,1400 @@
+{
+  "level": "kids",
+  "cards": [
+    {
+      "id": "kt001",
+      "type": "truth",
+      "en": "If an animal had to pretend to be you for a day, which animal would do it best, and why?",
+      "hi": "Agar ek din ke liye kisi janwar ko aap banna pade, toh kaunsa janwar ye sabse achha karega, aur kyun?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt002",
+      "type": "truth",
+      "en": "What is the silliest thing you believed was true when you were younger?",
+      "hi": "Bachpan mein aapne kaunsi sabse silly baat sach maan li thi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt003",
+      "type": "truth",
+      "en": "If you could invent a brand-new celebration day, what would everyone do on that day?",
+      "hi": "Agar aap ek bilkul naya celebration day bana sakein, toh us din sabko kya karna hoga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt004",
+      "type": "truth",
+      "en": "What food did you dislike when you were smaller, but enjoy now?",
+      "hi": "Bachpan mein kaunsa khana aapko bilkul pasand nahi tha, par ab achha lagta hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt005",
+      "type": "truth",
+      "en": "What is one thing you have taught someone older than you?",
+      "hi": "Aapne apne se bade kisi insaan ko kya sikhaya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt006",
+      "type": "truth",
+      "en": "If one object in your home could talk, which one would tell the funniest stories about you?",
+      "hi": "Agar ghar ki koi ek cheez bol paati, toh kaunsi cheez aapke baare mein sabse funny kisse sunati?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt007",
+      "type": "truth",
+      "en": "What is the most useless superpower you would still love to have?",
+      "hi": "Sabse useless superpower kaunsi hai jo aapko phir bhi chahiye?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt008",
+      "type": "truth",
+      "en": "What is one small thing you are secretly very good at?",
+      "hi": "Kaunsi chhoti si cheez aapko secretly bahut achhe se aati hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt009",
+      "type": "truth",
+      "en": "Have you ever pretended to be asleep to avoid doing something? What was it?",
+      "hi": "Kya aapne kabhi koi kaam taalne ke liye sone ka natak kiya hai? Kaunsa kaam tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt010",
+      "type": "truth",
+      "en": "What is the funniest thing you have ever seen an animal do?",
+      "hi": "Aapne kisi janwar ko sabse funny kya karte dekha hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt011",
+      "type": "truth",
+      "en": "If you could make one new rule that everyone in your home must follow, what would it be?",
+      "hi": "Agar aap ghar ke liye ek naya rule bana sakein jo sabko maanna pade, toh woh kya hoga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt012",
+      "type": "truth",
+      "en": "Which cartoon or story character is most like you, and why?",
+      "hi": "Kaunsa cartoon ya kahani ka character bilkul aapke jaisa hai, aur kyun?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt013",
+      "type": "truth",
+      "en": "What word did you say in a funny, wrong way when you were little?",
+      "hi": "Bachpan mein aapne kaunsa word hamesha funny, galat tarike se bola?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt014",
+      "type": "truth",
+      "en": "If you became as small as an ant for one hour, where would you explore first?",
+      "hi": "Agar ek ghante ke liye aapka size cheenti jitna ho jaaye, toh aapko sabse pehle kahan ghoomna hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt015",
+      "type": "truth",
+      "en": "What is the best gift you have ever made or given to someone?",
+      "hi": "Aapka banaya ya diya hua sabse best gift kaunsa tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt016",
+      "type": "truth",
+      "en": "Who here makes you laugh the most, and how do they do it?",
+      "hi": "Yahan aapko sabse zyada kaun hasata hai, aur kaise?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt017",
+      "type": "truth",
+      "en": "What is the messiest thing you have ever done in the kitchen?",
+      "hi": "Kitchen mein aapne ab tak sabse badi gadbad kya ki hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt018",
+      "type": "truth",
+      "en": "Which household job do you secretly enjoy, and which one would you happily stop doing forever?",
+      "hi": "Ghar ka kaunsa kaam aapko chupke se pasand hai, aur kaunsa kaam hamesha ke liye chhod dena aapko achha lagega?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt019",
+      "type": "truth",
+      "en": "What is something you were sure you could do, but it went completely wrong?",
+      "hi": "Kaunsa kaam aapko pakka lagta tha ki ho jaayega, par poora ulta pad gaya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt020",
+      "type": "truth",
+      "en": "If you opened your own shop, what would you sell, and what would you name it?",
+      "hi": "Agar aapki apni dukaan ho, toh usmein kya bikega aur dukaan ka naam kya hoga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt021",
+      "type": "truth",
+      "en": "What is the longest time you have spent searching for something that was right in front of you?",
+      "hi": "Saamne padi kisi cheez ko dhoondhne mein aapne sabse zyada kitna time lagaya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt022",
+      "type": "truth",
+      "en": "Have you ever laughed when you were supposed to stay quiet, like in class? What happened?",
+      "hi": "Kya kabhi aapko aisi jagah hasi aayi jahan chup rehna tha, jaise class mein? Kya hua tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt023",
+      "type": "truth",
+      "en": "If you had to eat food of only one colour for a whole day, which colour would you choose?",
+      "hi": "Agar poore din sirf ek hi rang ka khana khana pade, toh aapko kaunsa rang chahiye?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt024",
+      "type": "truth",
+      "en": "If you had a robot helper, what is the first job you would give it?",
+      "hi": "Agar aapke paas ek robot helper ho, toh use sabse pehle kaunsa kaam milega?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt025",
+      "type": "truth",
+      "en": "Which game do you always think you will win, but usually lose?",
+      "hi": "Kaunse game mein aapko hamesha jeet pakki lagti hai, par aksar haar hoti hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd001",
+      "type": "dare",
+      "en": "Walk like a penguin across the room and back, flapping your arms like little wings.",
+      "hi": "Penguin ki tarah room ke us paar jaaiye aur waapas aaiye, haathon ko chhote pankhon ki tarah hilaate hue.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd002",
+      "type": "dare",
+      "en": "Say 'Sixty shiny ships sail slowly south' three times fast without making a mistake.",
+      "hi": "'Sixty shiny ships sail slowly south' teen baar jaldi-jaldi boliye, bina koi galti kiye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd003",
+      "type": "dare",
+      "en": "Be a news reader and give today's weather report in a very dramatic voice.",
+      "hi": "News reader baniye aur bahut dramatic awaaz mein aaj ka weather report sunaiye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd004",
+      "type": "dare",
+      "en": "Lead a silly dance for 20 seconds while everyone else copies every move you make.",
+      "hi": "20 second tak ek silly dance kariye, aur baaki sab aapka har move copy karein.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "kd005",
+      "type": "dare",
+      "en": "Start a funny story with one sentence; each player adds one sentence until it comes back to you.",
+      "hi": "Ek line se funny kahani shuru kariye; phir har player ek-ek line jode, jab tak baari waapas aap tak na aaye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd006",
+      "type": "dare",
+      "en": "Invent a new team greeting without touching, using a special wave and a sound, then teach it to everyone.",
+      "hi": "Bina chhuye ek naya team greeting banaiye, ek special wave aur ek awaaz ke saath, phir sabko sikhaiye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd007",
+      "type": "dare",
+      "en": "For 30 seconds, the group asks you questions and you must answer every one by singing.",
+      "hi": "30 second tak group aapse sawaal poochega, aur aapko har jawab gaakar dena hai.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "kd008",
+      "type": "dare",
+      "en": "Say 'Brave blue birds bring bread back' five times fast.",
+      "hi": "'Kaccha papad, pakka papad' paanch baar jaldi-jaldi boliye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd009",
+      "type": "dare",
+      "en": "Introduce the person on your left as if they are a superstar, giving them a kind title like 'Champion of Smiles'.",
+      "hi": "Apne left wale player ko superstar ki tarah introduce kariye, aur unhe 'Muskaan ka Champion' jaisa pyaara title dijiye.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "kd010",
+      "type": "dare",
+      "en": "Turn into an elephant: use one arm as your trunk and make a loud elephant sound.",
+      "hi": "Haathi ban jaaiye: ek haath ko soond banaiye aur zor se haathi ki awaaz nikaaliye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd011",
+      "type": "dare",
+      "en": "In slow motion, act out hitting the winning shot in a big match, then celebrate in slow motion too.",
+      "hi": "Slow motion mein bade match ka winning shot maarke dikhaiye, phir slow motion mein hi celebrate kariye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd012",
+      "type": "dare",
+      "en": "Tell everyone what you did today in the voice of a very excited puppy.",
+      "hi": "Ek bahut excited puppy ki awaaz mein sabko bataiye ki aapne aaj kya kiya.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd013",
+      "type": "dare",
+      "en": "Draw something in this room on paper with your eyes closed, then let everyone guess what it is.",
+      "hi": "Aankhein band karke room ki koi cheez paper par banaiye, phir sabko guess karne dijiye ki woh kya hai.",
+      "tags": [
+        "group",
+        "props",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd014",
+      "type": "dare",
+      "en": "Pretend to be an ice cream melting on a hot day, slowly sinking down to the floor.",
+      "hi": "Garmi ke din pighalti ice cream ban jaaiye, aur dheere-dheere neeche zameen tak aa jaaiye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd015",
+      "type": "dare",
+      "en": "Laugh in four different ways: a tiny laugh, a loud laugh, a villain laugh and a silent laugh.",
+      "hi": "Chaar tarah se hass ke dikhaiye: chhoti si hasi, zor ki hasi, villain wali hasi aur bina awaaz wali hasi.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd016",
+      "type": "dare",
+      "en": "Name ten different fruits in 20 seconds without repeating any.",
+      "hi": "20 second mein das alag-alag phalon ke naam boliye, koi bhi repeat nahi hona chahiye.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "kd017",
+      "type": "dare",
+      "en": "Pretend you own a fancy restaurant and take everyone's food order in a funny voice.",
+      "hi": "Maan lijiye aapka ek fancy restaurant hai; ek funny awaaz mein sabka food order lijiye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd018",
+      "type": "dare",
+      "en": "Be a tour guide and describe this room as if it were a famous museum.",
+      "hi": "Tour guide baniye aur is room ko aise describe kariye jaise ye koi famous museum ho.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd019",
+      "type": "dare",
+      "en": "Give everyone an animal sound. For 20 seconds, point at players faster and faster; whoever you point at makes their sound.",
+      "hi": "Sabko ek janwar ki awaaz dijiye. 20 second tak tez-tez players ki taraf point kariye; jis par point ho, woh apni awaaz nikaale.",
+      "tags": [
+        "group",
+        "timer"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "kd020",
+      "type": "dare",
+      "en": "Build a tower of five unbreakable things, like books or cushions, using only one hand in 30 seconds.",
+      "hi": "30 second mein sirf ek haath se paanch na tootne wali cheezon ka tower banaiye, jaise books ya cushions.",
+      "tags": [
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "kd021",
+      "type": "dare",
+      "en": "Give a 15-second thank-you speech for winning the 'World's Best Sleeper' award.",
+      "hi": "'World's Best Sleeper' award jeetne par 15 second ki thank-you speech dijiye.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 15
+    },
+    {
+      "id": "kd022",
+      "type": "dare",
+      "en": "Show us how a cat would act if it had to take a bath.",
+      "hi": "Dikhaiye ki agar billi ko nahana pade toh woh kya karegi.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd023",
+      "type": "dare",
+      "en": "Act like a car stuck in heavy traffic, making every horn and engine sound you can.",
+      "hi": "Bhaari traffic mein phasi car ban jaaiye, aur jitni ho sake utni horn aur engine ki awaazein nikaaliye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd024",
+      "type": "dare",
+      "en": "Sing any song you know, but replace every word with 'banana'.",
+      "hi": "Koi bhi gaana gaaiye, par har word ki jagah 'banana' boliye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd025",
+      "type": "dare",
+      "en": "Act out your favourite hobby without speaking; the group has 30 seconds to guess it.",
+      "hi": "Bina bole apni favourite hobby act karke dikhaiye; group ke paas guess karne ke liye 30 second hain.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "kw001",
+      "type": "would-you-rather",
+      "en": "Would you rather have a pet dragon the size of a cat, or a pet cat the size of a dragon?",
+      "hi": "Aapko kya pasand hai: billi jitna chhota pet dragon, ya dragon jitni badi pet billi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kw002",
+      "type": "would-you-rather",
+      "en": "Would you rather understand what birds are saying, or what babies are saying?",
+      "hi": "Aapko kya pasand hai: chidiyon ki baatein samajhna, ya chhote babies ki baatein samajhna?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kw003",
+      "type": "would-you-rather",
+      "en": "Would you rather have a slide from your bed to the kitchen, or a garden that grows toys?",
+      "hi": "Aapko kya pasand hai: bed se kitchen tak ek slide, ya ek garden jismein khilone ugte hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kw004",
+      "type": "would-you-rather",
+      "en": "Would you rather always hop instead of walking, or always sing instead of talking?",
+      "hi": "Kya behtar hai: hamesha kood-kood ke chalna, ya hamesha gaa-gaa ke baat karna?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kw005",
+      "type": "would-you-rather",
+      "en": "Would you rather have a pencil that makes drawings come alive, or a spoon that makes any food appear?",
+      "hi": "Aapko kya pasand hai: aisi pencil jisse drawing zinda ho jaaye, ya aisa chammach jisse koi bhi khana aa jaaye?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kw006",
+      "type": "would-you-rather",
+      "en": "Would you rather live for a month on a boat, or in a tree house?",
+      "hi": "Kya behtar hai: ek mahina boat par rehna, ya ek mahina tree house mein?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kw007",
+      "type": "would-you-rather",
+      "en": "Would you rather have a bicycle that can talk, or a flying carpet that moves very slowly?",
+      "hi": "Aapko kya pasand hai: baat karne wali cycle, ya bahut dheere udne wala jaadui carpet?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kw008",
+      "type": "would-you-rather",
+      "en": "Would you rather be the main character in a video game, or in a fairy tale?",
+      "hi": "Kya behtar hai: kisi video game ka main character banna, ya kisi pariyon ki kahani ka?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kn001",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever talked to a plant or a toy and waited for an answer.",
+      "hi": "Maine kabhi kisi paudhe ya khilone se baat karke jawab ka intezaar nahi kiya.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kn002",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever worn something inside out for hours without noticing.",
+      "hi": "Maine kabhi bina notice kiye ghanton tak kuch ulta nahi pehna.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kn003",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever fallen asleep in a really funny place.",
+      "hi": "Maine kabhi kisi bahut funny jagah par jhapki nahi li.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kn004",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever invented my own secret language or code.",
+      "hi": "Maine kabhi apni khud ki secret language ya code nahi banaya.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kn005",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever added salt instead of sugar to something by mistake.",
+      "hi": "Maine kabhi galti se cheeni ki jagah namak nahi daala.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kn006",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever built a tent out of blankets or bedsheets to play inside.",
+      "hi": "Maine kabhi khelne ke liye kambal ya chaadar se tent nahi banaya.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kn007",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever waved back at someone who was actually waving at the person behind me.",
+      "hi": "Maine kabhi kisi ki taraf haath nahi hilaya jo asal mein mere peeche wale ko wave kar raha tha.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kn008",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever sung a song with the wrong words for years without knowing.",
+      "hi": "Maine kabhi saalon tak bina jaane kisi gaane ke galat lyrics nahi gaaye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "km001",
+      "type": "most-likely-to",
+      "en": "Who is most likely to invent a new ice cream flavour that everyone loves?",
+      "hi": "Kiske aisa naya ice cream flavour banane ke chances sabse zyada hain jo sabko pasand aaye?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "km002",
+      "type": "most-likely-to",
+      "en": "Who is most likely to laugh at their own joke before finishing it?",
+      "hi": "Kiske apna joke poora karne se pehle hi khud hasne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "km003",
+      "type": "most-likely-to",
+      "en": "Who is most likely to win a dance competition with a move nobody has ever seen?",
+      "hi": "Kiske aise naye dance move se competition jeetne ke chances sabse zyada hain jo kisi ne kabhi nahi dekha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "km004",
+      "type": "most-likely-to",
+      "en": "Who is most likely to become a famous explorer and discover a new island?",
+      "hi": "Kiske famous explorer bankar naya island dhoondhne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "km005",
+      "type": "most-likely-to",
+      "en": "Who is most likely to try to fix everything at home with sticky tape?",
+      "hi": "Kiske ghar ki har cheez cello tape se theek karne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "km006",
+      "type": "most-likely-to",
+      "en": "Who is most likely to win a staring contest with a cat?",
+      "hi": "Kiske billi se staring contest jeetne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "km007",
+      "type": "most-likely-to",
+      "en": "Who is most likely to cheer everyone up on a bad day?",
+      "hi": "Kiske bure din par sabka mood theek karne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "km008",
+      "type": "most-likely-to",
+      "en": "Who is most likely to turn a boring job into a fun game?",
+      "hi": "Kiske boring kaam ko bhi mazedaar game banane ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt026",
+      "type": "truth",
+      "en": "What is the funniest dream you can remember?",
+      "hi": "Aapne ab tak ka sabse funny sapna kaunsa dekha hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt027",
+      "type": "truth",
+      "en": "If you had a pet cloud, what would you name it, and what tricks would it do?",
+      "hi": "Agar aapke paas ek pet baadal ho, toh uska naam kya hoga aur woh kaunse tricks dikhayega?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt028",
+      "type": "truth",
+      "en": "If you could add one new subject at school, what would you learn in it?",
+      "hi": "Agar aap school mein ek naya subject jod sakein, toh usmein kya padhaya jaayega?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt029",
+      "type": "truth",
+      "en": "What is the best thing about being your age right now?",
+      "hi": "Abhi aapki jo umar hai, uski sabse achhi baat kya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt030",
+      "type": "truth",
+      "en": "What is your favourite sound in the whole world?",
+      "hi": "Poori duniya mein aapki favourite awaaz kaunsi hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt031",
+      "type": "truth",
+      "en": "If you could shrink and live inside a board game for a day, which game would it be?",
+      "hi": "Agar ek din ke liye kisi board game ke andar rehne ka mauka mile, toh woh kaunsa game hoga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt032",
+      "type": "truth",
+      "en": "What is the kindest thing someone here has ever done for you?",
+      "hi": "Yahan kisi ne aapke liye ab tak sabse pyaari cheez kya ki hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt033",
+      "type": "truth",
+      "en": "What is the best story a grandparent or older relative has told you?",
+      "hi": "Nani, dadi, nana, dada ya ghar ke kisi bade ne aapko sabse achhi kahani kaunsi sunayi hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt034",
+      "type": "truth",
+      "en": "Which festival do you look forward to most, and what is your favourite part of it?",
+      "hi": "Aapko kis tyohaar ka sabse zyada intezaar rehta hai, aur usmein sabse achha kya lagta hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt035",
+      "type": "truth",
+      "en": "If any animal could be your classmate, which one would sit next to you?",
+      "hi": "Agar koi janwar aapka classmate ban sake, toh aapke bagal mein kaunsa janwar baithega?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt036",
+      "type": "truth",
+      "en": "What is your happiest memory from a summer holiday?",
+      "hi": "Garmi ki chhuttiyon ki aapki sabse pyaari yaad kaunsi hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt037",
+      "type": "truth",
+      "en": "What is something that felt hard at first but is easy for you now?",
+      "hi": "Aisa kaunsa kaam hai jo pehle mushkil lagta tha, par ab aapke liye aasaan hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt038",
+      "type": "truth",
+      "en": "If you were a kitchen tool, like a spoon or a rolling pin, which one would you be?",
+      "hi": "Agar aapko kitchen ki koi cheez banna pade, jaise chammach ya belan, toh woh kaunsi hogi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt039",
+      "type": "truth",
+      "en": "What is the funniest thing a baby or small child has done in front of you?",
+      "hi": "Kisi baby ya chhote bachche ne aapke saamne sabse funny kya kiya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt040",
+      "type": "truth",
+      "en": "If you could try any job for one day, like pilot, chef or train driver, which one would you pick?",
+      "hi": "Agar aap ek din ke liye koi bhi job try kar sakein, jaise pilot, chef ya train driver, toh woh kaunsi job hogi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt041",
+      "type": "truth",
+      "en": "What is the coolest thing you have ever built with blocks, sand or cardboard?",
+      "hi": "Blocks, ret ya cardboard se aapne ab tak sabse cool cheez kya banayi hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt042",
+      "type": "truth",
+      "en": "What is the best thing you have ever won, like a prize, a medal or a game?",
+      "hi": "Aapne ab tak sabse best cheez kya jeeti hai, jaise koi prize, medal ya game?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt043",
+      "type": "truth",
+      "en": "What is your favourite thing to do on a rainy day?",
+      "hi": "Baarish wale din aapko sabse zyada kya karna pasand hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt044",
+      "type": "truth",
+      "en": "Which animal would you love to ride on, and where would you go?",
+      "hi": "Aapko kis janwar ki sawaari karni hai, aur uspar baith ke kahan jaana hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt045",
+      "type": "truth",
+      "en": "Which song, Bollywood or any other, makes you want to dance wherever you are?",
+      "hi": "Kaunsa gaana, Bollywood ya koi aur, sunte hi aapka kahin bhi naachne ka mann karta hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt046",
+      "type": "truth",
+      "en": "Have you ever helped an animal that needed help? What did you do?",
+      "hi": "Kya aapne kabhi musibat mein phase kisi janwar ki madad ki hai? Kya kiya tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt047",
+      "type": "truth",
+      "en": "If your school bag had one magic pocket, what would it do?",
+      "hi": "Agar aapke school bag mein ek magic pocket ho, toh woh kya karegi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt048",
+      "type": "truth",
+      "en": "Which skill would you love an older family member to teach you?",
+      "hi": "Ghar ke kisi bade se aapko kaunsi skill seekhni hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt049",
+      "type": "truth",
+      "en": "What is the most fun you have had on a long train, bus or car trip?",
+      "hi": "Lambi train, bus ya car journey mein aapko sabse zyada maza kab aaya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt050",
+      "type": "truth",
+      "en": "What is your best idea for a brand-new playground ride?",
+      "hi": "Playground ke ek bilkul naye jhoole ke liye aapka best idea kya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt051",
+      "type": "truth",
+      "en": "What is something you are proud of doing this year?",
+      "hi": "Is saal aapne aisa kya kiya jis par aapko proud feel hota hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt052",
+      "type": "truth",
+      "en": "If you could ask the moon one question, what would you ask?",
+      "hi": "Agar aap chanda mama se ek sawaal pooch sakein, toh woh sawaal kya hoga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt053",
+      "type": "truth",
+      "en": "If you could build a home anywhere, like under the sea or on a rainbow, where would it be?",
+      "hi": "Agar aap kahin bhi ghar bana sakein, jaise samundar ke neeche ya rainbow par, toh woh kahan hoga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt054",
+      "type": "truth",
+      "en": "Which sport, like cricket or football, would you love to play with a famous champion, and why?",
+      "hi": "Kaunsa sport, jaise cricket ya football, aapko kisi famous champion ke saath khelna hai, aur kyun?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt055",
+      "type": "truth",
+      "en": "If you could mix two animals into one new pet, which two would you pick?",
+      "hi": "Agar do janwaron ko milaakar ek naya pet ban sake, toh woh kaunse do janwar honge?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt056",
+      "type": "truth",
+      "en": "What is your favourite smell, like rain, fresh bread or new books?",
+      "hi": "Aapki favourite khushboo kaunsi hai, jaise baarish ki mitti, garam roti ya nayi books?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt057",
+      "type": "truth",
+      "en": "What would you dress up as for a school fancy dress competition?",
+      "hi": "School ke fancy dress competition ke liye aapka costume kya hoga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt058",
+      "type": "truth",
+      "en": "If you found a new planet, what is the first thing you would build there?",
+      "hi": "Agar aapko ek naya planet mil jaaye, toh wahan sabse pehle kya banega?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt059",
+      "type": "truth",
+      "en": "What is your favourite thing to do when the lights go off in a power cut?",
+      "hi": "Light jaane par aapko sabse zyada kya karna pasand hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt060",
+      "type": "truth",
+      "en": "What is the funniest mistake you have made while trying to help at home?",
+      "hi": "Ghar mein help karte-karte aapse sabse funny galti kya hui hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt061",
+      "type": "truth",
+      "en": "What is one thing you really like about the player on your right?",
+      "hi": "Aapke right wale player ki kaunsi baat aapko sabse achhi lagti hai?"
+    },
+    {
+      "id": "kt062",
+      "type": "truth",
+      "en": "If it could rain anything for one day, what would you want to fall from the sky?",
+      "hi": "Agar ek din aasmaan se kuch bhi baras sake, toh aapko kya chahiye?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt063",
+      "type": "truth",
+      "en": "If you could have a never-ending supply of one thing, like crayons or stickers, what would it be?",
+      "hi": "Agar aapko kisi ek cheez ka kabhi khatam na hone wala stock mile, jaise crayons ya stickers, toh woh kya hogi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt064",
+      "type": "truth",
+      "en": "What is the best hiding spot you have ever found in hide and seek?",
+      "hi": "Chhupan-chhupai mein aapki ab tak ki sabse best chhupne ki jagah kaunsi thi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt065",
+      "type": "truth",
+      "en": "Which bedtime story would you love to hear again and again?",
+      "hi": "Sone se pehle ki kaunsi kahani aapko baar-baar sunni hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt066",
+      "type": "truth",
+      "en": "If you planned a birthday party with any theme at all, what would the theme be?",
+      "hi": "Agar aapko kisi bhi theme ki birthday party plan karni ho, toh theme kya hogi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt067",
+      "type": "truth",
+      "en": "What is one grown-up job at home you cannot wait to be allowed to do?",
+      "hi": "Ghar ka kaunsa bado wala kaam karne ki permission aapko jaldi se jaldi chahiye?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kt068",
+      "type": "truth",
+      "en": "If you could make one toy that does not exist yet, what would it do?",
+      "hi": "Agar aap ek aisa khilona bana sakein jo abhi tak duniya mein nahi hai, toh woh kya karega?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd026",
+      "type": "dare",
+      "en": "Pretend you are an astronaut floating in space, trying to catch a toy that keeps floating away.",
+      "hi": "Space mein tairte astronaut ki acting kariye: ek khilona baar-baar door tair jaata hai, aur aapko use pakadna hai.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd027",
+      "type": "dare",
+      "en": "Roar like a big lion, then like a lion with a cold, then like a tiny baby lion.",
+      "hi": "Pehle bade sher ki tarah dahaadiye, phir zukaam wale sher ki tarah, phir chhote baby sher ki tarah.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd028",
+      "type": "dare",
+      "en": "Try to balance a spoon on one finger for 10 seconds.",
+      "hi": "10 second tak ek ungli par chammach balance karke dikhaiye.",
+      "tags": [
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 10
+    },
+    {
+      "id": "kd029",
+      "type": "dare",
+      "en": "Make three different animal faces, one by one; the group guesses each animal.",
+      "hi": "Ek-ek karke teen alag janwaron ke face banaiye; group har janwar guess karega.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd030",
+      "type": "dare",
+      "en": "Make a funny face. The player on your left copies it and adds one silly change.",
+      "hi": "Ek funny face banaiye. Aapke left wala player use copy kare aur usmein ek silly change jode.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "kd031",
+      "type": "dare",
+      "en": "Strut like a proud chicken on a fashion show ramp, then strike your best pose.",
+      "hi": "Fashion show ke ramp par ek proud murgi ki tarah chal ke dikhaiye, phir apna best pose dijiye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd032",
+      "type": "dare",
+      "en": "Write your first name in the air with your elbow while everyone guesses each letter.",
+      "hi": "Kohni se hawa mein apna pehla naam likhiye, aur sab har letter guess karein.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd033",
+      "type": "dare",
+      "en": "Act like a washing machine, from filling with water to the fast spin at the end.",
+      "hi": "Washing machine ban jaaiye: paani bharne se lekar aakhir ke fast spin tak sab karke dikhaiye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd034",
+      "type": "dare",
+      "en": "Act like a pressure cooker slowly heating up, then give three loud whistles.",
+      "hi": "Pressure cooker ban jaaiye: pehle dheere-dheere garam hone ki acting kariye, phir zor se teen seeti maariye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd035",
+      "type": "dare",
+      "en": "Hum a cartoon theme song; the group has 20 seconds to guess the cartoon.",
+      "hi": "Kisi cartoon ka theme song gungunaiye; group ke paas cartoon guess karne ke liye 20 second hain.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "kd036",
+      "type": "dare",
+      "en": "Do a 'magic trick' with any object, say a magic word, and take a big bow.",
+      "hi": "Kisi bhi cheez se ek 'magic trick' dikhaiye, 'Gilli gilli chhoo' jaisa magic word boliye, aur jhuk ke bow kariye.",
+      "tags": [
+        "props",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd037",
+      "type": "dare",
+      "en": "Make up a short song about your favourite animal and sing it with actions.",
+      "hi": "Apne favourite janwar par ek chhota sa gaana banaiye aur actions ke saath gaaiye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd038",
+      "type": "dare",
+      "en": "Act like a kite flying high on a windy day, then getting stuck in a tree.",
+      "hi": "Tez hawa mein oonchi udti patang ban jaaiye, jo phir ek ped mein atak jaati hai.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd039",
+      "type": "dare",
+      "en": "Name an animal for every letter from A to J in 30 seconds.",
+      "hi": "30 second mein A se J tak har letter se ek janwar ka naam boliye.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "kd040",
+      "type": "dare",
+      "en": "Pretend to be a baby bird trying to fly for the very first time.",
+      "hi": "Ek baby chidiya ban jaaiye jo pehli baar udna seekh rahi hai.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd041",
+      "type": "dare",
+      "en": "Wear a cushion like a crown and give a short royal speech as the ruler of Pillow Land.",
+      "hi": "Cushion ko taaj ki tarah sar par rakhiye aur 'Takiya Desh' ke ruler bankar ek chhoti si royal speech dijiye.",
+      "tags": [
+        "props",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd042",
+      "type": "dare",
+      "en": "Be a traffic officer: direct the group with your hands while they act like cars, buses and auto-rickshaws.",
+      "hi": "Traffic police baniye: haathon se group ko direct kariye, aur sab car, bus aur auto-rickshaw ki acting karein.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd043",
+      "type": "dare",
+      "en": "Make a paper boat or paper hat in 60 seconds, then show it off proudly.",
+      "hi": "60 second mein kaagaz ki naav ya topi banaiye, phir shaan se sabko dikhaiye.",
+      "tags": [
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 60
+    },
+    {
+      "id": "kd044",
+      "type": "dare",
+      "en": "Dance like a goat who has been invited to a big wedding.",
+      "hi": "Aise naachiye jaise ek bakri ko kisi badi shaadi mein bulaya gaya ho.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd045",
+      "type": "dare",
+      "en": "Make the sounds of three things at home, like a fan, a door and a mixer; the group guesses each one.",
+      "hi": "Ghar ki teen cheezon ki awaaz nikaaliye, jaise pankha, darwaza aur mixer; group har ek guess karega.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd046",
+      "type": "dare",
+      "en": "Play rock, paper, scissors with a willing player, shouting an animal name with every throw.",
+      "hi": "Kisi willing player ke saath stone, paper, scissors kheliye, aur har baar zor se ek janwar ka naam boliye.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd047",
+      "type": "dare",
+      "en": "Draw a funny animal using only circles in 30 seconds, then give it a name.",
+      "hi": "30 second mein sirf circles se ek funny janwar banaiye, phir uska naam rakhiye.",
+      "tags": [
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "kd048",
+      "type": "dare",
+      "en": "Crumple a paper into a ball and try to throw it into a bin from three steps away.",
+      "hi": "Ek kaagaz ko gol karke ball banaiye aur teen kadam door se use dustbin mein daalne ki koshish kariye.",
+      "tags": [
+        "props",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd049",
+      "type": "dare",
+      "en": "Give a 20-second speech on why pets should be allowed in every classroom.",
+      "hi": "20 second ki speech dijiye ki har classroom mein pets ko aane ki permission kyun honi chahiye.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "kd050",
+      "type": "dare",
+      "en": "Sing 'Twinkle Twinkle Little Star' like a grand opera singer.",
+      "hi": "'Twinkle Twinkle' ya 'Machhli jal ki rani hai' ko ek bade opera singer ki tarah gaaiye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd051",
+      "type": "dare",
+      "en": "Play an invisible musical instrument with full energy; the group guesses which instrument it is.",
+      "hi": "Poore josh se ek invisible instrument bajaiye; group guess karega ki kaunsa instrument hai.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kd052",
+      "type": "dare",
+      "en": "Get everyone to do a stadium wave, like fans at a cricket match, around the group twice.",
+      "hi": "Sabse ek stadium wave karwaiye, bilkul cricket match ke fans ki tarah, poore group mein do baar.",
+      "tags": [
+        "group"
+      ]
+    },
+    {
+      "id": "kw009",
+      "type": "would-you-rather",
+      "en": "Would you rather go to school on a flying bus, or have your classroom under the sea?",
+      "hi": "Aapko kya pasand hai: udne wali bus se school jaana, ya samundar ke neeche classroom?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kw010",
+      "type": "would-you-rather",
+      "en": "Would you rather have a bedroom that tidies itself, or a notebook that finishes your homework?",
+      "hi": "Kya behtar hai: apne aap saaf hone wala kamra, ya apne aap homework karne wali notebook?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kn009",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever tried to count all the stars in the sky.",
+      "hi": "Maine kabhi aasmaan ke saare taare ginne ki koshish nahi ki.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "kn010",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever given a toy a full name and its own birthday.",
+      "hi": "Maine kabhi kisi khilone ka poora naam aur uska apna birthday nahi rakha.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "km009",
+      "type": "most-likely-to",
+      "en": "Who is most likely to remember everyone's birthday without being reminded?",
+      "hi": "Kiske bina yaad dilaye sabka birthday yaad rakhne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "km010",
+      "type": "most-likely-to",
+      "en": "Who is most likely to make friends with every animal they meet?",
+      "hi": "Kiske har milne wale janwar se dosti karne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    }
+  ]
+}

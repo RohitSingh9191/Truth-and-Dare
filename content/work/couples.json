@@ -1,0 +1,1922 @@
+{
+  "level": "couples",
+  "cards": [
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What small thing does your partner do that makes you feel loved every single time?",
+      "hi": "Aapke partner ki kaun si chhoti si baat aapko har baar special aur loved feel karwati hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "Describe the exact moment you knew your feelings for your partner were serious.",
+      "hi": "Woh exact moment bataiye jab aapko laga ki partner ke liye aapki feelings serious hain.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "Which of your partner's habits seemed strange at first but now makes you smile?",
+      "hi": "Aapke partner ki kaun si aadat pehle ajeeb lagi thi, par ab aapko smile deti hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "If your relationship were a book, what would you call the chapter you are in right now?",
+      "hi": "Agar aapka relationship ek book hota, toh abhi wale chapter ka naam kya hota?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "Which makes you feel most loved: sweet words, small gifts, time together, help with chores, or a warm hug?",
+      "hi": "Aapko sabse zyada pyaar kisse feel hota hai: meethi baatein, chhote gifts, saath time, ghar ke kaam mein help, ya ek warm hug?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What do you hope you two will still be doing together when you are both 80 years old?",
+      "hi": "80 saal ki umar mein bhi aap dono saath mein kya enjoy karein, aisi aapki kya wish hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What was your honest first thought about your partner, and were you right or wrong?",
+      "hi": "Partner ke baare mein aapka pehla honest thought kya tha, aur woh sahi nikla ya galat?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "If your partner were a dessert, which one would they be, and why?",
+      "hi": "Aapke partner ko ek dessert se compare karna ho, toh kaun sa dessert, aur kyun?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What place will always feel special to you because of a moment you shared with your partner?",
+      "hi": "Kaun si jagah aapke liye hamesha special rahegi, kyunki wahan aapne partner ke saath ek khaas moment share kiya tha?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What is a sweet thing your partner did for you that they have probably forgotten?",
+      "hi": "Aapke partner ne aapke liye kaun si sweet cheez ki thi, jo shayad unhe ab yaad bhi nahi?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What sweet or silly nickname would you secretly love your partner to call you?",
+      "hi": "Aapke partner aapko kis sweet ya silly nickname se bulayein, toh aapko secretly sabse accha lagega?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What romantic words have you always wanted to tell your partner but felt too shy to say?",
+      "hi": "Kaun si romantic baat aapke dil mein hamesha se hai, jo sharm ki wajah se aapne partner ko abhi tak nahi boli?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "If you could live one day of your relationship again, which day would you pick?",
+      "hi": "Agar apne relationship ka ek din dobara jeene ka chance mile, toh woh kaun sa din hoga?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What is the funniest misunderstanding the two of you have ever had?",
+      "hi": "Aap dono ke beech ab tak ki sabse funny misunderstanding kya rahi hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "If time and money did not matter, where would you take your partner on a dream date?",
+      "hi": "Agar time aur paise ki koi tension na ho, toh partner ke saath aapki dream date kahan hogi?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What is one thing you learned from your partner that you now love too?",
+      "hi": "Aapne partner se kaun si cheez seekhi jo ab aapko bhi bahut pasand hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "If you could give your partner one superpower, which would you choose and why?",
+      "hi": "Agar aap partner ko ek superpower de sakein, toh woh kaun si hogi, aur kyun?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What is one tradition you would love to start together as a couple?",
+      "hi": "Aisi kaun si nayi tradition hai jo aapko ek couple ke roop mein saath shuru karni hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "If you two got a new pet together, what animal would it be and what would you name it?",
+      "hi": "Agar aap dono saath mein ek pet laayein, toh woh kaun sa animal hoga aur uska naam kya hoga?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What is a romantic plan of yours that went wrong in a funny way?",
+      "hi": "Aapka kaun sa romantic plan funny tareeke se ulta pad gaya tha?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "When did your partner make you blush the most? What did they say or do?",
+      "hi": "Partner ki wajah se aapko sabse zyada blush kab hua? Unhone kya kaha ya kiya tha?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What were you thinking just before your first kiss with your partner?",
+      "hi": "Partner ke saath pehle kiss se theek pehle aapke dimaag mein kya chal raha tha?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "Describe your partner in three words, then tell a short story that proves one of them.",
+      "hi": "Apne partner ko teen words mein describe kariye, phir ek chhoti si story sunaiye jo unmein se ek word ko sach saabit kare.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What is one thing your partner does better than you? Be honest!",
+      "hi": "Kaun sa kaam aapke partner ka aapse better hai? Sach boliye!",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What everyday moment with your partner do you secretly look forward to the most?",
+      "hi": "Partner ke saath roz ka kaun sa moment hai jiska aapko secretly sabse zyada intezaar rehta hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "With your partner's okay, hold their hand and tell them three things you love about them.",
+      "hi": "Partner ki haan ho toh, unka haath pakadiye aur unki teen baatein bataiye jo aapko bahut pasand hain.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "If your partner wants to, slow dance together for 30 seconds, with or without music.",
+      "hi": "Agar aapke partner ka mann ho, toh 30 seconds tak saath mein slow dance kariye, music ke saath ya bina.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 30,
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "Look into your partner's eyes for 20 seconds without laughing, then give them a compliment you truly mean.",
+      "hi": "20 seconds tak bina hase partner ki aankhon mein dekhiye, phir unhe ek dil se compliment dijiye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20,
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "If your partner says yes, give them a gentle kiss on the cheek or the back of their hand.",
+      "hi": "Agar aapke partner haan kahein, toh unke gaal ya haath ke upar ek pyaara sa kiss dijiye.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "With your partner, recreate one moment from your first date or first meeting in 60 seconds.",
+      "hi": "Partner ke saath milkar 60 seconds mein apni first date ya pehli mulaqat ka ek moment recreate kariye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 60,
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Hum a song that reminds you of your partner. They get three guesses to name it.",
+      "hi": "Koi gaana gungunaiye jo aapko partner ki yaad dilata hai. Unhe gaana guess karne ke teen chances milenge.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Announce one small, sweet promise to your partner for this week, like a serious news reader.",
+      "hi": "Ek serious news reader ki tarah, is hafte ke liye partner se ek chhota sa sweet promise announce kariye.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Invent a four-line love poem for your partner using the words rain, phone and pizza.",
+      "hi": "Partner ke liye chaar line ki love poem banaiye, jismein 'baarish', 'phone' aur 'pizza' teeno words hon.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "In 20 seconds, name five things you and your partner both love. Your partner checks your answers.",
+      "hi": "20 seconds mein aisi paanch cheezein bataiye jo aap dono ko pasand hain. Phir partner aapke answers check karein.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20,
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "If your partner agrees, write a loving word on their palm with one finger. They must guess it with eyes closed.",
+      "hi": "Agar aapke partner maan jaayein, toh ek ungli se unki hatheli par ek pyaara word likhiye. Unhe aankhein band karke guess karna hai.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Copy every move your partner makes, like a mirror, for 30 seconds.",
+      "hi": "30 seconds tak mirror ki tarah partner ka har move copy kariye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30,
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Plan your next date out loud in 45 seconds. Your partner may only answer yes or no.",
+      "hi": "45 seconds mein apni agli date ka plan zor se boliye. Partner ko sirf 'haan' ya 'na' bolne ki permission hai.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 45,
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Write your partner a tiny love note and hide it somewhere in the room for them to find later.",
+      "hi": "Partner ke liye ek chhota sa love note likhiye aur use kamre mein kahin chhupa dijiye, taaki woh baad mein dhoondhein.",
+      "tags": [
+        "partner",
+        "props"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "In 30 seconds, draw your partner with your eyes closed, then present it like a famous painting.",
+      "hi": "Aankhein band karke 30 seconds mein partner ki drawing banaiye, phir use ek famous painting ki tarah present kariye.",
+      "tags": [
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30,
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "If your partner says yes, whisper one flirty line in their ear. If they smile, you win.",
+      "hi": "Agar aapke partner haan kahein, toh unke kaan mein ek flirty line whisper kariye. Agar unki smile aa gayi, toh jeet aapki.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "starter",
+      "edited": "added consent wording for an in-ear whisper"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Give three of your best moments together a film title each, then let your partner guess which moment is which.",
+      "hi": "Aap dono ke teen best moments ko ek-ek film title dijiye, phir partner guess karein ki kaun sa title kis moment ka hai.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ],
+      "origin": "starter",
+      "edited": "award-speech cliche repeated Kids and Party cards"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Say \"I love you\" to your partner in as many languages as you can in 20 seconds.",
+      "hi": "20 seconds mein jitni zyada languages mein ho sake, partner ko 'I love you' boliye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20,
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Do your best impression of your partner when they are running late, then they do an impression of you.",
+      "hi": "Jab partner ko der ho rahi hoti hai, tab unki best nakal kariye. Phir woh aapki nakal karein.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ],
+      "origin": "starter",
+      "edited": "sports-commentator dare too close to a Party card"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Show your partner the face you made the first time you saw them, then the face you make now.",
+      "hi": "Partner ko pehli baar dekhkar aapka jo face bana tha, woh dikhaiye, phir ab wala face dikhaiye.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Start a love story about two potatoes. Take turns with your partner adding one sentence each, then give it a happy ending.",
+      "hi": "Do aaluon ki love story shuru kariye. Partner ke saath baari-baari ek-ek line jodiye, phir use happy ending dijiye.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ],
+      "origin": "starter",
+      "edited": "rewritten for two partners (was 'each player')"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Clap and cheer for your partner for 10 seconds for being the most patient person you know.",
+      "hi": "10 seconds tak partner ke liye taaliyan bajaiye aur cheer kariye, kyunki aapki nazar mein unse zyada patient koi nahi.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 10,
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Act out a famous romantic movie scene without words. Your partner has 45 seconds to guess the movie.",
+      "hi": "Bina bole ek famous romantic movie scene act kariye. Partner ke paas movie guess karne ke liye 45 seconds hain.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 45,
+      "origin": "starter",
+      "edited": "rewritten for two partners (was 'everyone')"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Thank your partner for one small thing they did this week. Then they thank you for one too.",
+      "hi": "Partner ko is hafte ki kisi ek chhoti baat ke liye thank you boliye. Phir woh bhi aapko kisi ek baat ke liye thank you bolein.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ],
+      "origin": "starter",
+      "edited": "rewritten for two partners (was 'everyone')"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "Walk towards your partner in super slow motion while humming your own dramatic background music.",
+      "hi": "Apna dramatic background music gungunate hue, super slow motion mein partner ki taraf chaliye.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "dare",
+      "heat": 1,
+      "en": "You and your partner have 30 seconds to invent a secret handshake. Then do it three times without a mistake.",
+      "hi": "Aap aur aapke partner ke paas ek secret handshake banane ke liye 30 seconds hain. Phir use teen baar bina galti ke kariye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 30,
+      "origin": "starter"
+    },
+    {
+      "type": "would-you-rather",
+      "heat": 1,
+      "en": "Would you rather see a one-minute preview of your life together in ten years or keep it a complete surprise?",
+      "hi": "Aapko kya pasand hai: das saal baad ki aap dono ki life ka ek minute ka preview dekhna, ya sab kuch surprise rehne dena?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "would-you-rather",
+      "heat": 1,
+      "en": "Would you rather get a handwritten love letter or a surprise picnic?",
+      "hi": "Aapko kya pasand hai: haath se likha love letter ya ek surprise picnic?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "would-you-rather",
+      "heat": 1,
+      "en": "Would you rather take a trip together with no plan or one where every hour is planned?",
+      "hi": "Aapko kya pasand hai: bina kisi plan ki trip, ya aisi trip jismein har ghanta pehle se planned ho?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "would-you-rather",
+      "heat": 2,
+      "en": "Would you rather watch the sunrise together in total silence or stay up all night talking?",
+      "hi": "Aapko kya pasand hai: saath mein chupchaap sunrise dekhna, ya poori raat jaag kar baatein karna?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "would-you-rather",
+      "heat": 1,
+      "en": "Would you rather your partner sing to you in a busy restaurant or read you a poem at a family dinner?",
+      "hi": "Aapko kya pasand hai: partner bhare restaurant mein aapke liye gaana gaayein, ya family dinner pe aapko poem sunayein?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "would-you-rather",
+      "heat": 1,
+      "en": "For one year, would you rather wear matching outfits at every party or use your partner's voice as your ringtone?",
+      "hi": "Ek saal ke liye aapko kya pasand hai: har party mein matching outfits pehnna, ya partner ki awaaz ko apni ringtone banana?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter",
+      "edited": "flag removed: mild hypothetical, kept as is"
+    },
+    {
+      "type": "would-you-rather",
+      "heat": 2,
+      "en": "Would you rather get a surprise kiss on the forehead or a long, warm hug?",
+      "hi": "Aapko kya pasand hai: maathe pe ek surprise kiss, ya ek lambi, warm hug?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "would-you-rather",
+      "heat": 2,
+      "en": "Would you rather have a long make-out session on the sofa or a slow, close dance in the kitchen?",
+      "hi": "Aapko kya pasand hai: sofa pe ek lamba make-out session, ya kitchen mein ek slow, close dance?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter",
+      "edited": "heat 2 fit: was a heat-1 style question"
+    },
+    {
+      "type": "never-have-i-ever",
+      "heat": 2,
+      "en": "Never have I ever wanted to kiss my partner so much that I lost track of what they were saying.",
+      "hi": "Maine kabhi partner ko kiss karne ki chahat mein unki baat se dhyaan nahi hataya.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter",
+      "edited": "near-duplicate of a Party mirror card; heat 2 fit"
+    },
+    {
+      "type": "never-have-i-ever",
+      "heat": 1,
+      "en": "Never have I ever taken a long route home just to spend more time with my partner.",
+      "hi": "Maine kabhi partner ke saath zyada time bitane ke liye ghar ka lamba raasta nahi liya.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "never-have-i-ever",
+      "heat": 1,
+      "en": "Never have I ever fallen asleep while my partner was telling me a long story.",
+      "hi": "Mujhe kabhi partner ki lambi story sunte-sunte neend nahi aayi.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "never-have-i-ever",
+      "heat": 1,
+      "en": "Never have I ever read old messages from my partner just to make myself smile.",
+      "hi": "Maine kabhi sirf smile karne ke liye partner ke purane messages dobara nahi padhe.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "never-have-i-ever",
+      "heat": 1,
+      "en": "Never have I ever let my partner win a game on purpose.",
+      "hi": "Maine kabhi jaan-boojhkar partner ko game mein jeetne nahi diya.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "never-have-i-ever",
+      "heat": 2,
+      "en": "Never have I ever started laughing during a serious romantic moment with my partner.",
+      "hi": "Mujhe kabhi partner ke saath kisi serious romantic moment mein hasi nahi aayi.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "never-have-i-ever",
+      "heat": 1,
+      "en": "Never have I ever been so nervous around my partner's family that I said something silly.",
+      "hi": "Partner ki family ke saamne nervousness mein maine kabhi kuch silly nahi bola.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "never-have-i-ever",
+      "heat": 1,
+      "en": "Never have I ever saved my partner's name in my phone with a cute nickname or emoji.",
+      "hi": "Maine kabhi apne phone mein partner ka naam cute nickname ya emoji ke saath save nahi kiya.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Which of you is more likely to plan a surprise date without being asked?",
+      "hi": "Aap dono mein se kiske bina kahe surprise date plan karne ke chances zyada hain?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Which of you is more likely to make the other laugh in the middle of a small argument?",
+      "hi": "Aap dono mein se kiske chhoti si ladai ke beech doosre ko hasaa dene ke chances zyada hain?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Which of you is more likely to remember the first meal you ever shared?",
+      "hi": "Aap dono mein se kiske saath mein khaaye pehle khaane ko yaad rakhne ke chances zyada hain?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Which of you is more likely to send a sweet message for no reason at all?",
+      "hi": "Aap dono mein se kiske bina kisi wajah ke sweet message bhejne ke chances zyada hain?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Which of you is more likely to be the first on the dance floor at a wedding?",
+      "hi": "Aap dono mein se kiske shaadi mein sabse pehle dance floor pe pahunchne ke chances zyada hain?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "most-likely-to",
+      "heat": 2,
+      "en": "Which of you is more likely to start a movie night and end up kissing through the whole film?",
+      "hi": "Aap dono mein se kiske movie night shuru karke poori film kiss karte-karte nikaal dene ke chances zyada hain?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter",
+      "edited": "heat 2 fit: was a heat-1 joke"
+    },
+    {
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Which of you is more likely to start planning the next trip during the current one?",
+      "hi": "Aap dono mein se kiske ek trip ke beech mein hi agli trip plan karne ke chances zyada hain?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Which of you is more likely to get the two of you lost, even with a map app?",
+      "hi": "Aap dono mein se kiske map app ke hote hue bhi dono ko raasta bhatka dene ke chances zyada hain?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "starter"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What everyday smell or sound instantly makes you think of your partner?",
+      "hi": "Roz ki kaun si khushboo ya awaaz aapko turant partner ki yaad dila deti hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 1,
+      "en": "What would a perfect rainy monsoon evening with your partner look like, from start to finish?",
+      "hi": "Partner ke saath ek perfect monsoon wali shaam shuru se end tak kaisi hogi?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "Which festive or wedding outfit of your partner's makes it hard for you to look away?",
+      "hi": "Partner ka kaun sa festive ya shaadi wala outfit hai jisse nazar hatana mushkil ho jaata hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What did your partner do on an ordinary day that suddenly made you feel very attracted to them?",
+      "hi": "Ek normal se din partner ne aisa kya kiya ki aapko achanak unki taraf bahut attraction feel hua?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "When does your partner's voice sound the most attractive to you?",
+      "hi": "Aapko partner ki awaaz sabse zyada attractive kab lagti hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "When did you last want to kiss your partner but had to wait for the right moment?",
+      "hi": "Aakhri baar kab aapka partner ko kiss karne ka mann hua, par sahi moment ka wait karna pada?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What look does your partner give you that makes your heart beat faster?",
+      "hi": "Partner ki kaun si nazar aapki dhadkan tez kar deti hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What is the flirtiest thing your partner has ever said to you on a phone or video call?",
+      "hi": "Phone ya video call pe partner ne aapse ab tak ki sabse flirty baat kya kahi hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "If you could spend one lazy Sunday morning in bed with your partner, how would you spend it?",
+      "hi": "Agar partner ke saath bed mein ek poori lazy Sunday morning mile, toh woh kaise beetegi?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "Which outfit of yours do you think your partner finds hardest to resist?",
+      "hi": "Aapke hisaab se aapka kaun sa outfit partner ke liye resist karna sabse mushkil hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What is the most romantic place where you two have shared a kiss?",
+      "hi": "Aap dono ka ab tak ka sabse romantic kiss kis jagah hua hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What small touch from your partner gives you goosebumps every time?",
+      "hi": "Partner ka kaun sa chhota sa touch aapko har baar goosebumps de deta hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What part of date night excites you most: getting ready, the first look, or coming home together?",
+      "hi": "Date night ka kaun sa part aapko sabse zyada excite karta hai: ready hona, pehli nazar, ya saath ghar lautna?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new",
+      "edited": "repeated two other 'irresistible look/outfit' cards"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "If you had the whole house to yourselves for a weekend, what would you want to do first?",
+      "hi": "Agar poore weekend ghar sirf aap dono ka ho, toh sabse pehle aapka kya karne ka mann hoga?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What is one thing your partner does that makes you want to cancel all plans and stay in?",
+      "hi": "Partner ki kaun si ek harkat aapka saare plans cancel karke ghar pe rukne ka mann kar deti hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "Which old Bollywood or classic love song would you pick for a close, slow dance with your partner?",
+      "hi": "Partner ke saath close slow dance ke liye aapki choice kaun sa purana Bollywood ya classic love song hoga?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What does your partner do during a hug that you never want them to stop?",
+      "hi": "Hug ke time partner ki kaun si baat aapko itni acchi lagti hai ki woh kabhi na ruke?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "If you planned a steamy date night at home, what three things would it include?",
+      "hi": "Agar ghar pe ek steamy date night plan karni ho, toh usmein kaun si teen cheezein zaroor hongi?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "When you two are apart, what do you miss most about being close to your partner?",
+      "hi": "Doori ke time, partner ke paas hone ki kaun si baat aapko sabse zyada miss hoti hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "Apart from the lips, where do you most like your partner to kiss you?",
+      "hi": "Lips ke alawa, aapko partner ka kiss sabse zyada kahan pasand hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "Which rain-soaked film scene would you love to live out with your partner?",
+      "hi": "Kaun sa baarish wala film scene partner ke saath real mein jeene ka aapka mann hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What is the most tempting thing your partner can do to distract you while you are busy?",
+      "hi": "Aapke busy hone par partner ka kaun sa tempting move aapka dhyaan sabse jaldi bhatka sakta hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What do you love most about how your partner kisses?",
+      "hi": "Partner ke kiss karne ke style ki kaun si baat aapko sabse zyada pasand hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What is your favourite way to be woken up by your partner?",
+      "hi": "Partner aapko kis tareeke se jagaayein, toh aapko sabse zyada accha lagta hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "How can you tell, without words, that your partner is in a romantic mood?",
+      "hi": "Bina kuch kahe, aapko kaise pata chalta hai ki partner ka romantic mood hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "Which massage from your partner melts you the fastest: shoulders, back or head?",
+      "hi": "Partner ki kaun si massage aapko sabse jaldi pighla deti hai: shoulders, back ya sar?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "What is your favourite memory of a night when neither of you wanted to sleep?",
+      "hi": "Aap dono ki aisi kaun si raat aapko sabse zyada yaad hai jab kisi ka bhi sone ka mann nahi tha?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "When did your partner last make you feel truly desired?",
+      "hi": "Aakhri baar kab partner ne aapko sach mein desired feel karwaya?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 2,
+      "en": "At a wedding or party, what does your partner do that makes you want to leave early together?",
+      "hi": "Kisi shaadi ya party mein partner ki kaun si baat aapka unke saath jaldi nikalne ka mann kar deti hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "Ask your partner for a kiss on the lips. If they say yes, make it slow and unhurried.",
+      "hi": "Partner se lips pe ek kiss maangiye. Agar woh haan kahein, toh kiss slow aur aaram se dijiye.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "With your partner's okay, give them a shoulder massage for one minute while telling them what you find attractive about them.",
+      "hi": "Partner ki haan ho toh, ek minute tak unke shoulders ki massage kariye aur bataiye ki unki kaun si baat aapko attractive lagti hai.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 60,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "Play a slow love song and, if your partner says yes, dance cheek to cheek for one minute.",
+      "hi": "Ek slow love song lagaiye aur agar aapke partner haan kahein, toh ek minute tak cheek to cheek dance kariye.",
+      "tags": [
+        "partner",
+        "props",
+        "timer"
+      ],
+      "secs": 60,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "In your softest, most flirty voice, tell your partner three things you find irresistible about them.",
+      "hi": "Apni sabse soft aur flirty awaaz mein partner ko unki teen irresistible baatein bataiye.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "With your partner's okay, kiss their forehead, then their nose, then their cheek, each kiss slower than the last.",
+      "hi": "Partner ki haan ho toh, pehle unke maathe, phir naak, phir gaal pe kiss kariye, har kiss pichhle wale se zyada slow.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "new",
+      "edited": "'one wherever they choose' duplicated the heat-3 'point to three places' dare"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "In your most seductive voice, describe your dream romantic getaway with your partner for 30 seconds.",
+      "hi": "30 seconds tak apni sabse seductive awaaz mein partner ke saath apni dream romantic getaway describe kariye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "If your partner says yes, give them a slow, lingering hug for 20 seconds without saying a word.",
+      "hi": "Agar aapke partner haan kahein, toh bina ek word bole unhe 20 seconds ki lambi, slow hug dijiye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 20,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "Close your eyes and, if your partner agrees, find their lips with your fingertips, then give them a kiss.",
+      "hi": "Aankhein band kariye aur agar partner maan jaayein, toh ungliyon se unke lips dhoondhiye, phir unhe ek kiss dijiye.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "If your partner agrees, strike a famous Bollywood romantic pose together and hold it for 15 seconds.",
+      "hi": "Agar partner maan jaayein, toh saath mein ek famous Bollywood romantic pose banaiye aur 15 seconds tak hold kariye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 15,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "Say a famous romantic film dialogue to your partner in your most seductive voice, Bollywood style.",
+      "hi": "Bollywood style mein, apni sabse seductive awaaz mein partner ko ek famous romantic film dialogue boliye.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "If your partner says yes, trace a heart on their back with one finger, then whisper what it means.",
+      "hi": "Agar aapke partner haan kahein, toh ek ungli se unki peeth pe heart banaiye, phir whisper kariye ki uska matlab kya hai.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "Play any love song on your phone and sing its most romantic line straight to your partner, with full feeling.",
+      "hi": "Phone pe koi bhi love song lagaiye aur uski sabse romantic line poori feeling ke saath seedha partner ke liye gaaiye.",
+      "tags": [
+        "partner",
+        "props",
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "With your partner's okay, massage their hands slowly for 30 seconds while looking into their eyes.",
+      "hi": "Partner ki haan ho toh, unki aankhon mein dekhte hue 30 seconds tak unke haathon ki slow massage kariye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 30,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "If your partner agrees, lean in as if to kiss, then stop just before your lips meet. Hold for 10 seconds.",
+      "hi": "Agar partner maan jaayein, toh kiss ke liye paas aaiye, par lips milne se theek pehle ruk jaaiye. 10 seconds hold kariye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 10,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "In your flirtiest voice, tell your partner exactly how you would greet them after a month apart.",
+      "hi": "Apni sabse flirty awaaz mein partner ko bataiye ki ek mahine ki doori ke baad unka welcome kaise hoga.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "Use a scarf or dupatta to play a flirty game of peekaboo with your partner for 20 seconds.",
+      "hi": "Scarf ya dupatte se 20 seconds tak partner ke saath flirty peekaboo kheliye.",
+      "tags": [
+        "partner",
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 2,
+      "en": "If your partner says yes, run your fingers slowly through their hair for 30 seconds.",
+      "hi": "Agar aapke partner haan kahein, toh 30 seconds tak dheere-dheere unke baalon mein ungliyan phiraiye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 30,
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "What is your biggest turn-on that your partner might not know about yet?",
+      "hi": "Aapka sabse bada turn-on kya hai jo shayad aapke partner ko abhi tak pata nahi?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "What is one fantasy about your partner that you have never said out loud?",
+      "hi": "Partner ke baare mein aapki kaun si fantasy hai jo aapne kabhi zor se nahi boli?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "Which intimate moment with your partner do you replay in your mind most often?",
+      "hi": "Partner ke saath ka kaun sa intimate moment aapke dimaag mein baar-baar replay hota hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "What is one thing you would love to try in bed with your partner?",
+      "hi": "Aisi kaun si ek cheez hai jo aapko partner ke saath bed mein try karni hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "Which of your partner's moves in bed would you never want them to change?",
+      "hi": "Bed mein partner ka kaun sa move aapko itna pasand hai ki woh kabhi na badle?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "How did you feel the first time you and your partner were intimate: nervous, excited or both?",
+      "hi": "Partner ke saath pehli baar intimate hote waqt aapko kaisa laga tha: nervous, excited, ya dono?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "When do you feel sexiest around your partner?",
+      "hi": "Partner ke saath aapko sabse zyada sexy kab feel hota hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "Is there anything about intimacy that makes you shy, and how can your partner help you feel at ease?",
+      "hi": "Kya intimacy ki koi baat aapko shy feel karwati hai? Aapko comfortable feel karwane ke liye partner kya karein?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "What time of day do you secretly feel most in the mood?",
+      "hi": "Din ke kis time aapka secretly sabse zyada mood banta hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "What is one word your partner could whisper that instantly turns you on?",
+      "hi": "Partner ka whisper kiya hua kaun sa ek word aapko turant turn on kar deta hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "Apart from the bedroom, where at home have you imagined being intimate with your partner?",
+      "hi": "Bedroom ke alawa, ghar mein aur kahan partner ke saath intimate hone ka khayal aapke mann mein aaya hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new",
+      "edited": "Hinglish made natural ('imagination ki hai')"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "What is the boldest thing you have ever done to seduce your partner, and did it work?",
+      "hi": "Partner ko seduce karne ke liye aapne ab tak sabse bold cheez kya ki hai, aur kya woh kaam aayi?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new",
+      "edited": "near-duplicate of 'one thing you would love to try in bed'"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "What do you love to wear, or not wear, when you want to seduce your partner?",
+      "hi": "Partner ko seduce karna ho, toh aapko kya pehnna, ya kya na pehnna, sabse pasand hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "Is there a role-play idea that excites you? What role would each of you play?",
+      "hi": "Kya koi role-play idea aapko excite karta hai? Usmein aap dono ke roles kya honge?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "During intimate moments, what does your partner say or do that makes you feel most wanted?",
+      "hi": "Intimate moments mein partner ki kaun si baat ya harkat aapko sabse zyada wanted feel karwati hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "When was the most unexpected moment you suddenly wanted your partner, and what were they doing?",
+      "hi": "Sabse unexpected moment kaun sa tha jab aapko achanak partner ki bahut chahat hui, aur us waqt kya chal raha tha?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "Which do you enjoy more with your partner: slow, romantic nights or wild, playful ones?",
+      "hi": "Partner ke saath aapko kya zyada enjoy hota hai: slow, romantic raatein ya wild, playful raatein?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "Is there anything you secretly wish your partner were a little bolder about when you are intimate?",
+      "hi": "Kya koi aisi cheez hai jismein aap secretly chahein ki intimate moments mein partner thoda aur bold hon?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "What compliment about your body from your partner makes you feel the most confident?",
+      "hi": "Aapki body ke baare mein partner ka kaun sa compliment aapko sabse zyada confident feel karwata hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "When did you first imagine being intimate with your partner, and what sparked it?",
+      "hi": "Aapne pehli baar partner ke saath intimate hone ke baare mein kab socha, aur kis baat ne yeh spark jagaya?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "What is the perfect way for your partner to get you in the mood?",
+      "hi": "Aapka mood banane ke liye partner ka sabse perfect tareeka kya hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "What is one thing that instantly kills the mood for you, so your partner can avoid it?",
+      "hi": "Kaun si ek cheez aapka mood turant kharaab kar deti hai, taaki partner usse bach sakein?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "Is there a sexy surprise you have always wanted to give your partner? Give a hint, not the full plan.",
+      "hi": "Kya koi sexy surprise hai jo partner ko dene ka aapka hamesha se mann hai? Bas hint dijiye, poora plan nahi.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new",
+      "edited": "duplicated Spicy 'bedroom playlist song' truth"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "What kind of touch from your partner turns you on the fastest?",
+      "hi": "Partner ka kis tarah ka touch aapko sabse jaldi turn on karta hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "After an intimate night, what is your favourite thing to do together?",
+      "hi": "Ek intimate raat ke baad aapko saath mein kya karna sabse zyada pasand hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "What have you learned about your own desires since being with your partner?",
+      "hi": "Partner ke saath rehkar aapko apni desires ke baare mein kya naya pata chala?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "truth",
+      "heat": 3,
+      "en": "Which piece of your partner's clothing do you most love taking off them?",
+      "hi": "Partner ke kapdon mein se kaun si cheez utaarna aapko sabse zyada pasand hai?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "With your partner's okay, give them a slow, sensual massage on their back or neck for one minute.",
+      "hi": "Partner ki haan ho toh, ek minute tak unki peeth ya gardan pe slow, sensual massage kariye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 60,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "If your partner wants to, let them point to three places they want kissed, and kiss each one slowly.",
+      "hi": "Agar partner ka mann ho, toh woh teen jagah point karein jahan unhe kiss chahiye, aur aap har jagah dheere se kiss kariye.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "If you both feel comfortable, slowly take off one item of your clothing while holding your partner's gaze. Underwear stays on.",
+      "hi": "Agar aap dono comfortable hon, toh partner se nazar milaye rakhte hue dheere se apna ek kapda utaariye. Underwear pehna rahega.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "new",
+      "edited": "made the underwear-stays-on rule explicit"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "If your partner agrees, slowly take off one item of their clothing, using only one hand. Underwear stays on.",
+      "hi": "Agar partner maan jaayein, toh sirf ek haath se dheere-dheere unka ek kapda utaariye. Underwear pehna rahega.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "new",
+      "edited": "made the underwear-stays-on rule explicit"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "If your partner wants, whisper in their ear what you would like to do with them tonight.",
+      "hi": "Agar partner chahein, toh unke kaan mein whisper kariye ki aaj raat aapka unke saath kya karne ka mann hai.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "Wear a scarf as a blindfold. Your partner kisses your hand, cheek or neck, if you both agree. Guess which one.",
+      "hi": "Scarf ki patti aankhon pe baandhiye. Agar aap dono ki haan ho, toh partner aapke haath, gaal ya gardan pe kiss karein. Guess kariye kahan.",
+      "tags": [
+        "partner",
+        "props"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "With eyes closed and your partner's okay, trace their neck, jaw and collarbone with one finger for 30 seconds.",
+      "hi": "Aankhein band karke, partner ki haan ho toh, 30 seconds tak ek ungli se unki gardan, jaw aur collarbone pe line banaiye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 30,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "If your partner wants, play a sensual Bollywood song and give them a slow, seductive dance for 30 seconds.",
+      "hi": "Agar partner chahein, toh koi sensual Bollywood song lagaiye aur 30 seconds tak unke liye ek slow, seductive dance kariye.",
+      "tags": [
+        "partner",
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30,
+      "origin": "new",
+      "edited": "added consent wording"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "With your partner's okay, kiss them slowly from their hand all the way up to their shoulder.",
+      "hi": "Partner ki haan ho toh, unke haath se lekar kandhe tak dheere-dheere kiss kariye.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "If your partner wants to hear it, describe your favourite fantasy about them in three sentences, in your most seductive voice.",
+      "hi": "Agar partner sunna chahein, toh apni sabse seductive awaaz mein, teen lines mein unke baare mein apni favourite fantasy bataiye.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ],
+      "origin": "new",
+      "edited": "added consent wording"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "If your partner says yes, sit on their lap for one minute and tell them what makes them irresistible.",
+      "hi": "Agar aapke partner haan kahein, toh ek minute unki god mein baithiye aur bataiye ki unki kaun si baat sabse irresistible hai.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 60,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "With your partner's okay, slowly trace an ice cube along their neck or arm for 20 seconds.",
+      "hi": "Partner ki haan ho toh, 20 seconds tak ek ice cube ko dheere se unki gardan ya baanh pe phiraiye.",
+      "tags": [
+        "partner",
+        "props",
+        "timer"
+      ],
+      "secs": 20,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "Describe three different kisses you could give your partner tonight. Give them the one they choose, if they want it.",
+      "hi": "Partner ko teen alag-alag kisses describe kariye jo aaj raat mil sakti hain. Jo woh chunein, agar unka mann ho toh wohi dijiye.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "With your partner's okay, guide their hand to the spot on your neck or back where you love being touched.",
+      "hi": "Partner ki haan ho toh, unka haath apni gardan ya peeth ki us jagah pe le jaaiye jahan touch aapko sabse accha lagta hai.",
+      "tags": [
+        "partner"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "With your partner's okay, give them the most passionate kiss you can for 15 seconds.",
+      "hi": "Partner ki haan ho toh, unhe 15 seconds ka sabse passionate kiss dijiye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 15,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "If your partner agrees, kiss their face and neck for 20 seconds without once touching their lips.",
+      "hi": "Agar partner maan jaayein, toh 20 seconds tak unke chehre aur gardan pe kiss kariye, par lips ko ek baar bhi touch kiye bina.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 20,
+      "origin": "new",
+      "edited": "heat 3 fit: comic 'sexy voice' dare was no bolder than heat 2 and repeated a Spicy card"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "If your partner wants to know, tell them what you would love them to wear, or not wear, next time.",
+      "hi": "Agar partner jaanna chahein, toh unhe bataiye ki agli baar unhe kya pehnna chahiye, aur kya nahi.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ],
+      "origin": "new",
+      "edited": "added consent wording"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "With your partner's okay, use a soft scarf or dupatta to slowly pull them close for a kiss.",
+      "hi": "Partner ki haan ho toh, ek soft scarf ya dupatte se unhe dheere se apne paas kheenchiye aur kiss kariye.",
+      "tags": [
+        "partner",
+        "props"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "If your partner plays along, start a 30-second role-play: strangers sharing an umbrella on a rainy night. Seduce them with words only.",
+      "hi": "Agar partner saath dein, toh 30 second ka role-play shuru kariye: baarish ki raat, ek chhata, aur aap dono strangers. Sirf baaton se unhe seduce kariye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30,
+      "origin": "new",
+      "edited": "added consent wording"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "If your partner says yes, hug them from behind and slowly kiss the back of their neck for 10 seconds.",
+      "hi": "Agar aapke partner haan kahein, toh unhe peeche se hug kariye aur 10 seconds tak unki gardan ke peeche dheere se kiss kariye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 10,
+      "origin": "new"
+    },
+    {
+      "type": "dare",
+      "heat": 3,
+      "en": "If your partner wants, use only your eyes and body language for 30 seconds to show how you would seduce them tonight.",
+      "hi": "Agar partner chahein, toh 30 seconds tak sirf aankhon aur body language se dikhaiye ki aaj raat unhe seduce karne ka aapka plan kya hai.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30,
+      "origin": "new",
+      "edited": "added consent wording"
+    },
+    {
+      "type": "would-you-rather",
+      "heat": 3,
+      "en": "Would you rather be undressed slowly by your partner or slowly undress for them?",
+      "hi": "Aapko kya pasand hai: partner aapke kapde dheere-dheere utaarein, ya aap unke liye dheere-dheere apne kapde utaarein?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "would-you-rather",
+      "heat": 3,
+      "en": "Would you rather have a steamy night in a rainy hill-station cottage or on a Kerala houseboat?",
+      "hi": "Aapko kya pasand hai: baarish mein kisi hill-station cottage mein ek steamy raat, ya Kerala ke houseboat pe?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "would-you-rather",
+      "heat": 3,
+      "en": "Would you rather lead in bed tonight or let your partner take the lead?",
+      "hi": "Aapko kya pasand hai: aaj raat bed mein lead aap lein, ya partner ko lead karne dein?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "would-you-rather",
+      "heat": 3,
+      "en": "Would you rather have a long, slow night of teasing or a quick, surprise burst of passion?",
+      "hi": "Aapko kya pasand hai: teasing se bhari ek lambi, slow raat, ya ek quick, surprise wala passion?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "never-have-i-ever",
+      "heat": 3,
+      "en": "Never have I ever daydreamed about my partner in a sexy way during a work meeting.",
+      "hi": "Maine kabhi office meeting ke beech partner ke baare mein sexy daydream nahi dekha.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "never-have-i-ever",
+      "heat": 3,
+      "en": "Never have I ever used a rainy day as an excuse to stay in bed with my partner all day.",
+      "hi": "Maine kabhi baarish ko bahana banakar partner ke saath poora din bed mein nahi bitaya.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "never-have-i-ever",
+      "heat": 3,
+      "en": "Never have I ever worn something just to turn my partner on.",
+      "hi": "Maine kabhi sirf partner ko turn on karne ke liye kuch khaas nahi pehna.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "never-have-i-ever",
+      "heat": 3,
+      "en": "Never have I ever been too shy to tell my partner what I really want in bed.",
+      "hi": "Sharm ki wajah se maine kabhi partner se yeh nahi chhupaya ki mujhe bed mein sach mein kya chahiye.",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "most-likely-to",
+      "heat": 3,
+      "en": "Which of you is more likely to make the first move tonight?",
+      "hi": "Aap dono mein se kiske aaj raat pehla move karne ke chances zyada hain?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "most-likely-to",
+      "heat": 3,
+      "en": "Which of you is more likely to suggest trying something new in bed?",
+      "hi": "Aap dono mein se kiske bed mein kuch naya try karne ka idea dene ke chances zyada hain?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "most-likely-to",
+      "heat": 3,
+      "en": "Which of you is more likely to get turned on by a single whisper?",
+      "hi": "Aap dono mein se kiske sirf ek whisper se turn on ho jaane ke chances zyada hain?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    },
+    {
+      "type": "most-likely-to",
+      "heat": 3,
+      "en": "Which of you is more likely to turn a power cut into a steamy night?",
+      "hi": "Aap dono mein se kiske power cut ko ek steamy raat mein badal dene ke chances zyada hain?",
+      "tags": [
+        "remote-ok"
+      ],
+      "origin": "new"
+    }
+  ]
+}

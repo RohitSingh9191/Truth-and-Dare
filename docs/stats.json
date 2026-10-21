@@ -1,0 +1,24 @@
+{
+  "firstLoadKB": "36",
+  "questionFilesKB": {
+    "couples.json": 12,
+    "friends.json": 11,
+    "kids.json": 10,
+    "party.json": 11,
+    "spicy.json": 12
+  },
+  "heatCounts": {
+    "couples": {
+      "1": 63,
+      "2": 57,
+      "3": 60
+    },
+    "spicy": {
+      "1": 60,
+      "2": 60,
+      "3": 60
+    }
+  },
+  "unitTests": "37",
+  "e2eTests": "390"
+}

@@ -1,0 +1,1441 @@
+{
+  "level": "party",
+  "cards": [
+    {
+      "id": "pt001",
+      "type": "truth",
+      "en": "What is the biggest lie you told to skip a family event, and did anyone ever find out?",
+      "hi": "Kisi family function se bachne ke liye aapne sabse bada jhooth kya bola? Kya kisi ko kabhi pata chala?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt002",
+      "type": "truth",
+      "en": "What is the most obvious hint you gave a crush that they completely missed?",
+      "hi": "Aapne apne crush ko sabse obvious hint kya diya, jo unhone bilkul miss kar diya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt003",
+      "type": "truth",
+      "en": "Describe your most awkward date or first meeting with someone, without saying their name.",
+      "hi": "Apni sabse awkward date ya kisi ke saath pehli mulaqat ke baare mein bataiye, bina naam liye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt004",
+      "type": "truth",
+      "en": "What rumour about yourself would you secretly love people to believe?",
+      "hi": "Apne baare mein kaunsa rumour aapko secretly pasand aayega, agar log use sach maan lein?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt005",
+      "type": "truth",
+      "en": "What is the most awkward question a relative has asked you at a family gathering?",
+      "hi": "Kisi family function mein kisi rishtedaar ne aapse sabse awkward sawaal kya poocha hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt006",
+      "type": "truth",
+      "en": "What is the worst thing you have accidentally said out loud in front of a teacher, boss, or someone's parent?",
+      "hi": "Teacher, boss ya kisi ke parents ke saamne galti se aapke munh se sabse awkward kya nikal gaya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt007",
+      "type": "truth",
+      "en": "What is the most money you have wasted on something you used only once?",
+      "hi": "Aisi kaunsi cheez par aapne sabse zyada paise waste kiye jo sirf ek baar use hui?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt008",
+      "type": "truth",
+      "en": "What did you do at a wedding or party that people still remind you about?",
+      "hi": "Kisi shaadi ya party mein aapne aisa kya kiya tha jo log aaj tak yaad dilate hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt009",
+      "type": "truth",
+      "en": "What is one thing you did that your family still believes was someone else's fault?",
+      "hi": "Aapki kaunsi galti ka blame aaj bhi aapki family kisi aur par daalti hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt010",
+      "type": "truth",
+      "en": "What is the strangest place you have met someone you later had a crush on?",
+      "hi": "Sabse ajeeb jagah kaunsi hai jahan kisi se mulaqat hui aur baad mein aapko unpar crush ho gaya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt011",
+      "type": "truth",
+      "en": "What is the worst gift you have ever given someone you were dating, and how did they react?",
+      "hi": "Kisi ko date karte waqt aapne unhe ab tak ka sabse bekaar gift kya diya hai, aur unka reaction kya tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt012",
+      "type": "truth",
+      "en": "Which app would embarrass you most if everyone saw how many hours you spend on it?",
+      "hi": "Kis app par bitaye ghante sab dekh lein to aapko sabse zyada sharam aayegi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt013",
+      "type": "truth",
+      "en": "What small habit made you suddenly lose interest in someone you liked?",
+      "hi": "Kisi ki kaunsi chhoti si aadat ki wajah se aapka interest achanak khatam ho gaya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt014",
+      "type": "truth",
+      "en": "Have you ever had feelings for a friend's crush or ex? Without naming anyone, how did you handle it?",
+      "hi": "Kya aapko kabhi kisi dost ke crush ya ex ke liye feelings hui hain? Bina naam liye bataiye, kaise handle kiya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt015",
+      "type": "truth",
+      "en": "What is a promise you made at a party that you never kept?",
+      "hi": "Party mein kiya kaunsa promise aapne kabhi poora nahi kiya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt016",
+      "type": "truth",
+      "en": "What skill have you lied about having, and did anyone ever ask you to prove it?",
+      "hi": "Aapne kaunsi skill ke baare mein jhooth bola hai? Kya kisi ne kabhi prove karne ko kaha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt017",
+      "type": "truth",
+      "en": "What is the most childish revenge you have ever taken on a sibling, friend, or roommate?",
+      "hi": "Bhai-behen, dost ya roommate se aapne sabse bachkana badla kya liya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt018",
+      "type": "truth",
+      "en": "What did you loudly judge someone for doing, and then later do yourself?",
+      "hi": "Aapne kis baat par kisi ko zor-zor se judge kiya, aur baad mein khud wahi kar diya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt019",
+      "type": "truth",
+      "en": "What is something you thought was cool at 13 that now embarrasses you?",
+      "hi": "13 saal ki umar mein aapko kya cool lagta tha jis par ab sharam aati hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt020",
+      "type": "truth",
+      "en": "When did you last secretly check an ex or old crush's profile online, and what were you looking for?",
+      "hi": "Aapne aakhri baar chupke se kisi ex ya purane crush ki profile kab dekhi, aur aapko wahan kya dhoondhna tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt021",
+      "type": "truth",
+      "en": "Who in this room would you trust with your unlocked phone for one hour, and why them?",
+      "hi": "Is room mein kis par itna bharosa hai ki ek ghante ke liye apna unlocked phone de dein? Aur kyun?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt022",
+      "type": "truth",
+      "en": "When did you take a simple game far too seriously, and what happened?",
+      "hi": "Kab aapne ek simple game ko zaroorat se zyada seriously le liya, aur phir kya hua?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt023",
+      "type": "truth",
+      "en": "What is the silliest thing you have ever argued about with a partner or best friend?",
+      "hi": "Partner ya best friend se aapki sabse bekaar baat par kya behes hui hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt024",
+      "type": "truth",
+      "en": "If you could erase one memory about you from everyone in this room, which would it be?",
+      "hi": "Agar is room mein sabke dimaag se aapki ek yaad mita sakein, to woh kaunsi hogi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt025",
+      "type": "truth",
+      "en": "What is the weirdest thing you have done when you thought no one was watching, and someone was?",
+      "hi": "Aapne sabse ajeeb kya kiya jab laga koi nahi dekh raha, par koi dekh raha tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd001",
+      "type": "dare",
+      "en": "Type 'I am' on your phone, then tap the middle suggestion ten times. Read it aloud; skip any word you want.",
+      "hi": "Phone par 'I am' type kariye, phir beech wala suggestion das baar tap kariye. Zor se padhiye; jo word nahi padhna, use skip kar dijiye.",
+      "tags": [
+        "props",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd002",
+      "type": "dare",
+      "en": "Find the last emoji-only message you sent and perform it as a poem, turning each emoji into one line.",
+      "hi": "Aapka bheja aakhri sirf-emoji wala message dhoondhiye aur use poem ki tarah sunaiye, har emoji ki ek line.",
+      "tags": [
+        "props",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd003",
+      "type": "dare",
+      "en": "Let the group pick one of your phone's default wallpapers for you; keep it until the game ends.",
+      "hi": "Group ko apne phone ke default wallpapers mein se ek chunne dijiye; game khatam hone tak wahi lagaye rakhiye.",
+      "tags": [
+        "props",
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd004",
+      "type": "dare",
+      "en": "Play 15 seconds of the last song you listened to on your phone while everyone dances along.",
+      "hi": "Phone par aakhri suna hua gaana 15 second chalaiye, aur sab saath mein dance karein.",
+      "tags": [
+        "props",
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 15
+    },
+    {
+      "id": "pd005",
+      "type": "dare",
+      "en": "Give an emotional 20-second award speech thanking the bottle for choosing you, holding a cup or phone as your trophy.",
+      "hi": "Cup ya phone ko trophy bana kar 20 second ki emotional award speech dijiye, aur bottle ko aapko chunne ke liye thank you boliye.",
+      "tags": [
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "pd006",
+      "type": "dare",
+      "en": "Say a famous film dialogue like the actor who said it; the group guesses the film.",
+      "hi": "Koi famous film dialogue usi actor ke style mein boliye; group film ka naam guess karega.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd007",
+      "type": "dare",
+      "en": "You have 30 seconds to make anyone laugh without touching them, while everyone else tries not to smile.",
+      "hi": "Aapke paas 30 second hain kisi ko bhi bina chhuye hansane ke liye, aur baaki sab smile rokne ki koshish karein.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "pd008",
+      "type": "dare",
+      "en": "Give a serious 45-second breaking news report about the most boring thing you did today.",
+      "hi": "Aaj aapne jo sabse boring kaam kiya, us par 45 second ki serious breaking news report dijiye.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 45
+    },
+    {
+      "id": "pd009",
+      "type": "dare",
+      "en": "For 20 seconds, act like you are trying hard to stay awake in a very boring class.",
+      "hi": "20 second tak aise act kariye jaise ek bahut boring class mein jaagte rehne ki poori koshish chal rahi ho.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "pd010",
+      "type": "dare",
+      "en": "Choose a player and describe everything they do for 20 seconds, like an excited sports commentator.",
+      "hi": "Ek player chuniye aur 20 second tak unki har harkat ko excited sports commentator ki tarah describe kariye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "pd011",
+      "type": "dare",
+      "en": "Walk around the room for one minute; whenever anyone claps, freeze like a funny statue until the next clap.",
+      "hi": "Ek minute tak room mein ghoomiye; jab bhi koi taali bajaye, agli taali tak funny statue ban jaiye.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 60
+    },
+    {
+      "id": "pd012",
+      "type": "dare",
+      "en": "Let the group give you a villain name, then introduce yourself in your best movie-villain voice.",
+      "hi": "Group ko aapka villain naam rakhne dijiye, phir apni best villain wali awaaz mein apna intro dijiye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd013",
+      "type": "dare",
+      "en": "In 30 seconds, convince the group that Monday is the best day of the week.",
+      "hi": "30 second mein group ko convince kariye ki Monday hafte ka sabse best din hai.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "pd014",
+      "type": "dare",
+      "en": "Walk across the room in slow motion like a movie hero leaving an explosion, while everyone makes loud boom sounds.",
+      "hi": "Blast se nikalte film hero ki tarah slow motion mein room paar kariye, aur sab zor se boom ki awaaz nikaalein.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd015",
+      "type": "dare",
+      "en": "Explain how to make instant noodles, step by step, in the voice of a very tired robot.",
+      "hi": "Ek bahut thake hue robot ki awaaz mein step by step samjhaiye ki instant noodles kaise banate hain.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd016",
+      "type": "dare",
+      "en": "Laugh as loudly as you can for 15 seconds; everyone else must join in until time is up.",
+      "hi": "15 second tak jitna zor se ho sake hansiye; time khatam hone tak baaki sabko bhi saath hansna hai.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 15
+    },
+    {
+      "id": "pd017",
+      "type": "dare",
+      "en": "Have a 30-second argument with yourself about cats versus dogs, switching sides after every sentence.",
+      "hi": "Billi vs kutta par khud se 30 second behes kariye, aur har sentence ke baad side badaliye.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "pd018",
+      "type": "dare",
+      "en": "Dance for 20 seconds without moving your feet while the group hums any song they choose.",
+      "hi": "Pair hilaaye bina 20 second dance kariye, jabki group apni pasand ka koi bhi gaana gungunaaye.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "pd019",
+      "type": "dare",
+      "en": "Let the group pick an animal and ask you one job interview question; answer it as that animal.",
+      "hi": "Group ek janwar chunega aur aapse ek job interview sawaal poochega; us janwar ban kar jawab dijiye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd020",
+      "type": "dare",
+      "en": "Describe your perfect weekend for 30 seconds without saying the word 'I'. Everyone shouts 'Caught!' whenever you say it.",
+      "hi": "30 second tak apna perfect weekend describe kariye, bina 'main' ya 'I' bole. Jab bhi bolein, sab 'Caught!' chillayenge.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "pd021",
+      "type": "dare",
+      "en": "Make up a four-line rap about the player on your right, and keep every line kind.",
+      "hi": "Apne right wale player par chaar line ka rap banaiye, aur har line pyaari honi chahiye."
+    },
+    {
+      "id": "pd022",
+      "type": "dare",
+      "en": "Say the alphabet backwards, from Z to A, in under 30 seconds.",
+      "hi": "30 second se kam mein ABCD ulta boliye, Z se A tak.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "pd023",
+      "type": "dare",
+      "en": "Act out your whole morning routine in just 10 seconds, with no words, while the group guesses each step.",
+      "hi": "Sirf 10 second mein bina bole apna poora morning routine act kariye, aur group har step guess karega.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 10
+    },
+    {
+      "id": "pd024",
+      "type": "dare",
+      "en": "Introduce each player like a palace guard announcing royal guests, giving each one a grand title.",
+      "hi": "Shahi mehal ke guard ki tarah har player ko shaan se announce kariye, aur har ek ko grand title dijiye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd025",
+      "type": "dare",
+      "en": "Pretend you are a famous chef presenting an imaginary dish made from three foods the group names.",
+      "hi": "Ek famous chef ban kar ek imaginary dish present kariye, jo group ki batayi teen cheezon se bani ho.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pw001",
+      "type": "would-you-rather",
+      "en": "Would you rather your friends read your old school diary, or your family hear every voice note you sent this year?",
+      "hi": "Aapko kya pasand hai: dost aapki purani school diary padhein, ya family is saal ke aapke saare voice notes sune?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pw002",
+      "type": "would-you-rather",
+      "en": "Would you rather go on a date planned by your family, or one planned by everyone in this room?",
+      "hi": "Aapko kya pasand hai: family ki plan ki hui date, ya is room mein sabki plan ki hui date?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pw003",
+      "type": "would-you-rather",
+      "en": "Would you rather see your ex at every party for a year, or have your ex become your new boss?",
+      "hi": "Aapko kya pasand hai: saal bhar har party mein ex dikhe, ya ex aapka naya boss ban jaaye?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pw004",
+      "type": "would-you-rather",
+      "en": "Would you rather answer every question honestly for a whole day, or accept every dare for a whole day?",
+      "hi": "Aapko kya pasand hai: poore din har sawaal ka sach jawab dena, ya poore din har dare accept karna?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pw005",
+      "type": "would-you-rather",
+      "en": "Would you rather sing every sentence for the rest of this party, or speak only in whispers?",
+      "hi": "Aapko kya pasand hai: baaki party mein har sentence gaa kar bolna, ya sirf phusphusa kar baat karna?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pw006",
+      "type": "would-you-rather",
+      "en": "Would you rather go viral for a cooking disaster, or for tripping on stage while collecting an award?",
+      "hi": "Aapko kya pasand hai: cooking disaster ke liye viral hona, ya award lete waqt stage par phisalne ke liye?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pw007",
+      "type": "would-you-rather",
+      "en": "Would you rather give a wedding speech with no preparation, or dance alone for a full song at a wedding?",
+      "hi": "Aapko kya pasand hai: bina tayyari ke shaadi mein speech dena, ya shaadi mein poora gaana akele naachna?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pw008",
+      "type": "would-you-rather",
+      "en": "Would you rather get free food for life at one restaurant, or free travel for one year?",
+      "hi": "Aapko kya pasand hai: ek restaurant mein zindagi bhar free khana, ya ek saal free travel?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pn001",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever pretended my phone battery died to avoid replying to someone.",
+      "hi": "Maine kabhi reply se bachne ke liye phone ki battery khatam hone ka bahana nahi banaya.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pn002",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever rehearsed a conversation with a crush in front of a mirror.",
+      "hi": "Maine kabhi mirror ke saamne crush se baat karne ki practice nahi ki.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pn003",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever gone on a date mainly for the free food.",
+      "hi": "Maine kabhi sirf free khane ke liye date ko haan nahi kaha.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pn004",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever taken more than 20 photos just to get one good selfie.",
+      "hi": "Maine kabhi ek achhi selfie ke liye 20 se zyada photos nahi li.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pn005",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever chosen my outfit for a party just to impress one person.",
+      "hi": "Maine kabhi sirf ek insaan ko impress karne ke liye party ka outfit nahi chuna.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pn006",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever practised my autograph for when I become famous.",
+      "hi": "Maine kabhi famous hone ke din ke liye apne autograph ki practice nahi ki.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pn007",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever secretly read someone's messages over their shoulder.",
+      "hi": "Maine kabhi kisi ke kandhe ke peeche se chupke se unke messages nahi padhe.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pn008",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever attended a wedding where I did not know the couple at all.",
+      "hi": "Maine kabhi aisi shaadi attend nahi ki jahan couple se meri koi jaan-pehchaan hi nahi thi.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pm001",
+      "type": "most-likely-to",
+      "en": "Who is most likely to fall in love on a trip and never come back?",
+      "hi": "Kiske trip par pyaar mein pad kar wahin reh jaane ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pm002",
+      "type": "most-likely-to",
+      "en": "Who is most likely to become best friends with the DJ by the end of the night?",
+      "hi": "Kiske raat khatam hote-hote DJ ka best friend ban jaane ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pm003",
+      "type": "most-likely-to",
+      "en": "Who is most likely to turn a two-line birthday wish into a twenty-minute speech?",
+      "hi": "Kiske do line ki birthday wish ko bees minute ki speech bana dene ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pm004",
+      "type": "most-likely-to",
+      "en": "Who is most likely to stay good friends with all their exes?",
+      "hi": "Kiske apne saare exes ke saath achhi dosti nibhaane ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pm005",
+      "type": "most-likely-to",
+      "en": "Who is most likely to leave a party without saying goodbye to anyone?",
+      "hi": "Kiske bina kisi ko bye bole party se nikal jaane ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pm006",
+      "type": "most-likely-to",
+      "en": "Who is most likely to plan a surprise party and accidentally tell the person about it?",
+      "hi": "Kiske surprise party plan karke galti se usi insaan ko bata dene ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pm007",
+      "type": "most-likely-to",
+      "en": "Who is most likely to bargain the price down in any shop or market?",
+      "hi": "Kiske kisi bhi dukaan ya market mein mol-bhaav karke daam kam karwa lene ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pm008",
+      "type": "most-likely-to",
+      "en": "Who is most likely to escape trouble by telling a story so wild that everyone believes it?",
+      "hi": "Kiske aisi wild kahani suna kar musibat se bach nikalne ke chances sabse zyada hain jis par sab yakeen kar lein?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt026",
+      "type": "truth",
+      "en": "What is the most creative excuse you have used to leave a party or hangout early?",
+      "hi": "Party ya hangout se jaldi nikalne ke liye aapne sabse creative bahana kya banaya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt027",
+      "type": "truth",
+      "en": "Have you ever been friend-zoned? What was the exact moment you realised it?",
+      "hi": "Kya kabhi kisi ne aapko friend-zone kiya hai? Kis moment par aapko samajh aaya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt028",
+      "type": "truth",
+      "en": "If you had to write a five-word dating app bio for yourself, what would it say?",
+      "hi": "Agar apni dating app bio sirf paanch words mein likhni pade, to woh kya hogi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt029",
+      "type": "truth",
+      "en": "What is the most boring first message you have ever sent or received on a chat or dating app?",
+      "hi": "Chat ya dating app par aapne sabse boring pehla message kaunsa bheja ya receive kiya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt030",
+      "type": "truth",
+      "en": "What is one thing from an old crush or old relationship that you have still kept?",
+      "hi": "Kisi purane crush ya relationship ki kaunsi cheez aapne aaj bhi sambhaal kar rakhi hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt031",
+      "type": "truth",
+      "en": "If your exes or old friends wrote an online review of you, how many stars would you get, and why?",
+      "hi": "Agar aapke exes ya purane dost aapka online review likhein, to kitne star milenge aur kyun?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt032",
+      "type": "truth",
+      "en": "What is the most awkward place you have bumped into an ex or old crush?",
+      "hi": "Kisi ex ya purane crush se achanak sabse awkward jagah par mulaqat kahan hui hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt033",
+      "type": "truth",
+      "en": "Which forward from a family WhatsApp group have you believed, even for a minute?",
+      "hi": "Family WhatsApp group ka kaunsa forward aapne ek minute ke liye hi sahi, sach maan liya tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt034",
+      "type": "truth",
+      "en": "Has anyone ever dragged you onto the dance floor at a sangeet or party? How did it go?",
+      "hi": "Kya kabhi kisi ne aapko sangeet ya party mein zabardasti dance floor par kheecha hai? Phir kya hua?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt035",
+      "type": "truth",
+      "en": "What is the most creative way you have sneaked snacks into a class, cinema or office meeting?",
+      "hi": "Class, cinema ya office meeting mein snacks chupa kar le jaane ka aapka sabse creative tareeka kya raha hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt036",
+      "type": "truth",
+      "en": "Without saying who it is, what is the funniest name you have saved someone as in your phone?",
+      "hi": "Bina bataye ki kaun hai, aapne phone mein kisi ka sabse funny naam kya save kiya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt037",
+      "type": "truth",
+      "en": "How many unread messages do you have right now? Guess who here has the most.",
+      "hi": "Abhi aapke phone mein kitne unread messages hain? Guess kariye yahan sabse zyada kiske honge.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt038",
+      "type": "truth",
+      "en": "What is the most embarrassing caption or status you ever posted that you hope nobody remembers?",
+      "hi": "Aapne sabse embarrassing caption ya status kaunsa post kiya tha, jo kaash ab kisi ko yaad na ho?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt039",
+      "type": "truth",
+      "en": "What is one dating red flag that you secretly have yourself?",
+      "hi": "Aisa kaunsa dating red flag hai jo secretly khud aap mein bhi hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt040",
+      "type": "truth",
+      "en": "Who here would you call to rescue you from a bad date, and what excuse would they use?",
+      "hi": "Bekaar date se bachne ke liye yahan kisko call karna pasand hoga, aur unka bahana kya hoga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt041",
+      "type": "truth",
+      "en": "What outfit from your past do you hope has no photos left anywhere?",
+      "hi": "Purana kaunsa outfit hai jiski kaash ab kahin koi photo na bachi ho?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt042",
+      "type": "truth",
+      "en": "What is the worst song choice you have ever made at karaoke or antakshari?",
+      "hi": "Karaoke ya antakshari mein aapne ab tak sabse bekaar gaana kaunsa chuna hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt043",
+      "type": "truth",
+      "en": "Which Bollywood or movie dialogue do you use in real life far too often?",
+      "hi": "Kaunsa Bollywood ya film dialogue real life mein aapke munh se kuch zyada hi nikalta hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt044",
+      "type": "truth",
+      "en": "Have you ever skipped something important to watch a cricket match or a big game? What was it?",
+      "hi": "Kya aapne kabhi cricket match ya koi bada game dekhne ke liye koi zaroori kaam chhoda hai? Kya tha woh?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt045",
+      "type": "truth",
+      "en": "What topic can keep you talking for hours over chai, even when everyone else is bored?",
+      "hi": "Kaunsa topic chhidte hi chai par aapki baatein ghanton chalti hain, chahe baaki sab bore ho jaayein?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt046",
+      "type": "truth",
+      "en": "Have you ever gone on a date with someone you met on an app? What surprised you most?",
+      "hi": "Kya kabhi app par mile kisi insaan ke saath aapki date hui hai? Sabse bada surprise kya tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt047",
+      "type": "truth",
+      "en": "Have you ever told your family you were at a friend's place when you were somewhere else? Where were you?",
+      "hi": "Kya aapne kabhi family se kaha 'main dost ke ghar hoon', jabki asli location kuch aur thi? Woh kahan thi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt048",
+      "type": "truth",
+      "en": "What is the most embarrassing thing your phone has autocorrected in a message you sent?",
+      "hi": "Aapke bheje message mein autocorrect ne sabse embarrassing gadbad kya ki hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt049",
+      "type": "truth",
+      "en": "What is the longest you have spent getting ready for a party, and was it worth it?",
+      "hi": "Kisi party ke liye ready hone mein aapne sabse zyada kitna time lagaya hai, aur kya woh worth it tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt050",
+      "type": "truth",
+      "en": "What is the worst love or dating advice you have ever given a friend?",
+      "hi": "Aapne kisi dost ko ab tak ki sabse bekaar love ya dating advice kya di hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt051",
+      "type": "truth",
+      "en": "Have you ever ghosted someone, or been ghosted? Which one felt worse?",
+      "hi": "Kya aapne kabhi kisi ko ghost kiya hai, ya kisi ne aapko? Dono mein se zyada bura kya laga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt052",
+      "type": "truth",
+      "en": "What is the silliest reason you have ever muted or unfollowed someone online?",
+      "hi": "Aapne kabhi kisi ko online mute ya unfollow kiya hai? Sabse bachkani wajah kya thi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt053",
+      "type": "truth",
+      "en": "Have you ever left a group chat dramatically? Did you sneak back in later?",
+      "hi": "Kya aapne kabhi drama karke koi group chat chhoda hai? Baad mein chupke se wapas join kiya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt054",
+      "type": "truth",
+      "en": "What is the longest you have kept a friend's secret? Tell us how long, not the secret.",
+      "hi": "Kisi dost ka secret aapne sabse lamba kitne time tak chhupaya hai? Sirf time bataiye, secret nahi.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt055",
+      "type": "truth",
+      "en": "What is the longest you have stayed on a phone call with someone you liked?",
+      "hi": "Kisi pasand ke insaan ke saath aapki sabse lambi phone call kitni der chali hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt056",
+      "type": "truth",
+      "en": "What is the worst date idea you have ever heard of or actually tried?",
+      "hi": "Aapne ab tak sabse bekaar date idea kaunsa suna hai, ya sach mein try kiya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt057",
+      "type": "truth",
+      "en": "What is one thing you would never do on a first date, no matter what?",
+      "hi": "Pehli date par aisi kaunsi cheez hai jo kisi bhi haal mein aapse nahi hogi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt058",
+      "type": "truth",
+      "en": "Have you ever liked someone only from their messages, before really meeting them? What happened?",
+      "hi": "Kya kabhi sirf kisi ke messages se hi aapka dil unpar aa gaya, milne se pehle? Phir kya hua?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt059",
+      "type": "truth",
+      "en": "What is the wildest trip you have taken with friends, and what went wrong first?",
+      "hi": "Doston ke saath aapki sabse wild trip kaunsi rahi hai, aur sabse pehle kya gadbad hui?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt060",
+      "type": "truth",
+      "en": "What is the funniest thing that has happened to you during a festival like Diwali, Holi, Eid or Christmas?",
+      "hi": "Diwali, Holi, Eid ya Christmas jaise kisi tyohaar par aapke saath sabse funny kya hua hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt061",
+      "type": "truth",
+      "en": "Which song do you always ask for at parties, even when everyone is tired of it?",
+      "hi": "Kaunsa gaana har party mein aapki request par zaroor bajta hai, chahe sab usse thak chuke hon?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt062",
+      "type": "truth",
+      "en": "Have you ever been the third wheel? What was the most awkward moment?",
+      "hi": "Kya kabhi aapko third wheel banna pada hai? Sabse awkward moment kya tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt063",
+      "type": "truth",
+      "en": "What is the shortest crush or relationship you have ever had, and why did it end so fast?",
+      "hi": "Aapka sabse chhota crush ya relationship kitne din chala, aur itni jaldi khatam kyun ho gaya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt064",
+      "type": "truth",
+      "en": "Have you ever said 'I love you' too early? What happened next?",
+      "hi": "Kya aapne kabhi 'I love you' bahut jaldi bol diya hai? Uske baad kya hua?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt065",
+      "type": "truth",
+      "en": "What is the biggest fight you have had over a TV remote, Wi-Fi password or phone charger?",
+      "hi": "TV remote, Wi-Fi password ya phone charger ko lekar aapki sabse badi ladaai kaunsi hui hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt066",
+      "type": "truth",
+      "en": "What fake name or fake story have you ever given to a stranger, and why?",
+      "hi": "Kisi anjaan ko aapne kabhi fake naam ya fake kahani batayi hai? Kya aur kyun?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt067",
+      "type": "truth",
+      "en": "Have you ever planned a 'random' run-in with someone you liked? Did they suspect anything?",
+      "hi": "Kya aapne kabhi kisi pasand ke insaan se 'achanak' milne ka poora plan banaya hai? Kya unhe kuch shak hua?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pt068",
+      "type": "truth",
+      "en": "Have you ever pretended not to see someone you knew in public? Why did you avoid them?",
+      "hi": "Kya aapne kabhi bahar kisi jaan-pehchaan ke insaan ko dekh kar bhi andekha kiya hai? Kyun?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd026",
+      "type": "dare",
+      "en": "With your eyes closed, type 'This party is amazing' on your phone, then show everyone what you typed.",
+      "hi": "Aankhein band karke phone par 'This party is amazing' type kariye, phir sabko dikhaiye kya type hua.",
+      "tags": [
+        "props",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd027",
+      "type": "dare",
+      "en": "Name the last app you downloaded, or any app you like, and give it a dramatic 20-second movie trailer.",
+      "hi": "Aakhri download kiya app ya koi bhi app chuniye, aur uska 20 second ka dramatic movie trailer boliye.",
+      "tags": [
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "pd028",
+      "type": "dare",
+      "en": "Read out the strangest alarm or reminder name on your phone, then explain why you made it.",
+      "hi": "Apne phone ka sabse ajeeb alarm ya reminder naam padh kar sunaiye, phir bataiye woh kyun banaya tha.",
+      "tags": [
+        "props",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd029",
+      "type": "dare",
+      "en": "Start your phone's stopwatch and try to stop it at exactly 5 seconds without looking. You get three tries.",
+      "hi": "Phone ki stopwatch start kariye aur bina dekhe theek 5 second par rokne ki koshish kariye. Teen chances milenge.",
+      "tags": [
+        "props",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd030",
+      "type": "dare",
+      "en": "Invent a chant for this party and get everyone to shout it three times, louder each time.",
+      "hi": "Is party ke liye ek naara banaiye aur sabse teen baar bulwaiye, har baar pehle se zyada zor se.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd031",
+      "type": "dare",
+      "en": "Start counting around the circle. Players clap instead of saying any number that has a 7. Keep going until someone slips.",
+      "hi": "Circle mein ginti shuru kariye. Jis number mein 7 ho, uski jagah taali bajani hai. Koi galti kare tab tak chalte rahiye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd032",
+      "type": "dare",
+      "en": "Start a round of antakshari: sing one line, and the next player sings a song starting with its last letter.",
+      "hi": "Antakshari ka ek round shuru kariye: ek line gaaiye, aur agle player ko aakhri akshar se naya gaana gaana hai.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd033",
+      "type": "dare",
+      "en": "Be the party DJ: beatbox any beat for 20 seconds while everyone dances to it.",
+      "hi": "Party ke DJ baniye: 20 second tak munh se koi beat bajaiye aur sab uspar dance karein.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "pd034",
+      "type": "dare",
+      "en": "Give a 30-second wedding speech for two objects in this room getting married, like a proud relative.",
+      "hi": "Is room ki do cheezon ki shaadi ho rahi hai: ek proud rishtedaar ki tarah 30 second ki speech dijiye.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "pd035",
+      "type": "dare",
+      "en": "Do a famous dance step from a Bollywood or any film song; the group has 20 seconds to guess the song.",
+      "hi": "Kisi Bollywood ya film gaane ka famous dance step kariye; group ke paas gaana guess karne ke liye 20 second hain.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "pd036",
+      "type": "dare",
+      "en": "Be a cricket umpire: give each player a dramatic 'six' or 'four' signal for their party energy, and say why.",
+      "hi": "Cricket umpire baniye: har player ki party energy ke liye dramatic 'six' ya 'four' ka signal dijiye, aur wajah bataiye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd037",
+      "type": "dare",
+      "en": "Whisper a silly sentence to the next player and pass it around the room. The last player says it aloud.",
+      "hi": "Agle player ke kaan mein ek funny sentence phusphusaiye aur poore room mein aage badhwaiye. Aakhri player use zor se bole.",
+      "tags": [
+        "group"
+      ]
+    },
+    {
+      "id": "pd038",
+      "type": "dare",
+      "en": "Each player describes an imaginary dating profile in one line; you react loudly with 'Match!' or 'No match!'",
+      "hi": "Har player ek line mein koi imaginary dating profile bataye; aap zor se 'Match!' ya 'No match!' boliye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd039",
+      "type": "dare",
+      "en": "Break up with a slipper or shoe in a dramatic 30-second speech, then change your mind and make up.",
+      "hi": "Ek chappal ya joote se 30 second ki dramatic speech mein breakup kariye, phir mann badal kar patch-up kar lijiye.",
+      "tags": [
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "pd040",
+      "type": "dare",
+      "en": "Be an over-dramatic fortune teller and predict one funny, kind thing about each player's love life.",
+      "hi": "Over-dramatic fortune teller ban kar har player ki love life ke baare mein ek funny, pyaari prediction kariye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd041",
+      "type": "dare",
+      "en": "Play a nosy relative at a wedding and ask each player one funny, nosy question. They answer in one line.",
+      "hi": "Shaadi mein nosy rishtedaar ka role kariye: har player se ek funny, taang adaane wala sawaal poochiye. Jawab ek line mein.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd042",
+      "type": "dare",
+      "en": "Do 30 seconds of loud stand-up comedy about dating apps, using a spoon or pen as your microphone.",
+      "hi": "Chammach ya pen ko mic bana kar dating apps par 30 second ki zor-daar stand-up comedy kariye.",
+      "tags": [
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "pd043",
+      "type": "dare",
+      "en": "Hold a 30-second press conference as a superstar announcing a shock retirement; the group fires questions at you.",
+      "hi": "Ek superstar ban kar 30 second ki press conference kariye aur achanak retirement announce kariye; group ek ke baad ek sawaal poochega.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "pd044",
+      "type": "dare",
+      "en": "Be a phone voice assistant: each player asks you one question, and you give a confident but totally wrong answer.",
+      "hi": "Phone ka voice assistant baniye: har player ek sawaal pooche, aur aap poore confidence se bilkul galat jawab dijiye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd045",
+      "type": "dare",
+      "en": "React to shocking news like a TV serial star: turn your head dramatically three times while everyone makes drum sounds.",
+      "hi": "TV serial star ki tarah kisi shocking news par react kariye: teen baar dramatic style mein sar ghumaiye, sab 'dhum-dhum' bolein.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd046",
+      "type": "dare",
+      "en": "A willing player acts out any movie scene with no sound. For 30 seconds, you dub every voice and sound effect.",
+      "hi": "Ek willing player bina awaaz koi movie scene act kare. 30 second tak aap har dialogue aur sound effect dub kariye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "pd047",
+      "type": "dare",
+      "en": "Tell two true facts and one lie about your crushes or dating life; the group guesses the lie.",
+      "hi": "Apne crushes ya dating life ke baare mein do sach aur ek jhooth bataiye; group jhooth pakdega.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd048",
+      "type": "dare",
+      "en": "Act out getting off a very crowded train or metro at your stop, saying 'excuse me' in five different ways.",
+      "hi": "Bheed bhari train ya metro se apne stop par utarne ka act kariye, 'excuse me' paanch alag tarikon se bolte hue.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pd049",
+      "type": "dare",
+      "en": "A willing player acts as a shopkeeper. You have 30 seconds to bargain the price of an imaginary item down.",
+      "hi": "Ek willing player dukaandaar bane. Aapke paas 30 second hain, kisi imaginary cheez ka daam mol-bhaav karke kam karwaiye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "pd050",
+      "type": "dare",
+      "en": "Lead a pretend wedding baraat around the room, playing an imaginary trumpet while everyone dances behind you.",
+      "hi": "Room mein ek nakli baraat nikaaliye: aage-aage imaginary trumpet bajaiye, aur sab naachte hue aapke peeche chalein.",
+      "tags": [
+        "group"
+      ]
+    },
+    {
+      "id": "pd051",
+      "type": "dare",
+      "en": "Choose a player to be your biggest fan for 20 seconds; they cheer loudly at every boring thing you do.",
+      "hi": "Ek player ko 20 second ke liye apna sabse bada fan chuniye; aapke har boring kaam par woh zor se cheer karein.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "pd052",
+      "type": "dare",
+      "en": "Pretend an ex just walked into this party. Act out your reaction twice: as a movie hero, then as a villain.",
+      "hi": "Maan lijiye abhi party mein kisi ex ki entry hui hai. Do baar react kariye: pehle film hero ki tarah, phir villain ki tarah.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pw009",
+      "type": "would-you-rather",
+      "en": "Would you rather have every dating app match be someone you already know, or only match with people far away?",
+      "hi": "Aapko kya pasand hai: dating app ka har match koi jaan-pehchaan wala ho, ya har match bahut door rehne wala?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pw010",
+      "type": "would-you-rather",
+      "en": "Would you rather have autocorrect change every 'ok' into 'I love you', or every 'haha' into 'Who are you?'",
+      "hi": "Aapko kya pasand hai: autocorrect har 'ok' ko 'I love you' bana de, ya har 'haha' ko 'Who are you?'",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pn009",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever pretended to know the words at a sangeet or party and just mumbled loudly.",
+      "hi": "Maine kabhi sangeet ya party mein lyrics pata na hone par bhi zor-zor se ulta-seedha nahi gaaya.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pn010",
+      "type": "never-have-i-ever",
+      "en": "Never have I ever joined a dating app just to see who from my college or office was on it.",
+      "hi": "Maine kabhi sirf ye dekhne ke liye dating app join nahi kiya ki college ya office se kaun-kaun wahan hai.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pm009",
+      "type": "most-likely-to",
+      "en": "Who is most likely to start a huge debate in the family WhatsApp group by accident?",
+      "hi": "Kiske galti se family WhatsApp group mein badi behes shuru kar dene ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "pm010",
+      "type": "most-likely-to",
+      "en": "Who is most likely to reply to an ex's story, then say their thumb slipped?",
+      "hi": "Kiske ex ki story par reply karke phir 'ungli phisal gayi' bolne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Netlify settings for TruthSpin. Every push to the main branch on GitHub publishes the game.
+# See LAUNCH.md. Secrets (ADMIN_PASSWORD, optional TURNSTILE_SECRET) are set in the Netlify
+# dashboard, never in this file.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"

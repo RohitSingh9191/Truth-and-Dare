@@ -1,0 +1,1889 @@
+{
+  "level": "spicy",
+  "cards": [
+    {
+      "id": "st001",
+      "type": "truth",
+      "heat": 1,
+      "en": "What is the cutest way you have ever met someone you liked?",
+      "hi": "Kisi pasand ke insaan se aapki ab tak ki sabse cute mulaqat kaise hui thi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st002",
+      "type": "truth",
+      "heat": 1,
+      "en": "What is the boldest thing you have ever done to get someone's attention?",
+      "hi": "Kisi ka attention paane ke liye aapne ab tak sabse bold cheez kya ki hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st003",
+      "type": "truth",
+      "heat": 2,
+      "en": "Describe your best kiss in three words, or your dream kiss if it has not happened yet.",
+      "hi": "Apne best kiss ko teen words mein describe kariye. Abhi tak nahi hua? Toh apne dream kiss ko.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st004",
+      "type": "truth",
+      "heat": 2,
+      "en": "Have you ever been interrupted just before or during a kiss? Who or what interrupted you?",
+      "hi": "Kya kabhi kiss se theek pehle ya kiss ke beech koi disturbance aaya hai? Kisne ya kis cheez ne interrupt kiya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st005",
+      "type": "truth",
+      "heat": 1,
+      "en": "Which player here do you think is the best at flirting, and why?",
+      "hi": "Aapke hisaab se yahan flirting mein sabse best player kaun hai, aur kyun?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st006",
+      "type": "truth",
+      "heat": 1,
+      "en": "What flirting move have you tried that went completely wrong?",
+      "hi": "Aapka kaunsa flirting move poori tarah ulta pad gaya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st007",
+      "type": "truth",
+      "heat": 1,
+      "en": "What is the best first date you have ever been on, and what made it so good?",
+      "hi": "Aapki ab tak ki sabse achhi first date kaunsi rahi hai, aur usmein kya khaas tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st008",
+      "type": "truth",
+      "heat": 1,
+      "en": "What is the most romantic thing you have ever done that nobody here knows about?",
+      "hi": "Aapne ab tak ki sabse romantic cheez kya ki hai jiske baare mein yahan kisi ko nahi pata?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st009",
+      "type": "truth",
+      "heat": 1,
+      "en": "What is the most flirty message you have ever sent? Tell us in your own words, no names.",
+      "hi": "Aapka ab tak ka sabse flirty message kaunsa tha? Apne words mein bataiye, koi naam nahi.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st010",
+      "type": "truth",
+      "heat": 1,
+      "en": "Have you ever pretended to love a hobby, film or food just to impress a crush? Which one?",
+      "hi": "Kya aapne kabhi crush ko impress karne ke liye kisi hobby, film ya khane ko pasand karne ka natak kiya hai? Kaunsa?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st011",
+      "type": "truth",
+      "heat": 2,
+      "en": "Rate your own kissing skills from 1 to 10, then explain your score like a sports commentator.",
+      "hi": "Apni kissing skills ko 1 se 10 tak rate kariye, phir sports commentator ki tarah apna score explain kariye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st012",
+      "type": "truth",
+      "heat": 1,
+      "en": "What song instantly puts you in a romantic mood?",
+      "hi": "Kaunsa gaana sunte hi aapka mood romantic ho jaata hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st013",
+      "type": "truth",
+      "heat": 1,
+      "en": "Which love story from a film, show or book do you secretly wish was yours?",
+      "hi": "Kisi film, show ya book ki kaunsi love story ke liye aapka dil kehta hai, 'kaash yeh meri hoti'?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st014",
+      "type": "truth",
+      "heat": 1,
+      "en": "What is one flirty habit you have that you think nobody has noticed?",
+      "hi": "Aapki ek aisi flirty aadat kya hai jo aapke hisaab se kisi ne notice nahi ki?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st015",
+      "type": "truth",
+      "heat": 1,
+      "en": "Have you ever flirted to get something, like a free dessert or a better seat? What happened?",
+      "hi": "Kya aapne kabhi kuch paane ke liye flirt kiya hai, jaise free dessert ya better seat? Kya hua?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st016",
+      "type": "truth",
+      "heat": 1,
+      "en": "Using only three personality words, describe the kind of person you are usually attracted to.",
+      "hi": "Sirf teen personality words mein bataiye ki aapko aksar kis type ke log attract karte hain.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st017",
+      "type": "truth",
+      "heat": 2,
+      "en": "Is there someone here you secretly find attractive? Answer only yes or no, no names needed.",
+      "hi": "Kya yahan kisi ke liye aapke dil mein secret attraction hai? Sirf haan ya na boliye, naam nahi.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st018",
+      "type": "truth",
+      "heat": 1,
+      "en": "Have you ever liked someone for months without telling them? Did they ever find out?",
+      "hi": "Kya aapne kabhi kisi ko mahinon tak bina bataye pasand kiya hai? Kya unhe kabhi pata chala?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st019",
+      "type": "truth",
+      "heat": 1,
+      "en": "What is something someone could whisper to you that would make you smile all day?",
+      "hi": "Koi aapke kaan mein aisa kya whisper kare jisse aapke chehre par poore din smile rahe?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st020",
+      "type": "truth",
+      "heat": 1,
+      "en": "If you could ask your crush one question and get a completely honest answer, what would you ask?",
+      "hi": "Agar aap apne crush se ek sawaal pooch sakein aur bilkul sachcha jawab mile, toh aapka sawaal kya hoga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st021",
+      "type": "truth",
+      "heat": 1,
+      "en": "Which emoji do you use most when you are flirting, and what does it really mean?",
+      "hi": "Flirting mein aapka sabse zyada use hone wala emoji kaunsa hai, aur uska asli matlab kya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st022",
+      "type": "truth",
+      "heat": 2,
+      "en": "Have you ever had a romantic dream about someone you know? Was it awkward seeing them afterwards?",
+      "hi": "Kya aapko kabhi kisi jaan-pehchaan wale ke baare mein romantic sapna aaya hai? Baad mein unse milna awkward tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st023",
+      "type": "truth",
+      "heat": 1,
+      "en": "What is the best compliment you have ever received from someone you liked?",
+      "hi": "Aapke kisi crush se aapko ab tak ka sabse best compliment kya mila hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st024",
+      "type": "truth",
+      "heat": 1,
+      "en": "You can magically travel anywhere for a one-hour date tonight. Where do you go and what do you do?",
+      "hi": "Aaj raat ek ghante ki magic date kahin bhi ho sakti hai. Aapki choice kya hogi, aur wahan plan kya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st025",
+      "type": "truth",
+      "heat": 1,
+      "en": "Who here would you go to for love advice, and what would you ask them first?",
+      "hi": "Love advice ke liye yahan aapki pehli choice kaun hai, aur unse aapka pehla sawaal kya hoga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd001",
+      "type": "dare",
+      "heat": 1,
+      "en": "Walk across the room like a film star on the red carpet, blowing kisses while everyone cheers your name.",
+      "hi": "Red carpet par film star ki tarah room mein chaliye aur flying kisses dijiye, jab sab aapka naam cheer karein.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd002",
+      "type": "dare",
+      "heat": 1,
+      "en": "Look a willing player in the eyes and tell them about the first time you noticed something special about them.",
+      "hi": "Koi willing player chuniye, unki aankhon mein dekhiye aur bataiye ki aapne pehli baar unmein kuch khaas kab notice kiya.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd003",
+      "type": "dare",
+      "heat": 2,
+      "en": "Whisper your best flirty line to a willing player. They rate it from 1 to 10 out loud.",
+      "hi": "Kisi willing player ke kaan mein apni best flirty line whisper kariye. Phir woh use 1 se 10 tak sabke saamne rate karein.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd004",
+      "type": "dare",
+      "heat": 1,
+      "en": "Use only your eyebrows to flirt with a willing player for 15 seconds. No words allowed!",
+      "hi": "15 second tak sirf apni eyebrows se kisi willing player ke saath flirt kariye. Koi words nahi!",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 15
+    },
+    {
+      "id": "sd005",
+      "type": "dare",
+      "heat": 2,
+      "en": "Slow dance with a willing player for 20 seconds, hands on shoulders, while everyone else hums a love song.",
+      "hi": "Kisi willing player ke saath 20 second slow dance kariye, haath kandhon par, aur baaki sab love song gungunayein.",
+      "tags": [
+        "group",
+        "partner",
+        "timer"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "sd006",
+      "type": "dare",
+      "heat": 1,
+      "en": "Give every player your most charming wink, one by one. Anyone who laughs must give you a compliment.",
+      "hi": "Ek-ek karke har player ko apni sabse charming wink dijiye. Jo hans de, use aapko ek compliment dena hoga.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd007",
+      "type": "dare",
+      "heat": 1,
+      "en": "Start a compliment chain: give the next player a bold compliment about their personality. Everyone continues until it reaches you.",
+      "hi": "Compliment chain shuru kariye: agle player ki personality par ek bold compliment dijiye. Sab aage badhayein jab tak baari aap tak na aaye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd008",
+      "type": "dare",
+      "heat": 1,
+      "en": "In 30 seconds, describe a willing player as if you are writing their dating profile. Talk about personality only.",
+      "hi": "30 second mein kisi willing player ki dating profile bol kar likhiye. Sirf personality ki baat kariye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "sd009",
+      "type": "dare",
+      "heat": 1,
+      "en": "Show us how you would react if your crush messaged you 'I like you' right now.",
+      "hi": "Dikhaiye ki agar abhi aapke crush ka 'I like you' message aaye toh aapka reaction kya hoga.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd010",
+      "type": "dare",
+      "heat": 1,
+      "en": "Pretend you are a late-night radio host and dedicate a love song to someone here, without saying their name.",
+      "hi": "Late-night radio host ban kar yahan kisi ko ek love song dedicate kariye, bina unka naam liye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd011",
+      "type": "dare",
+      "heat": 1,
+      "en": "Show us the dance move you would use to impress someone special at a big wedding. You have 15 seconds.",
+      "hi": "Kisi badi shaadi mein kisi special ko impress karne wala apna dance move dikhaiye. Aapke paas 15 second hain.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 15
+    },
+    {
+      "id": "sd012",
+      "type": "dare",
+      "heat": 2,
+      "en": "Offer a 10-second hug to any willing player. If nobody accepts, hug yourself for 10 seconds instead.",
+      "hi": "Kisi bhi willing player ko 10 second ki hug offer kariye. Koi haan na kahe, toh 10 second khud ko hug kariye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 10
+    },
+    {
+      "id": "sd013",
+      "type": "dare",
+      "heat": 2,
+      "en": "Kiss the hand of a willing player in a grand, old-fashioned way, or simply blow them a kiss.",
+      "hi": "Kisi willing player ke haath par purane zamane ke shahi andaaz mein kiss kariye, ya bas ek flying kiss dijiye.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd014",
+      "type": "dare",
+      "heat": 1,
+      "en": "Ask everyone to show their best flirty face at once, then pick the winner and explain your choice.",
+      "hi": "Sabse ek saath apna best flirty face banane ko kahiye, phir winner chuniye aur apni choice explain kariye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd015",
+      "type": "dare",
+      "heat": 1,
+      "en": "Choose two willing players to act out an awkward first date for 30 seconds. You are the director.",
+      "hi": "Do willing players chuniye jo 30 second tak ek awkward first date act karein. Director aap hain.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "sd016",
+      "type": "dare",
+      "heat": 1,
+      "en": "Make up a cheesy pickup line about the bottle and deliver it to a willing player like a film star.",
+      "hi": "Bottle par ek cheesy pickup line banaiye aur use film star ki tarah kisi willing player ko boliye.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd017",
+      "type": "dare",
+      "heat": 1,
+      "en": "Pick any object near you and convince us it is the perfect romantic gift. You have 20 seconds.",
+      "hi": "Apne paas ki koi bhi cheez uthaiye aur humein convince kariye ki yeh perfect romantic gift hai. 20 second hain.",
+      "tags": [
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "sd018",
+      "type": "dare",
+      "heat": 1,
+      "en": "For 20 seconds, flirt with a cushion or pillow as if it were your date. Make us believe it!",
+      "hi": "20 second tak cushion ya takiye se aise flirt kariye jaise woh aapki date ho. Humein yakeen dilaiye!",
+      "tags": [
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "sd019",
+      "type": "dare",
+      "heat": 1,
+      "en": "Act out how you would politely say no to a date, and then how you would happily say yes.",
+      "hi": "Act karke dikhaiye: pehle date ko politely 'na' kehna, phir khushi se 'haan' kehna.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd020",
+      "type": "dare",
+      "heat": 1,
+      "en": "Give a 20-second speech about why you would be an amazing date, like a reality show contestant.",
+      "hi": "Reality show contestant ki tarah 20 second ki speech dijiye ki aap ek amazing date kyun hain.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "sd021",
+      "type": "dare",
+      "heat": 1,
+      "en": "Say 'Hi, I noticed you from across the room' in three different flirty voices.",
+      "hi": "'Hi, maine aapko room ke us paar se notice kiya' teen alag flirty awaazon mein boliye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd022",
+      "type": "dare",
+      "heat": 1,
+      "en": "Move in slow motion towards a willing player for a dramatic high five, like lovers meeting again at a railway station.",
+      "hi": "Railway station par bichhde lovers ki tarah slow motion mein kisi willing player ki taraf jaiye aur dramatic high five dijiye.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd023",
+      "type": "dare",
+      "heat": 1,
+      "en": "Make up a two-line love poem for a willing player and say it with feeling.",
+      "hi": "Kisi willing player ke liye do line ki romantic shayari banaiye aur poore dil se sunaiye.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd024",
+      "type": "dare",
+      "heat": 1,
+      "en": "Say a romantic line in a language other than English, or in a made-up language, then translate it.",
+      "hi": "English ke alawa kisi aur bhasha mein, ya apni banayi hui bhasha mein, ek romantic line boliye, phir uska matlab bataiye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd025",
+      "type": "dare",
+      "heat": 2,
+      "en": "Choose a willing player. In 30 seconds, you both try to make the other blush using only kind words.",
+      "hi": "Ek willing player chuniye. 30 second mein dono sirf achhe words se ek doosre ko blush karwane ki koshish kariye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "sw001",
+      "type": "would-you-rather",
+      "heat": 1,
+      "en": "Would you rather have a silent candlelight dinner date or a noisy street food date full of laughs?",
+      "hi": "Aapko kya pasand hai: candlelight wali silent dinner date, ya hansi se bhari noisy street food date?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sw002",
+      "type": "would-you-rather",
+      "heat": 2,
+      "en": "Would you rather make out on a moonlit beach or on a quiet rooftop at midnight?",
+      "hi": "Aapko kya pasand hai: chaandni raat mein beach par make out karna, ya aadhi raat ko kisi shaant chhat par?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sw003",
+      "type": "would-you-rather",
+      "heat": 1,
+      "en": "Would you rather be caught staring at someone you like, or caught practising what to say to them?",
+      "hi": "Aapko kya pasand hai: crush ko ghoorte hue pakda jaana, ya unse kya bolna hai uski practice karte hue?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sw004",
+      "type": "would-you-rather",
+      "heat": 1,
+      "en": "Would you rather flirt using only song lyrics or only emojis for a whole week?",
+      "hi": "Aapko kya pasand hai: poore hafte sirf gaano ki lines se flirt karna, ya sirf emojis se?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sw005",
+      "type": "would-you-rather",
+      "heat": 2,
+      "en": "Would you rather have a partner who is very romantic in private or very proud of you in public?",
+      "hi": "Aapko kya pasand hai: aisa partner jo akele mein bahut romantic ho, ya jo sabke saamne aap par proud ho?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sw006",
+      "type": "would-you-rather",
+      "heat": 2,
+      "en": "Would you rather end a perfect date with a kiss at the door or a three-hour phone call later?",
+      "hi": "Aapko kya pasand hai: perfect date ka end darwaze par kiss se, ya baad mein teen ghante ki phone call se?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sw007",
+      "type": "would-you-rather",
+      "heat": 1,
+      "en": "Would you rather have your crush find out you like them today, or never find out at all?",
+      "hi": "Aapko kya pasand hai: crush ko aaj hi aapki feelings ka pata chal jaaye, ya kabhi pata hi na chale?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sw008",
+      "type": "would-you-rather",
+      "heat": 2,
+      "en": "Would you rather have a crush who flirts too much or one who never flirts at all?",
+      "hi": "Aapko kya pasand hai: aisa crush jo bahut zyada flirt kare, ya jo bilkul flirt na kare?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sn001",
+      "type": "never-have-i-ever",
+      "heat": 1,
+      "en": "Never have I ever laughed at a joke that was not funny because I liked the person telling it.",
+      "hi": "Maine kabhi kisi ke bekaar joke par zor ki hansi ka natak nahi kiya, sirf isliye ki joke sunane wala mujhe pasand tha.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sn002",
+      "type": "never-have-i-ever",
+      "heat": 2,
+      "en": "Never have I ever gone on two dates with two different people on the same day.",
+      "hi": "Maine kabhi ek hi din mein do alag logon ke saath dates nahi ki.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sn003",
+      "type": "never-have-i-ever",
+      "heat": 1,
+      "en": "Never have I ever pretended to be busy so I would not seem too interested in someone.",
+      "hi": "Maine kabhi busy hone ka natak nahi kiya taaki main kisi mein zyada interested na lagoon.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sn004",
+      "type": "never-have-i-ever",
+      "heat": 1,
+      "en": "Never have I ever dressed up extra just because I knew a certain someone would be there.",
+      "hi": "Maine kabhi sirf isliye extra taiyaari nahi ki kyunki pata tha ki koi khaas insaan wahan hoga.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sn005",
+      "type": "never-have-i-ever",
+      "heat": 1,
+      "en": "Never have I ever changed my profile picture hoping one person would notice.",
+      "hi": "Maine kabhi apni profile picture sirf isliye nahi badli ki ek khaas insaan notice kare.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sn006",
+      "type": "never-have-i-ever",
+      "heat": 2,
+      "en": "Never have I ever kissed someone in the rain.",
+      "hi": "Maine kabhi kisi ko baarish mein kiss nahi kiya.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sn007",
+      "type": "never-have-i-ever",
+      "heat": 1,
+      "en": "Never have I ever smiled at my phone so much that someone asked who I was messaging.",
+      "hi": "Maine kabhi phone dekh kar itni smile nahi ki ki kisi ne pooch liya, 'Kisse baat ho rahi hai?'",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sn008",
+      "type": "never-have-i-ever",
+      "heat": 2,
+      "en": "Never have I ever made out with someone I had met only a few hours earlier.",
+      "hi": "Maine kabhi kisi aise insaan ke saath make out nahi kiya jisse meri mulaqat bas kuch ghante pehle hui thi.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sm001",
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Who is most likely to flirt with someone without even realising it?",
+      "hi": "Kiske bina realise kiye kisi se flirt karne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sm002",
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Who is most likely to fall for someone because of their cooking?",
+      "hi": "Kiske kisi ki cooking dekh kar unpe fida hone ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sm003",
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Who is most likely to write a love letter by hand and actually send it?",
+      "hi": "Kiske haath se love letter likh kar sach mein bhejne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sm004",
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Who is most likely to blush first if someone here winks at them?",
+      "hi": "Agar yahan koi wink kare, toh kiske sabse pehle blush karne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sm005",
+      "type": "most-likely-to",
+      "heat": 2,
+      "en": "Who is most likely to send a romantic voice note at midnight?",
+      "hi": "Kiske aadhi raat ko romantic voice note bhejne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sm006",
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Who is most likely to plan the whole wedding after just one good date?",
+      "hi": "Kiske ek achhi date ke baad hi poori shaadi plan kar lene ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sm007",
+      "type": "most-likely-to",
+      "heat": 2,
+      "en": "Who is most likely to have a secret admirer here right now?",
+      "hi": "Yahan abhi kiske liye ek secret admirer hone ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sm008",
+      "type": "most-likely-to",
+      "heat": 1,
+      "en": "Who is most likely to use a pickup line and actually make it work?",
+      "hi": "Kiske pickup line use karke sach mein kaam bana lene ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st026",
+      "type": "truth",
+      "heat": 1,
+      "en": "What is the cheesiest pickup line anyone has used on you, and did it work even a little?",
+      "hi": "Aap par ab tak ki sabse cheesy pickup line kaunsi use hui hai, aur kya woh thodi bhi kaam aayi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st027",
+      "type": "truth",
+      "heat": 1,
+      "en": "Have you ever realised someone was flirting with you only days later? What gave it away?",
+      "hi": "Kya kabhi kisi ka flirting aapko kai din baad samajh aaya hai? Kaise pata chala?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st028",
+      "type": "truth",
+      "heat": 1,
+      "en": "Have you ever had a crush on someone at work? How did you act normal in meetings?",
+      "hi": "Kya aapko kabhi office mein kisi par crush hua hai? Meetings mein aapne normal rehna kaise manage kiya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st029",
+      "type": "truth",
+      "heat": 1,
+      "en": "Has anyone ever won you over with just a look across the room, like in a Bollywood film?",
+      "hi": "Kya kabhi kisi ne room ke us paar se sirf ek look se aapka dil jeeta hai, bilkul Bollywood film ki tarah?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st030",
+      "type": "truth",
+      "heat": 1,
+      "en": "What compliment do you secretly wish people gave you more often?",
+      "hi": "Aisa kaunsa compliment hai jo aapka dil chahta hai ki log aapko aur zyada dein?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st031",
+      "type": "truth",
+      "heat": 2,
+      "en": "Have you ever kissed someone on a trip, like at a hill station or on a beach? How did it happen?",
+      "hi": "Kya aapne kabhi kisi trip par kisi ko kiss kiya hai, jaise hill station ya beach par? Yeh kaise hua?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st032",
+      "type": "truth",
+      "heat": 2,
+      "en": "Have you ever made out in the back row of a cinema hall? Do you remember anything about the film?",
+      "hi": "Kya aapne kabhi cinema hall ki last row mein make out kiya hai? Film ki koi baat yaad hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st033",
+      "type": "truth",
+      "heat": 2,
+      "en": "What is your biggest dating-app confession, like an old photo or a small lie in your bio?",
+      "hi": "Aapka sabse bada dating-app confession kya hai, jaise purani photo ya bio mein chhota sa jhooth?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st034",
+      "type": "truth",
+      "heat": 2,
+      "en": "What is the most unusual reason you have ever swiped right on someone?",
+      "hi": "Kisi par right swipe karne ki aapki sabse ajeeb wajah kya rahi hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st035",
+      "type": "truth",
+      "heat": 2,
+      "en": "Have you ever matched on a dating app with someone you already knew? What happened next?",
+      "hi": "Kya kabhi dating app par aapka match kisi jaan-pehchaan wale se hua hai? Phir kya hua?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st036",
+      "type": "truth",
+      "heat": 2,
+      "en": "When you find someone attractive, what do you notice first: eyes, smile, hands, voice or style?",
+      "hi": "Kisi attractive insaan mein aapki nazar sabse pehle kahan jaati hai: aankhein, smile, haath, awaaz ya style?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st037",
+      "type": "truth",
+      "heat": 2,
+      "en": "Which film or web series character would you most like to share a kiss with?",
+      "hi": "Kisi film ya web series ke kaunse character ke saath kiss karna aapko sabse zyada pasand aayega?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st038",
+      "type": "truth",
+      "heat": 2,
+      "en": "Have you ever kissed someone and regretted it a second later? What went wrong?",
+      "hi": "Kya aapne kabhi kisi ko kiss kiya hai aur agle hi second pachtawa hua? Kya gadbad hui?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st039",
+      "type": "truth",
+      "heat": 2,
+      "en": "What makes a kiss unforgettable for you: the build-up, the place, or the person?",
+      "hi": "Aapke liye kiss ko unforgettable kya banata hai: build-up, jagah, ya insaan?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st040",
+      "type": "truth",
+      "heat": 2,
+      "en": "Have you ever had a holiday romance? Did it last after the trip ended?",
+      "hi": "Kya aapka kabhi holiday romance hua hai? Trip khatam hone ke baad woh chala?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st041",
+      "type": "truth",
+      "heat": 2,
+      "en": "What outfit makes you feel most attractive, and when did you last wear it?",
+      "hi": "Kaunse outfit mein aapko sabse attractive feel hota hai, aur aapne use last kab pehna tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st042",
+      "type": "truth",
+      "heat": 2,
+      "en": "What kind of voice do you find hot: deep, soft, husky or something else?",
+      "hi": "Aapko kaisi awaaz hot lagti hai: deep, soft, husky ya kuch aur?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st043",
+      "type": "truth",
+      "heat": 2,
+      "en": "On a date, what signal do you give when you want the other person to kiss you?",
+      "hi": "Date par jab aapka mann ho ki saamne wala aapko kiss kare, toh aapka signal kya hota hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st044",
+      "type": "truth",
+      "heat": 2,
+      "en": "Have you ever kissed someone during a party game like this one? How did it go?",
+      "hi": "Kya aapne kabhi isi tarah ke party game mein kisi ko kiss kiya hai? Kaisa raha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st045",
+      "type": "truth",
+      "heat": 2,
+      "en": "What is the longest make-out session you have ever had, and what finally ended it?",
+      "hi": "Aapka ab tak ka sabse lamba make-out session kitni der chala, aur aakhir kis cheez ne use roka?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st046",
+      "type": "truth",
+      "heat": 2,
+      "en": "How soon is too soon for a first kiss with someone new: first date, third date, or whenever it feels right?",
+      "hi": "Naye insaan ke saath pehla kiss kab hona chahiye: pehli date, teesri date, ya jab sahi feel ho?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st047",
+      "type": "truth",
+      "heat": 2,
+      "en": "Which do you find hotter: total confidence or a little bit of shyness?",
+      "hi": "Aapko kya zyada hot lagta hai: full confidence ya thodi si sharmeeli adaa?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st048",
+      "type": "truth",
+      "heat": 2,
+      "en": "Have you ever felt sparks while dancing with someone at a wedding or sangeet? What happened next?",
+      "hi": "Kya kabhi kisi shaadi ya sangeet mein kisi ke saath dance karte hue sparks feel hue hain? Phir kya hua?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st049",
+      "type": "truth",
+      "heat": 2,
+      "en": "What is something you find attractive that most people would call strange?",
+      "hi": "Aisi kaunsi cheez aapko attractive lagti hai jise zyada tar log ajeeb kahenge?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st050",
+      "type": "truth",
+      "heat": 2,
+      "en": "What do you think is your most attractive quality, inside or out?",
+      "hi": "Aapke hisaab se aapki sabse attractive quality kya hai, andar ki ya bahar ki?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st051",
+      "type": "truth",
+      "heat": 2,
+      "en": "Have you ever had a secret relationship that your friends knew nothing about? Why keep it secret?",
+      "hi": "Kya aapka kabhi koi secret relationship raha hai jiske baare mein doston ko kuch nahi pata tha? Secret kyun rakha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st052",
+      "type": "truth",
+      "heat": 2,
+      "en": "What is your type on paper, and what type do you actually fall for?",
+      "hi": "Kagaz par aapka type kya hai, aur asal mein aapka dil kis type par aata hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st053",
+      "type": "truth",
+      "heat": 2,
+      "en": "Have you ever deleted a dating app in a dramatic moment, then downloaded it again that same week?",
+      "hi": "Kya aapne kabhi dramatic hokar dating app delete kiya aur usi hafte phir se download kar liya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st054",
+      "type": "truth",
+      "heat": 2,
+      "en": "Has a relative ever tried to set you up with someone? Did you secretly find them attractive?",
+      "hi": "Kya kabhi kisi relative ne aapka kisi ke saath rishta jodne ki koshish ki hai? Kya woh match aapko chupke se attractive laga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd026",
+      "type": "dare",
+      "heat": 2,
+      "en": "Offer a willing player a kiss on the cheek. If they say yes, they choose which cheek.",
+      "hi": "Kisi willing player ko gaal par kiss offer kariye. Agar woh haan kahein, toh kaunsa gaal, yeh woh chunein.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd027",
+      "type": "dare",
+      "heat": 2,
+      "en": "Whisper to a willing player what you would wear if you were taking them on a date.",
+      "hi": "Kisi willing player ke kaan mein whisper kariye ki unke saath date par aapka outfit kya hoga.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd028",
+      "type": "dare",
+      "heat": 2,
+      "en": "Choose a willing player. If they say yes, rest your forehead against theirs for 10 seconds without laughing.",
+      "hi": "Ek willing player chuniye. Agar woh haan kahein, toh 10 second tak bina hase apna maatha unke maathe se milaiye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 10
+    },
+    {
+      "id": "sd029",
+      "type": "dare",
+      "heat": 2,
+      "en": "Choose a willing player. Holding eye contact, slowly lace your fingers with theirs and say one line to make them smile.",
+      "hi": "Ek willing player chuniye. Eye contact banaye rakhte hue dheere se unki ungliyon mein apni ungliyan phansaiye aur unhe smile karwane wali ek line boliye.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd030",
+      "type": "dare",
+      "heat": 2,
+      "en": "Let a willing player choose a romantic song, then hum it softly near their ear for 10 seconds.",
+      "hi": "Kisi willing player ko romantic gaana chunne dijiye, phir 10 second tak unke kaan ke paas dheere se gungunaiye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 10
+    },
+    {
+      "id": "sd031",
+      "type": "dare",
+      "heat": 2,
+      "en": "Pretend you are on a dating-app video call and give a willing player your 20-second flirty introduction.",
+      "hi": "Maan lijiye ki aap dating-app video call par hain, aur kisi willing player ko apna 20 second ka flirty intro dijiye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "sd032",
+      "type": "dare",
+      "heat": 2,
+      "en": "With a willing player, act out a filmy near-kiss scene, then both turn away just before it happens.",
+      "hi": "Kisi willing player ke saath filmy near-kiss scene act kariye, aur kiss hone se theek pehle dono munh pher lijiye.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd033",
+      "type": "dare",
+      "heat": 2,
+      "en": "Close your eyes. Willing players take turns holding your hand while you guess who each one is.",
+      "hi": "Aankhein band kariye. Willing players baari-baari aapka haath pakdein, aur aap guess kariye ki kaun kaun hai.",
+      "tags": [
+        "group",
+        "partner"
+      ]
+    },
+    {
+      "id": "sd034",
+      "type": "dare",
+      "heat": 2,
+      "en": "In 30 seconds, teach a willing player one couple dance step, like a salsa turn.",
+      "hi": "30 second mein kisi willing player ko ek couple dance step sikhaiye, jaise salsa turn.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "sd035",
+      "type": "dare",
+      "heat": 2,
+      "en": "Let a willing player fix your hair or collar while you hold eye contact and try not to blush.",
+      "hi": "Kisi willing player se apne baal ya collar theek karwaiye, aur eye contact banaye rakhiye bina blush kiye.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd036",
+      "type": "dare",
+      "heat": 2,
+      "en": "Give a willing player your best 'come here' look from across the room. If they walk over, whisper why you called them.",
+      "hi": "Room ke us paar se kisi willing player ko apna best 'idhar aao' wala look dijiye. Agar woh paas aayein, toh kaan mein bataiye ki unhe kyun bulaya.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd037",
+      "type": "dare",
+      "heat": 2,
+      "en": "Do a 20-second filmy proposal to a willing player, on one knee, with a cushion as the ring box.",
+      "hi": "Kisi willing player ko 20 second ka filmy proposal dijiye, ek ghutne par baith kar, cushion ko ring box banakar.",
+      "tags": [
+        "partner",
+        "props",
+        "timer"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "sd038",
+      "type": "dare",
+      "heat": 2,
+      "en": "Give a willing player a kiss on the forehead, or a flying kiss if they prefer.",
+      "hi": "Kisi willing player ke maathe par kiss kariye, ya agar woh chahein toh flying kiss dijiye.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd039",
+      "type": "dare",
+      "heat": 2,
+      "en": "Sing two lines of a love song to a willing player while holding eye contact.",
+      "hi": "Kisi willing player se eye contact banaye rakhte hue unhe love song ki do lines sunaiye.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd040",
+      "type": "dare",
+      "heat": 2,
+      "en": "Sit back to back with a willing player. The group asks three flirty questions; you both answer together.",
+      "hi": "Kisi willing player ke saath peeth se peeth mila kar baithiye. Group teen flirty sawaal poochhe, aur dono saath mein jawab dijiye.",
+      "tags": [
+        "group",
+        "partner"
+      ]
+    },
+    {
+      "id": "sd041",
+      "type": "dare",
+      "heat": 2,
+      "en": "In your flirtiest voice, tell a willing player exactly how you would ask them out on a first date.",
+      "hi": "Apni sabse flirty awaaz mein kisi willing player ko bataiye ki aapka unhe first date ke liye poochne ka andaaz kya hoga.",
+      "tags": [
+        "partner",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd042",
+      "type": "dare",
+      "heat": 2,
+      "en": "Stand facing a willing player. Each time the group claps, take one small step closer. Stop at three claps.",
+      "hi": "Kisi willing player ke aamne-saamne aa jaiye. Group jab bhi taali bajaye, ek chhota kadam aage badhaiye. Teen taaliyon par ruk jaiye.",
+      "tags": [
+        "group",
+        "partner"
+      ]
+    },
+    {
+      "id": "st055",
+      "type": "truth",
+      "heat": 3,
+      "en": "What is a turn-on of yours that nobody would guess just by looking at you?",
+      "hi": "Aapka aisa kaunsa turn-on hai jo aapko dekh kar koi guess nahi kar sakta?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st056",
+      "type": "truth",
+      "heat": 3,
+      "en": "What fantasy have you never said out loud before tonight? Keep it short.",
+      "hi": "Aisi kaunsi fantasy hai jo aapne aaj raat se pehle kabhi zor se nahi boli? Short mein bataiye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st057",
+      "type": "truth",
+      "heat": 3,
+      "en": "What is the wildest experience you have had in bed? Describe it in one sentence.",
+      "hi": "Bed mein aapka ab tak ka sabse wild experience kya raha hai? Ek line mein bataiye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st058",
+      "type": "truth",
+      "heat": 3,
+      "en": "What is the most daring place you have ever had sex? Did anyone almost catch you?",
+      "hi": "Aapne ab tak sabse daring jagah par sex kahan kiya hai? Kya pakde jaane ka khatra bana?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st059",
+      "type": "truth",
+      "heat": 3,
+      "en": "What is one thing you have always wanted to try in bed but have not tried yet?",
+      "hi": "Bed mein aisi ek cheez kya hai jise try karne ka aapka hamesha se mann hai, par abhi tak nahi kiya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st060",
+      "type": "truth",
+      "heat": 3,
+      "en": "What is your biggest turn-off in bed?",
+      "hi": "Bed mein aapka sabse bada turn-off kya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st061",
+      "type": "truth",
+      "heat": 3,
+      "en": "Was your first time romantic, awkward or funny? Explain in one or two sentences.",
+      "hi": "Aapka first time romantic tha, awkward tha ya funny? Ek-do line mein bataiye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st062",
+      "type": "truth",
+      "heat": 3,
+      "en": "Lights on or lights off: which do you prefer, and why?",
+      "hi": "Lights on ya lights off: aapko kya pasand hai, aur kyun?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st063",
+      "type": "truth",
+      "heat": 3,
+      "en": "Which song, Bollywood or any other, would definitely be on your bedroom playlist?",
+      "hi": "Bollywood ho ya koi aur, kaunsa gaana aapki bedroom playlist mein pakka hoga?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st064",
+      "type": "truth",
+      "heat": 3,
+      "en": "What did someone once say to you that instantly turned you on?",
+      "hi": "Kisi ki kaunsi baat ne aapko turant turn on kar diya tha?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st065",
+      "type": "truth",
+      "heat": 3,
+      "en": "Have you ever had a one-night stand? Would you do it again?",
+      "hi": "Kya aapka kabhi one-night stand hua hai? Dobara mauka mile toh haan ya na?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st066",
+      "type": "truth",
+      "heat": 3,
+      "en": "What part of sex makes you feel most confident, and what part makes you a little shy?",
+      "hi": "Sex ka kaunsa part aapko sabse confident feel karata hai, aur kaunsa part thoda shy feel karata hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st067",
+      "type": "truth",
+      "heat": 3,
+      "en": "What is one insecurity about sex that you wish you could let go of?",
+      "hi": "Sex ko lekar aapki aisi kaunsi insecurity hai jo kaash hamesha ke liye chali jaaye?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st068",
+      "type": "truth",
+      "heat": 3,
+      "en": "Sex on a first date: is it a yes, a no, or 'it depends' for you?",
+      "hi": "First date par sex: aapke liye haan, na, ya 'depend karta hai'?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st069",
+      "type": "truth",
+      "heat": 3,
+      "en": "How do you like to be seduced: with words, slow touches, or a long build-up?",
+      "hi": "Aapko kaise seduce hona pasand hai: baaton se, dheemi touch se, ya lambe build-up se?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st070",
+      "type": "truth",
+      "heat": 3,
+      "en": "What role-play idea would you secretly love to try with a partner?",
+      "hi": "Kaunsa role-play idea partner ke saath try karne ka aapka chupke se mann hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st071",
+      "type": "truth",
+      "heat": 3,
+      "en": "Has anyone ever walked in on you during an intimate moment? What happened next?",
+      "hi": "Kya kabhi kisi intimate moment ke beech achanak kisi ki entry ho gayi hai? Phir kya hua?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st072",
+      "type": "truth",
+      "heat": 3,
+      "en": "What has a partner done in bed that surprised you in a good way?",
+      "hi": "Kisi partner ne bed mein aisa kya kiya jisne aapko achhe tarike se surprise kar diya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st073",
+      "type": "truth",
+      "heat": 3,
+      "en": "What is your favourite kind of foreplay: kissing, teasing words or a slow massage?",
+      "hi": "Aapka favourite foreplay kya hai: kissing, teasing baatein ya dheemi massage?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st074",
+      "type": "truth",
+      "heat": 3,
+      "en": "What is the funniest thing that has ever happened to you in bed?",
+      "hi": "Bed mein aapke saath ab tak ki sabse funny cheez kya hui hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st075",
+      "type": "truth",
+      "heat": 3,
+      "en": "What film or web series scene was so sexy that it made you blush?",
+      "hi": "Kisi film ya web series ka kaunsa scene itna sexy tha ki aapko blush aa gaya?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st076",
+      "type": "truth",
+      "heat": 3,
+      "en": "Have you ever faked enjoying something in bed to make a partner happy?",
+      "hi": "Kya aapne kabhi partner ko khush karne ke liye bed mein kisi cheez ko enjoy karne ka natak kiya hai?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st077",
+      "type": "truth",
+      "heat": 3,
+      "en": "How adventurous are you in bed: playing it safe, open to ideas, or up for almost anything?",
+      "hi": "Bed mein aapka adventure level kya hai: safe khelna, naye ideas ke liye open, ya almost kuch bhi?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st078",
+      "type": "truth",
+      "heat": 3,
+      "en": "Have you ever had a friends-with-benefits arrangement? How did it end?",
+      "hi": "Kya aapka kabhi friends-with-benefits wala scene raha hai? Woh khatam kaise hua?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st079",
+      "type": "truth",
+      "heat": 3,
+      "en": "What is your biggest bedroom fear: thin walls, nosy neighbours, or laughing at the wrong moment?",
+      "hi": "Bedroom mein aapka sabse bada darr kya hai: patli deewarein, padosiyon ka kaan lagana, ya galat moment par hansi chhoot jaana?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st080",
+      "type": "truth",
+      "heat": 3,
+      "en": "What is one sexy skill you are secretly proud of? No demonstrations, please.",
+      "hi": "Aapki aisi kaunsi sexy skill hai jis par aapko chupke se garv hai? Demo nahi chahiye.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "st081",
+      "type": "truth",
+      "heat": 3,
+      "en": "What do you know about sex now that you wish you had known much earlier?",
+      "hi": "Sex ke baare mein aisi kya baat ab pata hai jo kaash bahut pehle pata hoti?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd043",
+      "type": "dare",
+      "heat": 3,
+      "en": "If a willing player says yes, give them a short kiss on the lips or neck, whichever they choose.",
+      "hi": "Agar koi willing player haan kahe, toh unhe lips ya gardan par ek chhota sa kiss dijiye, jo woh chunein.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd044",
+      "type": "dare",
+      "heat": 3,
+      "en": "Do a 20-second reverse striptease: put on a jacket, scarf or socks as seductively as you can.",
+      "hi": "20 second ka reverse striptease kariye: jacket, scarf ya socks jitna ho sake utne seductive andaaz mein pehniye.",
+      "tags": [
+        "props",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "sd045",
+      "type": "dare",
+      "heat": 3,
+      "en": "Give a willing player a 30-second clothed lap dance to a song from your phone.",
+      "hi": "Apne phone par gaana lagaiye aur kisi willing player ko 30 second ka clothed lap dance dijiye.",
+      "tags": [
+        "partner",
+        "props",
+        "timer"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "sd046",
+      "type": "dare",
+      "heat": 3,
+      "en": "Do a 30-second seductive dance for a willing player to any Bollywood item song or party track.",
+      "hi": "Kisi willing player ke liye kisi bhi Bollywood item song ya party track par 30 second ka seductive dance kariye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "sd047",
+      "type": "dare",
+      "heat": 3,
+      "en": "Remove one item of clothing of your choice. Shoes, socks and accessories count; underwear always stays on.",
+      "hi": "Apni pasand ka ek kapda utaariye. Joote, socks aur accessories bhi chalenge; underwear hamesha pehna rahega.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd048",
+      "type": "dare",
+      "heat": 3,
+      "en": "Choose a willing player. If they say yes, slowly take off their watch, bangle or earring while holding eye contact.",
+      "hi": "Ek willing player chuniye. Agar woh haan kahein, toh eye contact banaye rakhte hue dheere se unki watch, bangle ya earring utaariye.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd049",
+      "type": "dare",
+      "heat": 3,
+      "en": "Whisper your biggest turn-on to a willing player. They tell the group just one word: 'shocking', 'cute' or 'same'.",
+      "hi": "Kisi willing player ke kaan mein apna sabse bada turn-on whisper kariye. Woh group ko bas ek word bataayein: 'shocking', 'cute' ya 'same'.",
+      "tags": [
+        "group",
+        "partner"
+      ]
+    },
+    {
+      "id": "sd050",
+      "type": "dare",
+      "heat": 3,
+      "en": "Fake-moan the tune of a famous Bollywood or pop song. The group has 30 seconds to guess it.",
+      "hi": "Kisi famous Bollywood ya pop gaane ki dhun fake moan mein sunaiye. Group ke paas guess karne ke liye 30 second hain.",
+      "tags": [
+        "group",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "sd051",
+      "type": "dare",
+      "heat": 3,
+      "en": "Say 'please pass the remote' in your sexiest voice. Then anyone willing tries it, and the group votes.",
+      "hi": "Apni sabse sexy awaaz mein boliye, 'please remote pass karna'. Phir jo bhi willing ho woh try kare, aur group vote kare.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd052",
+      "type": "dare",
+      "heat": 3,
+      "en": "Choose a willing player. If they say yes, kiss the inside of their wrist slowly while holding their gaze.",
+      "hi": "Ek willing player chuniye. Agar woh haan kahein, toh unse nazar milaye rakhte hue dheere se unki kalaai ke andar ki taraf kiss kariye.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd053",
+      "type": "dare",
+      "heat": 3,
+      "en": "In 30 seconds, describe your perfect steamy night: the place, the music, the mood and the morning after. Keep it classy.",
+      "hi": "30 second mein apni perfect steamy night describe kariye: jagah, music, mood aur agli subah. Classy rakhiye.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "sd054",
+      "type": "dare",
+      "heat": 3,
+      "en": "Hot seat: willing players each ask you one bold question about your sex life. Answer any two honestly.",
+      "hi": "Hot seat: willing players aapse aapki sex life ke baare mein ek-ek bold sawaal poochein. Unmein se koi bhi do ka sach-sach jawab dijiye.",
+      "tags": [
+        "group",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd055",
+      "type": "dare",
+      "heat": 3,
+      "en": "Choose a willing player. If they say yes, kiss your fingertip and slowly press it to their lips.",
+      "hi": "Ek willing player chuniye. Agar woh haan kahein, toh apni ungli ke sire ko kiss kariye aur use dheere se unke lips par rakhiye.",
+      "tags": [
+        "partner"
+      ]
+    },
+    {
+      "id": "sd056",
+      "type": "dare",
+      "heat": 3,
+      "en": "Bite your lip and give a willing player your most seductive look for 15 seconds.",
+      "hi": "Lip bite kariye aur kisi willing player ko 15 second tak apna sabse seductive look dijiye.",
+      "tags": [
+        "partner",
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 15
+    },
+    {
+      "id": "sd057",
+      "type": "dare",
+      "heat": 3,
+      "en": "Let a willing player blow softly on your neck for 10 seconds while you try to keep a straight face.",
+      "hi": "Kisi willing player se kahiye ki woh 10 second tak aapki gardan par halke se phoonk maarein, aur aap straight face banaye rakhne ki koshish kariye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 10
+    },
+    {
+      "id": "sd058",
+      "type": "dare",
+      "heat": 3,
+      "en": "If a willing player says yes, sit on their lap for 30 seconds and whisper a compliment in their ear.",
+      "hi": "Agar koi willing player haan kahe, toh 30 second unki god mein baithiye aur kaan mein ek compliment whisper kariye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 30
+    },
+    {
+      "id": "sd059",
+      "type": "dare",
+      "heat": 3,
+      "en": "Choose a willing player. If they say yes, trace one finger slowly from their wrist to their shoulder for 15 seconds.",
+      "hi": "Ek willing player chuniye. Agar woh haan kahein, toh 15 second tak ek ungli se dheere-dheere unki kalaai se kandhe tak line banaiye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 15
+    },
+    {
+      "id": "sd060",
+      "type": "dare",
+      "heat": 3,
+      "en": "Let the group pick a steamy film line. Say it to a willing player in your sexiest, most dramatic style.",
+      "hi": "Group ek steamy filmy dialogue chune. Use kisi willing player ko apne sabse sexy, dramatic andaaz mein boliye.",
+      "tags": [
+        "group",
+        "partner",
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sd061",
+      "type": "dare",
+      "heat": 3,
+      "en": "Give the group a 15-second trailer of your love life as if it were an 18+ film, title included. Keep it classy.",
+      "hi": "Group ko 15 second mein apni love life ka trailer sunaiye, jaise woh ek 18+ film ho, title ke saath. Classy rakhiye.",
+      "tags": [
+        "timer",
+        "remote-ok"
+      ],
+      "secs": 15
+    },
+    {
+      "id": "sd062",
+      "type": "dare",
+      "heat": 3,
+      "en": "Let a willing player blindfold you with a scarf. Then, if they want, they kiss your cheek or hand.",
+      "hi": "Kisi willing player se scarf se apni aankhein band karwaiye. Phir agar woh chahein, toh aapke gaal ya haath par kiss karein.",
+      "tags": [
+        "partner",
+        "props"
+      ]
+    },
+    {
+      "id": "sd063",
+      "type": "dare",
+      "heat": 3,
+      "en": "Give a willing player a slow 20-second neck massage, if they say yes.",
+      "hi": "Agar koi willing player haan kahe, toh unki gardan par 20 second ki dheemi massage dijiye.",
+      "tags": [
+        "partner",
+        "timer"
+      ],
+      "secs": 20
+    },
+    {
+      "id": "sw009",
+      "type": "would-you-rather",
+      "heat": 3,
+      "en": "Would you rather date someone wild in bed but shy in public, or bold in public but shy in bed?",
+      "hi": "Aapko kya pasand hai: bed mein wild par public mein shy partner, ya public mein bold par bed mein shy?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sw010",
+      "type": "would-you-rather",
+      "heat": 3,
+      "en": "Would you rather always make the first move in bed, or always be the one who gets seduced?",
+      "hi": "Aapko kya pasand hai: bed mein hamesha first move aapka ho, ya hamesha aapko seduce kiya jaaye?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sw011",
+      "type": "would-you-rather",
+      "heat": 3,
+      "en": "Would you rather your partner could read your mind in bed, or you could read theirs?",
+      "hi": "Aapko kya pasand hai: bed mein partner aapka mind padh le, ya aap unka?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sw012",
+      "type": "would-you-rather",
+      "heat": 3,
+      "en": "Would you rather have a partner who talks a lot in bed or one who stays completely silent?",
+      "hi": "Aapko kya pasand hai: aisa partner jo bed mein khoob baatein kare, ya jo bilkul chup rahe?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sn009",
+      "type": "never-have-i-ever",
+      "heat": 3,
+      "en": "Never have I ever said the wrong name in an intimate moment.",
+      "hi": "Maine kabhi intimate moment mein galat naam nahi liya.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sn010",
+      "type": "never-have-i-ever",
+      "heat": 3,
+      "en": "Never have I ever said no to sex because I wanted to finish a web series episode.",
+      "hi": "Maine kabhi web series ka episode khatam karne ke liye sex ko 'na' nahi bola.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sn011",
+      "type": "never-have-i-ever",
+      "heat": 3,
+      "en": "Never have I ever bought something sexy to wear and never had the courage to wear it.",
+      "hi": "Maine kabhi kuch sexy pehenne ke liye nahi khareeda jise pehenne ki himmat hi nahi hui.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sn012",
+      "type": "never-have-i-ever",
+      "heat": 3,
+      "en": "Never have I ever had a steamy moment in the back seat of a car, cab or auto.",
+      "hi": "Mere saath kabhi car, cab ya auto ki back seat par koi steamy moment nahi hua.",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sm009",
+      "type": "most-likely-to",
+      "heat": 3,
+      "en": "Who is most likely to have a secret wild side behind a very innocent face?",
+      "hi": "Kiske masoom chehre ke peeche ek secret wild side hone ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sm010",
+      "type": "most-likely-to",
+      "heat": 3,
+      "en": "Who is most likely to fall asleep right after sex?",
+      "hi": "Kiske sex ke turant baad so jaane ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sm011",
+      "type": "most-likely-to",
+      "heat": 3,
+      "en": "Who is most likely to have the steamiest search history in this room?",
+      "hi": "Kiske paas is room ki sabse steamy search history hone ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    },
+    {
+      "id": "sm012",
+      "type": "most-likely-to",
+      "heat": 3,
+      "en": "Who is most likely to have learned their best seduction moves from old Bollywood films?",
+      "hi": "Kiske apne best seduction moves purani Bollywood films se seekhne ke chances sabse zyada hain?",
+      "tags": [
+        "remote-ok"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <title>TruthSpin: Truth and Dare, Truth or Dare Bottle Game</title>
+  <meta name="description" content="Truth and dare with a spinning bottle. Free, no sign-up, works offline. Kids, Friends, Party and 18+ levels, in English or Hinglish.">
+  <meta name="author" content="Rohit Singh">
+  <meta name="theme-color" content="#15112b">
+  <meta name="color-scheme" content="dark light">
+  <link rel="canonical" href="https://truthspin.app/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TruthSpin">
+  <meta property="og:title" content="TruthSpin: Truth or Dare with a spinning bottle">
+  <meta property="og:description" content="Spin the bottle, pick truth or dare. Free, no sign-up, works offline.">
+  <meta property="og:url" content="https://truthspin.app/">
+  <meta property="og:image" content="https://truthspin.app/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="TruthSpin">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"TruthSpin","alternateName":["Truth and Dare","Truth or Dare: Spin the Bottle"],"url":"https://truthspin.app/","applicationCategory":"GameApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"inLanguage":["en","hi-Latn"],"author":{"@type":"Person","name":"Rohit Singh"},"description":"Truth and dare with a spinning bottle. Free, no sign-up, works offline."}
+  </script>
+</head>
+<body data-phase="idle">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-edit" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16v4z"/></symbol>
+      <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/><path d="M9.2 8.6c-.4 2.7 3.3 6.5 6.1 6.1l.4-1.6-1.8-.8-.8.9c-1.1-.5-2-1.4-2.5-2.5l.9-.8-.8-1.8z"/></symbol>
+      <symbol id="i-sound" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/></symbol>
+      <symbol id="i-mute" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M17 9.5l4 5M21 9.5l-4 5"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+      <symbol id="i-flame" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12.5 2c.6 3.6 5.5 6 5.5 11.3A6 6 0 0 1 6 13.6c0-2.4 1.2-4.2 2.6-5.3-.1 2.1.8 3.6 2.3 3.9-.4-3.4.1-7.2 1.6-10.2z"/></symbol>
+      <symbol id="i-up" viewBox="0 0 24 24"><path d="M6 15l6-6 6 6"/></symbol>
+      <symbol id="i-down" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+      <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5z"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></symbol>
+      <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.4-5.7M20 4v5h-5"/></symbol>
+      <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+      <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+      <symbol id="i-skip" viewBox="0 0 24 24"><path d="M5 5l9 7-9 7zM18 5v14"/></symbol>
+      <symbol id="i-swap" viewBox="0 0 24 24"><path d="M7 4L3 8l4 4M3 8h14M17 12l4 4-4 4M21 16H7"/></symbol>
+      <symbol id="i-like" viewBox="0 0 24 24"><path d="M7 11v9H4v-9h3zM7 11l4-7c1.5 0 2.6 1.1 2.2 2.6L12.5 10H19a2 2 0 0 1 2 2.3l-1.2 6A2 2 0 0 1 17.8 20H7"/></symbol>
+      <symbol id="i-dislike" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path d="M7 11v9H4v-9h3zM7 11l4-7c1.5 0 2.6 1.1 2.2 2.6L12.5 10H19a2 2 0 0 1 2 2.3l-1.2 6A2 2 0 0 1 17.8 20H7"/></g></symbol>
+      <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h12l-2.5 4.5L17 13H5"/></symbol>
+      <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 3v12M8 7l4-4 4 4M5 13v7h14v-7"/></symbol>
+      <symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M10 2h4"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.5-4 3-6 6.5-6s6 2 6.5 6M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14.3c2 .8 3.2 2.7 3.5 5.7"/></symbol>
+      <symbol id="i-turn" viewBox="0 0 24 24"><path d="M5 10a7.5 7.5 0 0 1 13-3.2L20 9M20 4v5h-5M19 14a7.5 7.5 0 0 1-13 3.2L4 15M4 20v-5h5"/></symbol>
+      <symbol id="i-dice" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8.5 8.5h.01M15.5 15.5h.01M12 12h.01M15.5 8.5h.01M8.5 15.5h.01"/></symbol>
+      <symbol id="i-face1" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 10h.01M15 10h.01M8.5 16.5c2-2 5-2 7 0"/></symbol>
+      <symbol id="i-face2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 10h.01M15 10h.01M9 15.5h6"/></symbol>
+      <symbol id="i-face3" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 10h.01M15 10h.01M8.5 14.5c2 2 5 2 7 0"/></symbol>
+      <symbol id="i-face4" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8.5 9.5l1.5 1 1-1.5M13 9l1 1.5 1.5-1M8 13.5c1 3.5 7 3.5 8 0z"/></symbol>
+    </defs>
+  </svg>
+
+  <div class="app">
+    <header class="top">
+      <button id="levelBtn" disabled data-boot class="level-chip" type="button">
+        <span class="dot" aria-hidden="true"></span>
+        <span id="levelName">Friends</span>
+        <span id="levelAge" class="age">13+</span>
+        <span id="heatBadge" class="flames" hidden></span>
+        <svg class="i caret" aria-hidden="true"><use href="#i-down"/></svg>
+      </button>
+      <div class="top-actions">
+        <button id="langBtn" disabled data-boot class="icon-btn lang" type="button" data-i18n-label="languageToggle">EN</button>
+        <button id="soundBtn" disabled data-boot class="icon-btn" type="button" data-i18n-label="soundToggle"><svg class="i" aria-hidden="true"><use href="#i-sound"/></svg></button>
+        <button id="menuBtn" disabled data-boot class="icon-btn" type="button" data-i18n-label="menu"><svg class="i" aria-hidden="true"><use href="#i-menu"/></svg></button>
+      </div>
+    </header>
+
+    <main id="stage" class="stage">
+      <div class="glow" aria-hidden="true"></div>
+      <div id="parts" class="parts" aria-hidden="true"></div>
+      <div class="bshadow" aria-hidden="true"></div>
+      <div id="ring" class="ring"></div>
+      <div id="bottle" class="bottle">
+        <svg id="bottle-svg" viewBox="0 0 100 260" overflow="visible" aria-hidden="true">
+          <defs>
+            <linearGradient id="bShade" x1="0" x2="1" y1="0" y2="0">
+              <stop offset="0" stop-color="#000" stop-opacity=".38"/>
+              <stop offset=".3" stop-color="#fff" stop-opacity=".22"/>
+              <stop offset=".55" stop-color="#fff" stop-opacity="0"/>
+              <stop offset="1" stop-color="#000" stop-opacity=".42"/>
+            </linearGradient>
+            <linearGradient id="beamGrad" x1="0" y1="1" x2="0" y2="0">
+              <stop offset="0" style="stop-color:var(--lvl)" stop-opacity=".5"/>
+              <stop offset=".7" style="stop-color:var(--lvl)" stop-opacity=".08"/>
+              <stop offset="1" style="stop-color:var(--lvl)" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <polygon class="beam" points="45,-24 55,-24 95,-780 5,-780" fill="url(#beamGrad)"/>
+          <g class="soda">
+            <rect x="45.5" y="-24" width="9" height="58" rx="3.5" fill="#fff"/>
+            <path d="M45.5 -16h9v5h-9zM45.5 -4h9v5h-9zM45.5 8h9v5h-9z" fill="#ff5a6e"/>
+            <path d="M42 30V58C42 74 24 84 24 106V140C24 156 29 164 29 176C29 188 24 196 24 212V240C24 250 31 255 40 255H60C69 255 76 250 76 240V212C76 196 71 188 71 176C71 164 76 156 76 140V106C76 84 58 74 58 58V30Z" fill="var(--lvl)"/>
+            <path d="M42 30V58C42 74 24 84 24 106V140C24 156 29 164 29 176C29 188 24 196 24 212V240C24 250 31 255 40 255H60C69 255 76 250 76 240V212C76 196 71 188 71 176C71 164 76 156 76 140V106C76 84 58 74 58 58V30Z" fill="url(#bShade)"/>
+            <rect x="40" y="22" width="20" height="9" rx="3" fill="#fff" opacity=".9"/>
+            <rect x="24" y="110" width="52" height="36" fill="#fff" opacity=".92"/>
+            <path d="M50 114l3.6 7.6 8.4 1-6.2 5.7 1.7 8.2-7.5-4.2-7.5 4.2 1.7-8.2-6.2-5.7 8.4-1z" fill="var(--lvl)"/>
+            <path d="M33 154c-2 10-2 20 0 30M33 200v34" stroke="#fff" stroke-opacity=".4" stroke-width="5" stroke-linecap="round" fill="none"/>
+          </g>
+          <g class="kidsb">
+            <rect x="44" y="0" width="12" height="14" rx="5" fill="#fff"/>
+            <rect x="36" y="10" width="28" height="20" rx="7" fill="#fff"/>
+            <rect x="23" y="26" width="54" height="230" rx="25" fill="var(--lvl)"/>
+            <rect x="23" y="26" width="54" height="230" rx="25" fill="url(#bShade)"/>
+            <path d="M31 70h38M31 214h38" stroke="#fff" stroke-opacity=".55" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="39" cy="134" r="5.5" fill="#2b1d00"/>
+            <circle cx="61" cy="134" r="5.5" fill="#2b1d00"/>
+            <circle cx="33" cy="148" r="5" fill="#ff7a7a" opacity=".7"/>
+            <circle cx="67" cy="148" r="5" fill="#ff7a7a" opacity=".7"/>
+            <path d="M39 150q11 13 22 0" stroke="#2b1d00" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+          </g>
+        </svg>
+      </div>
+      <div id="partNums" class="part-nums" aria-hidden="true"></div>
+      <p id="live" class="sr-only" aria-live="polite"></p>
+    </main>
+
+    <footer class="controls">
+      <div id="idle" class="panel">
+        <p class="hint" data-i18n="hintIdle">Put the phone in the middle. Tap or swipe the bottle.</p>
+        <button id="spinBtn" disabled data-boot class="spin-btn" type="button" data-i18n="spin">SPIN</button>
+        <div class="quick">
+          <button id="namesBtn" disabled data-boot type="button"><svg class="i" aria-hidden="true"><use href="#i-users"/></svg><span data-i18n="namesShort">Names</span></button>
+          <button id="addBtn" disabled data-boot type="button"><svg class="i" aria-hidden="true"><use href="#i-plus"/></svg><span data-i18n="addShort">Question</span></button>
+          <button id="inviteBtn" disabled data-boot type="button"><svg class="i" aria-hidden="true"><use href="#i-whatsapp"/></svg><span data-i18n="inviteShort">Invite</span></button>
+          <button id="feedbackBtn" disabled data-boot type="button"><svg class="i" aria-hidden="true"><use href="#i-chat"/></svg><span data-i18n="feedbackShort">Feedback</span></button>
+        </div>
+        <p id="tip" class="tip" hidden></p>
+        <p class="free-pass" data-i18n="freePass">Anyone can skip any card, no questions asked. Play kind.</p>
+      </div>
+      <div id="choice" class="panel" hidden>
+        <p id="pickLine" class="pick-line">Truth or dare?</p>
+        <div class="td">
+          <button id="truthBtn" class="td-btn truth" type="button" data-i18n="truth">Truth</button>
+          <button id="dareBtn" class="td-btn dare" type="button" data-i18n="dare">Dare</button>
+        </div>
+        <div class="td-more">
+          <button id="randomBtn" class="link-btn" type="button"><svg class="i" aria-hidden="true"><use href="#i-dice"/></svg><span data-i18n="random">Random</span></button>
+          <button id="againBtn" class="link-btn" type="button"><svg class="i" aria-hidden="true"><use href="#i-refresh"/></svg><span data-i18n="spinAgain">Spin again</span></button>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <dialog id="card" class="card-view" aria-labelledby="cardText">
+    <div class="card-top">
+      <button id="backBtn" class="icon-btn" type="button" data-i18n-label="back"><svg class="i" aria-hidden="true"><use href="#i-back"/></svg></button>
+      <div class="card-head">
+        <span id="cardType" class="card-type">Truth</span>
+        <span id="cardLeft" class="card-left"></span>
+      </div>
+      <button id="turnBtn" class="icon-btn" type="button" data-i18n-label="turnCard"><svg class="i" aria-hidden="true"><use href="#i-turn"/></svg></button>
+    </div>
+    <p id="cardPlayer" class="card-player" hidden></p>
+    <div id="cardMiddle" class="card-middle">
+      <p id="cardNote" class="card-note" hidden></p>
+      <p id="cardText" class="card-text" tabindex="-1" autofocus></p>
+      <p id="cardHow" class="card-how" hidden></p>
+      <button id="timerBtn" class="timer-btn" type="button" hidden><svg class="i" aria-hidden="true"><use href="#i-timer"/></svg><span></span></button>
+      <div id="cardMain" class="stack" hidden></div>
+    </div>
+    <div id="rate" class="rate">
+      <button id="likeBtn" class="icon-btn" type="button" aria-pressed="false" data-i18n-label="like"><svg class="i" aria-hidden="true"><use href="#i-like"/></svg></button>
+      <button id="dislikeBtn" class="icon-btn" type="button" aria-pressed="false" data-i18n-label="dislike"><svg class="i" aria-hidden="true"><use href="#i-dislike"/></svg></button>
+      <button id="reportBtn" class="icon-btn" type="button" aria-pressed="false" data-i18n-label="report"><svg class="i" aria-hidden="true"><use href="#i-flag"/></svg></button>
+      <button id="shareBtn" class="icon-btn" type="button" data-i18n-label="share"><svg class="i" aria-hidden="true"><use href="#i-share"/></svg></button>
+    </div>
+    <div class="card-actions">
+      <button id="skipBtn" class="btn" type="button"><svg class="i" aria-hidden="true"><use href="#i-skip"/></svg><span>Skip</span></button>
+      <button id="switchBtn" class="btn" type="button"><svg class="i" aria-hidden="true"><use href="#i-swap"/></svg><span>Dare instead</span></button>
+      <button id="doneBtn" class="btn primary done" type="button" data-i18n="done">Done</button>
+    </div>
+  </dialog>
+
+  <noscript><p class="noscript">TruthSpin needs JavaScript to spin the bottle. Please turn it on in your browser.</p></noscript>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

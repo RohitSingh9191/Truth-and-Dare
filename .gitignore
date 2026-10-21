@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dev-dist/
+.netlify/
+public/q/
+test-results/
+playwright-report/
+.local-data/
+
+# Planning documents and research: kept on this computer, not published (the repository is public)
+*.docx
+*.pdf
+research/
