@@ -418,3 +418,20 @@ test.describe('on an iPhone', () => {
     await expect(page.getByText('Add to Home Screen”', { exact: false }).first()).toBeVisible();
   });
 });
+
+
+test('the question card has its own English / Hinglish button', async ({ page }) => {
+  await page.goto('/');
+  const text = await openCard(page);
+  const card = bank('friends').find((c) => c.en === text);
+  await expect(page.locator('#cardLangBtn')).toHaveText('EN');
+  await page.locator('#cardLangBtn').click();
+  await expect(page.locator('#cardLangBtn')).toHaveText('HI');
+  await expect(page.locator('#cardText')).toHaveText(card.hi);
+  await expect(page.locator('#doneBtn')).toHaveText('Ho gaya');
+  await shot(page, '17-card-hinglish-button');
+  await page.locator('#cardLangBtn').click();
+  await expect(page.locator('#cardText')).toHaveText(card.en);
+  await page.locator('#doneBtn').click();
+  await expect(page.locator('#langBtn')).toHaveText('EN'); // the main screen button follows
+});

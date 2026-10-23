@@ -74,7 +74,7 @@ const els = {
   choice: $('choice'), pickLine: $('pickLine'),
   card: $('card'), cardType: $('cardType'), cardLeft: $('cardLeft'), cardPlayer: $('cardPlayer'),
   cardText: $('cardText'), cardHow: $('cardHow'), cardNote: $('cardNote'), cardMain: $('cardMain'), cardMiddle: $('cardMiddle'),
-  turnBtn: $('turnBtn'),
+  turnBtn: $('turnBtn'), cardLangBtn: $('cardLangBtn'),
   timerBtn: $('timerBtn'), rate: $('rate'), likeBtn: $('likeBtn'), dislikeBtn: $('dislikeBtn'), reportBtn: $('reportBtn'),
   shareBtn: $('shareBtn'), backBtn: $('backBtn'), skipBtn: $('skipBtn'), switchBtn: $('switchBtn'), doneBtn: $('doneBtn'),
 };
@@ -100,6 +100,7 @@ function applySettings() {
   els.soundBtn.replaceChildren(icon(settings.sound ? 'sound' : 'mute'));
   els.soundBtn.setAttribute('aria-pressed', String(settings.sound));
   els.langBtn.textContent = settings.lang === 'hi' ? 'HI' : 'EN';
+  els.cardLangBtn.textContent = els.langBtn.textContent;
   if (!visibleLevels(settings).some((l) => l.key === S.level)) setLevel(settings.family ? 'kids' : DEFAULT_LEVEL);
   renderTop();
   renderRing();
@@ -783,10 +784,12 @@ function boot() {
   });
 
   els.levelBtn.addEventListener('click', openLevels);
-  els.langBtn.addEventListener('click', () => {
-    setSetting('lang', settings.lang === 'hi' ? 'en' : 'hi');
+  const switchLang = () => {
+    setSetting('lang', settings.lang === 'hi' ? 'en' : 'hi'); // an open card switches language at once
     track(`lang/${settings.lang}`);
-  });
+  };
+  els.langBtn.addEventListener('click', switchLang);
+  els.cardLangBtn.addEventListener('click', switchLang);
   els.soundBtn.addEventListener('click', () => {
     setSetting('sound', !settings.sound);
     if (settings.sound) sound.unlock();

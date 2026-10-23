@@ -301,9 +301,11 @@ dialog::backdrop { background: rgba(8, 6, 20, 0.6); }
 .card-view[data-type="truth"] { --accent: var(--truth); }
 
 .card-top {
-  display: grid; grid-template-columns: 48px 1fr 48px; align-items: center; gap: 6px;
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 6px;
   max-width: 720px; width: 100%; margin: 0 auto; flex: none;
 }
+.card-top > .icon-btn { justify-self: start; }
+.card-tools { justify-self: end; display: flex; align-items: center; gap: 4px; }
 .card-head { display: flex; flex-direction: column; align-items: center; gap: 3px; min-width: 0; }
 .card-type {
   max-width: 100%; text-align: center;
