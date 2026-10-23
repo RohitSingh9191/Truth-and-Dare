@@ -630,3 +630,18 @@ textarea { resize: vertical; min-height: 84px; }
 .part-dot.on { opacity: 1; filter: drop-shadow(0 0 3px var(--lvl)); }
 .part-num.on { fill: var(--lvl-ink); }
 @media (prefers-reduced-motion: reduce) { .part, .part-num, .part-dot { transition: none; } }
+
+/* ---------- Get the app ---------- */
+
+.get-app {
+  position: absolute; top: 6px; right: 6px; z-index: 3;
+  display: inline-flex; align-items: center; gap: 6px;
+  min-height: 40px; padding: 0 12px; border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--lvl) 55%, var(--line)); background: var(--surface);
+  font-weight: 700; font-size: 0.85em; box-shadow: var(--shadow);
+}
+.get-app:active { transform: scale(0.96); }
+.many-names .get-app { display: none; } /* room for a big group's names */
+[data-phase="spinning"] .get-app { opacity: 0.4; }
+.other-devices { margin-top: 14px; }
+.other-devices summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }

@@ -19,14 +19,15 @@ const today = () => new Date().toISOString().slice(0, 10);
 // together (every few minutes, or when the game is closed); suggestions and feedback go at once.
 const SOON = 4000;
 const LATER = 180_000;
+const TEXT = new Set(['suggest', 'feedback']); // these go at once and may need the spam check
 let flushAt = 0;
 
 function queue(item) {
   outbox.push({ ...item, day: today() });
   if (outbox.length > 300) outbox = outbox.slice(-300);
   save('outbox', outbox);
-  const votes = outbox.filter((i) => i.k === 'vote').length;
-  const wait = item.k !== 'vote' || votes >= 20 ? SOON : LATER;
+  const small = outbox.filter((i) => !TEXT.has(i.k)).length;
+  const wait = TEXT.has(item.k) || small >= 20 ? SOON : LATER;
   if (!flushAt || Date.now() + wait < flushAt) {
     clearTimeout(flushTimer);
     flushAt = Date.now() + wait;
@@ -72,16 +73,17 @@ export async function flush() {
   try {
     let items = outbox.slice(0, 50);
     let token = '';
-    const hasText = items.some((i) => i.k !== 'vote');
+    const hasText = items.some((i) => TEXT.has(i.k));
     if (hasText && CONFIG.turnstileSiteKey) {
       token = await turnstileToken().catch(() => '');
-      if (!token) items = items.filter((i) => i.k === 'vote');
+      if (!token) items = items.filter((i) => !TEXT.has(i.k));
     }
     if (!items.length) return;
+    items.forEach((i) => { if (i.k === 'stats') i.sending = true; });
     const res = await fetch(CONFIG.api, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ v: CONFIG.version, token, items }),
+      body: JSON.stringify({ v: CONFIG.version, token, items: items.map(({ sending, ...rest }) => rest) }),
       keepalive: true,
     });
     // 2xx: delivered. 400: the server will never accept these, so drop them too.
@@ -91,6 +93,7 @@ export async function flush() {
       save('outbox', outbox);
     }
   } catch { /* offline or server down: try again later */ } finally {
+    outbox.forEach((i) => { delete i.sending; });
     flushing = false;
   }
 }
@@ -99,6 +102,30 @@ window.addEventListener('online', () => flush());
 document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'hidden') flush();
 });
+
+// ---------- Visitor counts (for the owner's Visitors page) ----------
+// One anonymous "visit" per phone per day, plus how many spins and cards were played that day.
+// No id, name or address is sent: the server only adds numbers to the day's totals.
+
+export function countVisit() {
+  const day = today();
+  if (load('visitDay', '') === day) return;
+  const isNew = !load('seenBefore', false);
+  save('visitDay', day);
+  save('seenBefore', true);
+  queue({ k: 'visit', new: isNew ? 1 : 0 });
+}
+
+export function countPlay(field) {
+  const day = today();
+  let it = outbox.find((i) => i.k === 'stats' && i.day === day && !i.sending);
+  if (!it) {
+    queue({ k: 'stats', spins: 0, cards: 0 });
+    it = outbox[outbox.length - 1];
+  }
+  it[field] = Math.min(5000, (it[field] || 0) + 1);
+  save('outbox', outbox);
+}
 
 // ---------- Ratings ----------
 

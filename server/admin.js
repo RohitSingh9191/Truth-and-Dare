@@ -4,6 +4,7 @@
 //   /admin/approved   approved suggestions, ready to copy into content/questions/
 //   /admin/feedback   feedback messages
 //   /admin/cards      likes, dislikes and reports per built-in card
+//   /admin/visitors   visits, new players, spins and cards played per day
 
 import { addVotes } from './api.js';
 
@@ -67,7 +68,7 @@ td,th{border-bottom:1px solid #eee;padding:6px;text-align:left;vertical-align:to
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}
 </style></head><body><main>
 <h1>${esc(title)}</h1>
-<nav>${tab('/admin', 'Suggestions')}${tab('/admin/approved', 'Approved')}${tab('/admin/feedback', 'Feedback')}${tab('/admin/cards', 'Card ratings')}</nav>
+<nav>${tab('/admin', 'Suggestions')}${tab('/admin/approved', 'Approved')}${tab('/admin/feedback', 'Feedback')}${tab('/admin/cards', 'Card ratings')}${tab('/admin/visitors', 'Visitors')}</nav>
 ${body}</main></body></html>`, { headers: HEADERS });
 }
 
@@ -133,18 +134,55 @@ ${done ? '' : `<form method="post" action="/admin/feedback-done"><input type="hi
   return page('Feedback', '/admin/feedback', body || '<p>No feedback yet.</p>');
 }
 
-/** Merges new rating batches into one summary, then deletes the merged batches. */
-async function compactVotes(store) {
-  const summary = (await store.get('v/summary', { type: 'json' })) || {};
-  const { blobs } = await store.list({ prefix: 'v/e/' });
+/** Merges new batches (ratings or visitor counts) into one summary, then deletes the merged batches. */
+async function compact(store, prefix) {
+  const summary = (await store.get(`${prefix}/summary`, { type: 'json' })) || {};
+  const { blobs } = await store.list({ prefix: `${prefix}/e/` });
   const keys = blobs.map((b) => b.key);
   const batches = await Promise.all(keys.map((k) => store.get(k, { type: 'json' })));
   batches.forEach((b) => b && addVotes(summary, b));
   if (keys.length) {
-    await store.setJSON('v/summary', summary);
+    await store.setJSON(`${prefix}/summary`, summary);
     await Promise.all(keys.map((k) => store.delete(k)));
   }
   return summary;
+}
+const compactVotes = (store) => compact(store, 'v');
+
+async function visitorsPage(store, now) {
+  const days = await compact(store, 'c');
+  const iso = (d) => d.toISOString().slice(0, 10);
+  const back = (n) => iso(new Date(now.getTime() - n * 864e5));
+  const sum = (from) => Object.entries(days).filter(([d]) => d >= from).reduce((t, [, v]) => {
+    for (const k of ['visits', 'newPlayers', 'spins', 'cards']) t[k] += v[k] || 0;
+    return t;
+  }, { visits: 0, newPlayers: 0, spins: 0, cards: 0 });
+  const today = days[iso(now)] || {};
+  const yesterday = days[back(1)] || {};
+  const periods = [
+    ['Today', { visits: 0, newPlayers: 0, spins: 0, cards: 0, ...today }],
+    ['Yesterday', { visits: 0, newPlayers: 0, spins: 0, cards: 0, ...yesterday }],
+    ['Last 7 days', sum(back(6))],
+    ['Last 30 days', sum(back(29))],
+    ['All time', sum('0000')],
+  ];
+  const fmt = (n) => Number(n || 0).toLocaleString('en-IN');
+  const cards = periods.map(([label, v]) => `<div class="item" style="flex:1;min-width:140px">
+<div class="meta">${label}</div><div style="font-size:26px;font-weight:800">${fmt(v.visits)}</div><div class="meta">visitors</div>
+<div class="meta" style="margin-top:6px">${fmt(v.newPlayers)} new · ${fmt(v.spins)} spins · ${fmt(v.cards)} cards</div></div>`).join('');
+  const last30 = Array.from({ length: 30 }, (_, i) => back(i));
+  const max = Math.max(1, ...last30.map((d) => days[d]?.visits || 0));
+  const rows = last30.map((d) => {
+    const v = days[d] || {};
+    const w = Math.round(((v.visits || 0) / max) * 100);
+    return `<tr><td>${d}</td><td><div style="background:#2ed3c1;height:12px;border-radius:6px;width:${w}%;min-width:${v.visits ? 3 : 0}px"></div></td>
+<td>${fmt(v.visits)}</td><td>${fmt(v.newPlayers)}</td><td>${fmt(v.spins)}</td><td>${fmt(v.cards)}</td></tr>`;
+  }).join('');
+  return page('Visitors', '/admin/visitors', `
+<p>Each phone or computer counts once per day it opens the game. Nothing that identifies a player is collected. Numbers arrive within a few minutes, when players close the game or every few minutes while they play.</p>
+<div style="display:flex;gap:10px;flex-wrap:wrap">${cards}</div>
+<h2 style="font-size:1.1em;margin-top:20px">Last 30 days</h2>
+<div class="scroll"><table><tr><th>Day</th><th style="width:35%">Visitors</th><th>Visitors</th><th>New</th><th>Spins</th><th>Cards</th></tr>${rows}</table></div>`);
 }
 
 async function cardsPage(store, loadCards) {
@@ -224,5 +262,6 @@ export async function handleAdmin(request, { store, env = {}, loadCards, now = n
   if (path === 'approved') return approvedPage(store);
   if (path === 'feedback') return feedbackPage(store);
   if (path === 'cards') return cardsPage(store, loadCards);
+  if (path === 'visitors') return visitorsPage(store, now);
   return suggestionsPage(store);
 }

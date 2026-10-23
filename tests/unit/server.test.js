@@ -133,3 +133,39 @@ describe('/admin', () => {
     expect(html).toContain('&lt;script&gt;');
   });
 });
+
+
+describe('visitor counts', () => {
+  const env = { ADMIN_PASSWORD: 'secret-pass' };
+  const now = new Date('2026-10-23T12:00:00Z');
+
+  it('adds anonymous visits, new players, spins and cards to each day', async () => {
+    const res = await handleBatch(post([
+      { k: 'visit', new: 1, day: '2026-10-23' },
+      { k: 'visit', new: 0, day: '2026-10-23' },
+      { k: 'stats', spins: 12, cards: 9, day: '2026-10-23' },
+      { k: 'stats', spins: 3, cards: 2, day: '2026-10-22' },
+      { k: 'visit', new: 1, day: '2019-01-01' }, // far in the past: refused
+      { k: 'stats', spins: 0, cards: 0, day: '2026-10-23' }, // nothing to add: skipped
+    ]), { store, now });
+    expect(await res.json()).toEqual({ ok: true, saved: 4, skipped: 2 });
+    const batch = JSON.parse(store.m.get(keys(store, 'c/e/')[0]));
+    expect(batch).toEqual({
+      '2026-10-23': { visits: 2, newPlayers: 1, spins: 12, cards: 9 },
+      '2026-10-22': { spins: 3, cards: 2 },
+    });
+    expect(JSON.stringify(batch)).not.toMatch(/ip|id|name/i);
+  });
+
+  it('shows today, yesterday, 7 days, 30 days and all time on the Visitors page', async () => {
+    await handleBatch(post([{ k: 'visit', new: 1, day: '2026-10-23' }, { k: 'stats', spins: 5, cards: 4, day: '2026-10-23' }]), { store, now });
+    await handleBatch(post([{ k: 'visit', new: 0, day: '2026-10-22' }]), { store, now });
+    const html = await (await handleAdmin(admin('/admin/visitors'), { store, env, now })).text();
+    expect(html).toContain('Visitors');
+    expect(html).toMatch(/Today<\/div><div[^>]*>1<\/div>/);
+    expect(html).toMatch(/Last 7 days<\/div><div[^>]*>2<\/div>/);
+    expect(html).toContain('5 spins');
+    expect(keys(store, 'c/e/')).toHaveLength(0); // merged into the summary
+    expect(JSON.parse(store.m.get('c/summary'))['2026-10-23']).toEqual({ visits: 1, newPlayers: 1, spins: 5, cards: 4 });
+  });
+});

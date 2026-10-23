@@ -9,11 +9,11 @@ import { freeAngle, seatTarget, towardsSeat, nextSeat, nextPart, spinPlan, norm 
 import * as deck from './deck.js';
 import * as sound from './sound.js';
 import { h, icon, openLayer, anyLayerOpen, toast, ask } from './ui.js';
-import { vote, reportSheet, feedbackSheet, flush } from './feedback.js';
+import { vote, reportSheet, feedbackSheet, flush, countVisit, countPlay } from './feedback.js';
 import { ownCards, addSheet, readSharedLink, importSheet } from './custom.js';
 import { invite, shareCard } from './share.js';
 import { track, startAnalytics } from './analytics.js';
-import { levelSheet, namesSheet, settingsSheet, iosTip } from './sheets.js';
+import { levelSheet, namesSheet, settingsSheet, iosTip, installSheet } from './sheets.js';
 import { CARD_ID } from '../shared/validate.js';
 
 // ---------- State ----------
@@ -402,6 +402,7 @@ async function spin(dir = 1, speed = 0) {
   setPhase('choice');
   els.live.textContent = playerName() ? t('pickedName', { name: playerName() }) : t('stopped');
   track('spin');
+  countPlay('spins');
 }
 
 // ---------- Cards ----------
@@ -513,6 +514,7 @@ async function openTurn(type) {
   setPhase('card');
   openCardView();
   track(type);
+  countPlay('cards');
 }
 
 function openGroupRound() {
@@ -651,13 +653,25 @@ window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   installEvent = e;
 });
-window.addEventListener('appinstalled', () => { installEvent = null; track('installed'); });
+window.addEventListener('appinstalled', () => {
+  installEvent = null;
+  track('installed');
+  showGetApp();
+  toast(t('installedToast'));
+});
+
+/** The "Get app" button shows until the game runs as an installed app. */
+function showGetApp() {
+  const btn = document.getElementById('getAppBtn');
+  if (btn) btn.hidden = standalone() || load('installed', false);
+}
 
 async function install() {
-  if (!installEvent) return;
+  if (!installEvent) return false;
   installEvent.prompt();
-  await installEvent.userChoice.catch(() => null);
+  const choice = await installEvent.userChoice.catch(() => null);
   installEvent = null;
+  return choice?.outcome === 'accepted';
 }
 
 const isIOS = () => /iphone|ipad|ipod/i.test(navigator.userAgent) && !window.MSStream;
@@ -667,7 +681,7 @@ function maybeShowTip() {
   const shown = load('tips', {});
   let tip = null;
   if (S.rounds >= 5 && !shown.install && !standalone() && (installEvent || isIOS())) {
-    tip = { key: 'install', text: t('tipInstall'), run: () => (installEvent ? install() : iosTip()) };
+    tip = { key: 'install', text: t('tipInstall'), run: () => installSheet(app) };
   } else if (S.rounds >= 10 && !shown.feedback) {
     tip = { key: 'feedback', text: t('tipFeedback'), run: openFeedback };
   }
@@ -700,6 +714,7 @@ function openLevels() {
 const app = {
   settings, S, setSetting, heatOf, selectLevel, setNames, confirmAdult, install, renderTop,
   canInstall: () => Boolean(installEvent),
+  isInstalled: () => standalone(),
   openLevels, openFeedback, invite,
   openAdd: () => addSheet(customCtx()),
   customCtx,
@@ -800,6 +815,9 @@ function boot() {
   document.querySelectorAll('[data-boot]').forEach((b) => { b.disabled = false; });
   setPhase('idle');
   deck.loadLevel(S.level).catch(() => {});
+  countVisit();
+  showGetApp();
+  $('getAppBtn').addEventListener('click', () => { installSheet(app); track('get-app'); });
   readLinks();
   startAnalytics();
   setTimeout(flush, 3000);

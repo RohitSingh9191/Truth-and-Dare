@@ -217,7 +217,7 @@ export function settingsSheet(app) {
           h('button', { class: 'btn', type: 'button', onclick: () => { s.close(); myQuestionsSheet(app.customCtx()); } }, icon('list'), t('myQuestions')),
           h('button', { class: 'btn', type: 'button', onclick: () => { s.close(); app.openFeedback(); } }, icon('chat'), t('feedback')),
           h('button', { class: 'btn', type: 'button', onclick: () => app.invite() }, icon('whatsapp'), t('invite')),
-          app.canInstall() && h('button', { class: 'btn', type: 'button', onclick: () => app.install() }, icon('download'), t('installApp')),
+          !app.isInstalled() && h('button', { class: 'btn', type: 'button', onclick: () => { s.close(); installSheet(app); } }, icon('download'), t('installApp')),
           h('button', {
             class: 'btn', type: 'button',
             onclick: async () => {
@@ -253,6 +253,45 @@ export function aboutSheet() {
     h('p', {}, t('contactText'), ' ', h('a', { href: `mailto:${CONFIG.contactEmail}` }, CONFIG.contactEmail)),
     h('p', {}, h('a', { href: '/privacy.html' }, t('privacy'))),
     h('p', { class: 'fine center credit' }, `TruthSpin ${CONFIG.version} · ${t('developedBy')}`),
+  ]);
+}
+
+// ---------- Get the app (install on phone or computer) ----------
+
+function device() {
+  const ua = navigator.userAgent;
+  const ios = /iphone|ipad|ipod/i.test(ua) || (/macintosh/i.test(ua) && navigator.maxTouchPoints > 1);
+  if (ios) return 'ios';
+  if (/android/i.test(ua)) return 'android';
+  if (/firefox/i.test(ua)) return 'firefox';
+  if (/safari/i.test(ua) && !/chrome|chromium|edg/i.test(ua)) return 'mac-safari';
+  return 'desktop';
+}
+
+const STEPS = {
+  ios: ['installIos1', 'installIos2', 'installIos3'],
+  android: ['installAndroid1', 'installAndroid2'],
+  desktop: ['installDesktop1', 'installDesktop2'],
+  'mac-safari': ['installMacSafari1'],
+  firefox: ['installFirefox1'],
+};
+
+export function installSheet(app) {
+  const here = device();
+  const steps = (key) => h('ol', { class: 'how' }, STEPS[key].map((k) => h('li', {}, t(k))));
+  const others = Object.keys(STEPS).filter((k) => k !== here && k !== 'mac-safari' && k !== 'firefox');
+  const s = sheet(t('getAppTitle'), [
+    h('p', { class: 'lead' }, t('getAppLead')),
+    app.canInstall()
+      ? h('button', {
+        class: 'btn primary', type: 'button', style: { width: '100%' },
+        onclick: async () => { if (await app.install()) s.close(); },
+      }, icon('download'), t('installNow'))
+      : [h('h3', {}, t(`installOn_${here}`)), steps(here)],
+    h('details', { class: 'other-devices' },
+      h('summary', {}, t('installOther')),
+      others.map((k) => [h('h3', {}, t(`installOn_${k}`)), steps(k)])),
+    h('p', { class: 'fine' }, t('getAppNote')),
   ]);
 }
 

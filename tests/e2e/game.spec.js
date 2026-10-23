@@ -379,3 +379,42 @@ test('the number of parts can be changed or switched off, and names replace them
   await expect(page.locator('#parts .part')).toHaveCount(0);
   await expect(page.locator('.seat')).toHaveCount(3);
 });
+
+
+test('counts one anonymous visit per day, and the spins and cards played', async ({ page }) => {
+  await page.goto('/');
+  const outbox = () => page.evaluate(() => JSON.parse(localStorage.getItem('ts1:outbox') || '[]'));
+  let box = await outbox();
+  expect(box.filter((i) => i.k === 'visit')).toHaveLength(1);
+  expect(box.find((i) => i.k === 'visit').new).toBe(1);
+  await page.reload();
+  box = await outbox();
+  expect(box.filter((i) => i.k === 'visit'), 'still one visit after reopening the same day').toHaveLength(1);
+  await page.locator('#spinBtn').click();
+  await expect(page.locator('#choice')).toBeVisible({ timeout: 8000 });
+  await page.locator('#truthBtn').click();
+  box = await outbox();
+  const stats = box.find((i) => i.k === 'stats');
+  expect(stats.spins).toBe(1);
+  expect(stats.cards).toBe(1);
+  expect(JSON.stringify(box)).not.toMatch(/"(name|id|ip)"/);
+});
+
+test('Get app button opens install help, and is hidden inside the installed app', async ({ page }) => {
+  await page.goto('/');
+  await expect(page.locator('#getAppBtn')).toBeVisible();
+  await page.locator('#getAppBtn').click();
+  await expect(page.getByRole('dialog', { name: 'Get the TruthSpin app: free' })).toBeVisible();
+  await expect(page.getByText('Other devices')).toBeVisible();
+  await shot(page, '16-get-app');
+});
+
+test.describe('on an iPhone', () => {
+  test.use({ userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1' });
+  test('Get app shows the Add to Home Screen steps', async ({ page }) => {
+    await page.goto('/');
+    await page.locator('#getAppBtn').click();
+    await expect(page.getByRole('heading', { name: 'On iPhone or iPad' })).toBeVisible();
+    await expect(page.getByText('Add to Home Screen”', { exact: false }).first()).toBeVisible();
+  });
+});

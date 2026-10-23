@@ -5,7 +5,7 @@
   "description": "TruthSpin: Truth or Dare with a spinning bottle. Free, offline, no sign-up.",
   "type": "module",
   "scripts": {
-    "questions": "node scripts/build-questions.mjs",
+    "questions": "node scripts/build-questions.mjs && node scripts/build-seo.mjs",
     "dev": "npm run questions && vite",
     "build": "npm run questions && vite build",
     "preview": "vite preview",

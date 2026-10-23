@@ -5,6 +5,7 @@
 // Storage keys:  s/pending/<id>  suggestions waiting for review
 //                f/new/<id>      feedback not yet read
 //                v/e/<id>        one batch of ratings (merged into v/summary by the review page)
+//                c/e/<id>        one batch of visitor counts per day (merged into c/summary)
 //                l/<kind>/<hour> hourly totals for the whole game (spam brake)
 
 import {
@@ -40,9 +41,22 @@ async function verifyTurnstile(token, secret) {
 const day = (it) => (DAY.test(it.day) ? it.day : null);
 const lang = (it) => String(it.lang || '').slice(0, 10);
 
+const whole = (v, max) => Math.min(max, Math.max(0, Math.floor(Number(v) || 0)));
+
 /** Checks one item from the phone. Returns { kind, data } or null. */
-export function parseItem(it) {
+export function parseItem(it, now = new Date()) {
   if (!it || typeof it !== 'object') return null;
+
+  if (it.k === 'visit' || it.k === 'stats') {
+    const d = day(it);
+    // Only today, give or take a couple of days (phones in other time zones, offline queues).
+    if (!d || Math.abs(Date.parse(d) - now.getTime()) > 3 * 864e5) return null;
+    if (it.k === 'visit') return { kind: 'count', data: { day: d, counts: { visits: 1, newPlayers: it.new ? 1 : 0 } } };
+    const spins = whole(it.spins, 5000);
+    const cards = whole(it.cards, 5000);
+    if (!spins && !cards) return null;
+    return { kind: 'count', data: { day: d, counts: { spins, cards } } };
+  }
 
   if (it.k === 'vote') {
     if (!CARD_ID.test(it.id || '')) return null;
@@ -98,15 +112,18 @@ export async function handleBatch(request, { store, env = {}, now = new Date() }
   }
 
   const votes = {};
+  const days = {};
   const texts = [];
+  let countItems = 0;
   for (const it of items) {
-    const parsed = parseItem(it);
+    const parsed = parseItem(it, now);
     if (!parsed) continue;
     if (parsed.kind === 'vote') addVotes(votes, { [parsed.data.id]: { [parsed.data.field]: 1 } });
+    else if (parsed.kind === 'count') { addVotes(days, { [parsed.data.day]: parsed.data.counts }); countItems++; }
     else texts.push(parsed);
   }
   const voteCount = Object.values(votes).reduce((n, row) => n + Object.values(row).reduce((a, b) => a + b, 0), 0);
-  const saved = voteCount + texts.length;
+  const saved = voteCount + countItems + texts.length;
   if (!saved) return json({ error: 'nothing valid' }, 400);
 
   const hour = now.toISOString().slice(0, 13);
@@ -125,6 +142,7 @@ export async function handleBatch(request, { store, env = {}, now = new Date() }
     { ...x.data, created, version },
   ));
   if (voteCount) writes.push(store.setJSON(`v/e/${newId()}`, votes));
+  if (countItems) writes.push(store.setJSON(`c/e/${newId()}`, days));
   await Promise.all(writes);
   return json({ ok: true, saved, skipped: items.length - saved });
 }

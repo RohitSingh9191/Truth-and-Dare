@@ -11,3 +11,6 @@ playwright-report/
 *.docx
 *.pdf
 research/
+
+# Claude Code settings on this computer
+.claude/

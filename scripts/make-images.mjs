@@ -37,7 +37,12 @@ const og = page(`<div class="bg"></div>
     <div style="font-size:30px;margin-top:10px;color:#2ED3C1;font-weight:700">Kids · Friends · Party · 18+</div>
   </div>`, 1200, 630);
 
+const favicon = (size) => `<!doctype html><html><head><style>html,body{margin:0;width:${size}px;height:${size}px;overflow:hidden}img{width:100%;height:100%;display:block}</style></head>
+<body><img src="data:image/svg+xml;base64,${Buffer.from(readFileSync('public/favicon.svg')).toString('base64')}"></body></html>`;
+
 const jobs = [
+  ['public/favicon-48.png', favicon(48), 48, 48],
+  ['public/favicon-96.png', favicon(96), 96, 96],
   ['public/icon-192.png', icon(192), 192, 192],
   ['public/icon-512.png', icon(512), 512, 512],
   ['public/icon-maskable-512.png', icon(512, { round: false, scale: 0.56 }), 512, 512],

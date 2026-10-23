@@ -6,7 +6,7 @@ Everything is free except the domain (about ₹900–1,900 a year).
 ## 1. Before launch: things only you can do
 
 - [ ] **Read and approve the questions.** Open `TruthSpin - V1 Handover and Question Review.docx`, or edit `content/questions/*.json` directly. The Hinglish lines need a native speaker's check.
-- [ ] **Domain.** Buy `truthspin.app` (and `.in` / `.fun` if you like). If you choose another name, replace `truthspin.app` in `index.html`, `public/robots.txt` and `public/sitemap.xml`.
+- [ ] **Domain.** Buy your domain (for example `truthndare.in`), then change the one line `VITE_SITE_URL=` in `.env` to `https://yourdomain`. Google's address, link previews, robots.txt and the sitemap all follow it.
 - [ ] **Trademark search** in India (IP India public search, classes 9 and 41), or ask a trademark attorney.
 - [x] **Contact email:** codewithrohitsingh@gmail.com (set in `src/config.js` and `privacy.html`; change it in both places if needed).
 - [ ] **Test with 3 to 5 real groups** on real phones (one cheap Android, one iPhone) before telling everyone.
@@ -53,6 +53,7 @@ Open `https://truthspin.app/admin` and sign in with your `ADMIN_USER` (or any na
 - **Approved:** copy the list into `content/questions/<level>.json`. Give each card the next free id (for example `ft069` after `ft068`) and a Hinglish line, push, then tap **Mark all as added**.
 - **Card ratings:** red rows have 3 or more "Too spicy" or "Unsafe" reports. Check those first. Rewrite or remove cards many players dislike.
 - **Feedback:** read and mark as read.
+- **Visitors:** how many phones and computers opened the game each day, new players, spins and cards played (no personal data).
 
 ## Changing questions or screen text
 

@@ -15,3 +15,6 @@
 
 /registerSW.js
   Cache-Control: no-cache
+
+/manifest.webmanifest
+  Content-Type: application/manifest+json

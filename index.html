@@ -8,22 +8,27 @@
   <meta name="author" content="Rohit Singh">
   <meta name="theme-color" content="#15112b">
   <meta name="color-scheme" content="dark light">
-  <link rel="canonical" href="https://truthspin.app/">
+  <link rel="canonical" href="%VITE_SITE_URL%/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-96.png" sizes="96x96" type="image/png">
+  <link rel="icon" href="/favicon-48.png" sizes="48x48" type="image/png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="TruthSpin">
   <meta property="og:title" content="TruthSpin: Truth or Dare with a spinning bottle">
   <meta property="og:description" content="Spin the bottle, pick truth or dare. Free, no sign-up, works offline.">
-  <meta property="og:url" content="https://truthspin.app/">
-  <meta property="og:image" content="https://truthspin.app/og.jpg">
+  <meta property="og:url" content="%VITE_SITE_URL%/">
+  <meta property="og:image" content="%VITE_SITE_URL%/og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="TruthSpin">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"TruthSpin","alternateName":["Truth and Dare","Truth or Dare: Spin the Bottle"],"url":"https://truthspin.app/","applicationCategory":"GameApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"inLanguage":["en","hi-Latn"],"author":{"@type":"Person","name":"Rohit Singh"},"description":"Truth and dare with a spinning bottle. Free, no sign-up, works offline."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"TruthSpin","alternateName":["Truth and Dare","Truth or Dare: Spin the Bottle"],"url":"%VITE_SITE_URL%/","applicationCategory":"GameApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"inLanguage":["en","hi-Latn"],"author":{"@type":"Person","name":"Rohit Singh"},"description":"Truth and dare with a spinning bottle. Free, no sign-up, works offline."}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"TruthSpin","alternateName":["Truth n Dare","Truth and Dare"],"url":"%VITE_SITE_URL%/"}
   </script>
 </head>
 <body data-phase="idle">
@@ -82,6 +87,7 @@
 
     <main id="stage" class="stage">
       <div class="glow" aria-hidden="true"></div>
+      <button id="getAppBtn" class="get-app" type="button" hidden><svg class="i" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="getAppShort">Get app</span></button>
       <div id="parts" class="parts" aria-hidden="true"></div>
       <div class="bshadow" aria-hidden="true"></div>
       <div id="ring" class="ring"></div>
