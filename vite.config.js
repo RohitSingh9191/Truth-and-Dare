@@ -42,9 +42,10 @@ export default defineConfig({
       workbox: {
         // The whole game, including every question file, is saved on the phone after the first visit.
         globPatterns: ['**/*.{js,css,html,json,svg,png,webmanifest}'],
-        globIgnores: ['og.jpg', 'icon-512.png', 'icon-maskable-512.png'],
+        // Question-list pages are for Google and visitors, not the offline game.
+        globIgnores: ['og.jpg', 'icon-512.png', 'icon-maskable-512.png', '*/index.html', 'pages.json'],
         navigateFallback: '/index.html',
-        navigateFallbackDenylist: [/^\/api\//, /^\/admin/, /^\/privacy/],
+        navigateFallbackDenylist: [/^\/api\//, /^\/admin/, /^\/privacy/, /^\/(truth-and-dare|spin-the-bottle|never-have-i-ever|would-you-rather)/],
         cleanupOutdatedCaches: true,
       },
     }),

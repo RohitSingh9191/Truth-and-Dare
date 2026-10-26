@@ -225,6 +225,7 @@ export function settingsSheet(app) {
             },
           }, icon('refresh'), t('resetSeen')),
           h('button', { class: 'btn', type: 'button', onclick: () => { s.close(); aboutSheet(); } }, icon('info'), t('about')),
+          h('a', { class: 'btn', href: '/truth-and-dare-questions/' }, icon('list'), t('questionLists')),
           h('a', { class: 'btn', href: '/privacy.html' }, icon('lock'), t('privacy')),
         ),
       ),

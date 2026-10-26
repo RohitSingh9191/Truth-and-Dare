@@ -435,3 +435,28 @@ test('the question card has its own English / Hinglish button', async ({ page })
   await page.locator('#doneBtn').click();
   await expect(page.locator('#langBtn')).toHaveText('EN'); // the main screen button follows
 });
+
+
+test('question-list pages: readable without the game, useful, and open the game on the right level', async ({ page }) => {
+  await page.goto('/truth-and-dare-questions-for-friends/');
+  await expect(page.locator('h1')).toHaveText('Truth and Dare Questions for Friends');
+  await expect(page.locator('main ol li').first()).toBeVisible();
+  expect(await page.locator('main ol li').count()).toBeGreaterThan(60);
+  const ld = await page.locator('script[type="application/ld+json"]').textContent();
+  expect(JSON.parse(ld)[1]['@type']).toBe('FAQPage');
+  const { sw, iw } = await page.evaluate(() => ({ sw: document.documentElement.scrollWidth, iw: innerWidth }));
+  expect(sw).toBeLessThanOrEqual(iw);
+  await shot(page, '18-question-page');
+  await page.locator('a.cta').first().click();
+  await expect(page.locator('#levelName')).toHaveText('Friends');
+  await expect(page).toHaveURL(/\/$/);
+});
+
+test('the Hindi page opens the game in Hinglish, the kids page on Kids & Family', async ({ page }) => {
+  await page.goto('/truth-and-dare-questions-in-hindi/');
+  await page.locator('a.cta').first().click();
+  await expect(page.locator('#langBtn')).toHaveText('HI');
+  await page.goto('/truth-and-dare-for-kids/');
+  await page.locator('a.cta').first().click();
+  await expect(page.locator('#levelName')).toHaveText('Kids & Family');
+});

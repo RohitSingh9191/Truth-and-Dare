@@ -748,7 +748,15 @@ function readLinks() {
   const q = params.get('q');
   const ref = (params.get('ref') || '').toLowerCase();
   if (/^[a-z-]{1,20}$/.test(ref)) track(`from/${ref}`); // which shares bring players
-  if (params.has('q') || params.has('ref')) history.replaceState(null, '', location.pathname + location.hash);
+  // Links from the question-list pages open the game on the right level and language.
+  const lang = params.get('lang');
+  if (lang === 'hi' || lang === 'en') setSetting('lang', lang);
+  const level = params.get('level');
+  if (LEVEL[level] && visibleLevels(settings).some((l) => l.key === level)) {
+    if (LEVEL[level].adult) selectLevel(level, settings.heat[level] || 1); // asks the 18+ question
+    else setLevel(level);
+  }
+  if (['q', 'ref', 'level', 'lang'].some((k) => params.has(k))) history.replaceState(null, '', location.pathname + location.hash);
   const pack = readSharedLink();
   if (pack) importSheet(pack, { ...customCtx(), onSaved: () => {} });
   else if (q && CARD_ID.test(q)) openSharedCard(q);

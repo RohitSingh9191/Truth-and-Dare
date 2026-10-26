@@ -14,3 +14,10 @@ research/
 
 # Claude Code settings on this computer
 .claude/
+
+# Made by scripts/build-pages.mjs at every build
+public/pages.json
+public/truth-and-dare*/
+public/spin-the-bottle-game/
+public/never-have-i-ever-questions/
+public/would-you-rather-questions/

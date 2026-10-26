@@ -211,6 +211,7 @@ const en = {
   resetDone: 'Done. All questions are fresh.',
   about: 'How to play & about',
   privacy: 'Privacy',
+  questionLists: 'Truth and dare question lists',
 
   // About
   howTitle: 'How to play',
@@ -490,6 +491,7 @@ const hi = {
   resetLead: 'Pehle dekhe hue cards phir se aa sakte hain.',
   resetDone: 'Ho gaya. Saare sawaal naye jaise.',
   about: 'Kaise khelein & about',
+  questionLists: 'Truth and dare sawaalon ki list',
 
   howTitle: 'Kaise khelein',
   how1: 'Phone ko group ke beech mein rakhiye.',

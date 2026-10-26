@@ -12,3 +12,16 @@
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
+
+# One address for everyone: the old Netlify address sends people to the domain.
+# The game's server part keeps answering on the old address, for phones that installed it there.
+[[redirects]]
+  from = "https://bottlespingame.netlify.app/api/*"
+  to = "/api/:splat"
+  status = 200
+
+[[redirects]]
+  from = "https://bottlespingame.netlify.app/*"
+  to = "https://truthndare.in/:splat"
+  status = 301
+  force = true

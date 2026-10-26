@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin
 Disallow: /api/
 
-Sitemap: https://bottlespingame.netlify.app/sitemap.xml
+Sitemap: https://truthndare.in/sitemap.xml

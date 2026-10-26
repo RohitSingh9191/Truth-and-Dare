@@ -64,3 +64,26 @@ describe('screen text', () => {
     }
   });
 });
+
+
+describe('question-list pages for Google', () => {
+  it('exist, have one clear heading, a matching canonical address and no 18+ "Very hot" cards', async () => {
+    const { readFileSync, existsSync } = await import('node:fs');
+    const pages = JSON.parse(readFileSync('public/pages.json', 'utf8'));
+    expect(pages.length).toBeGreaterThanOrEqual(8);
+    const hot = new Set(JSON.parse(readFileSync('content/questions/couples.json', 'utf8')).cards.filter((c) => c.heat === 3).flatMap((c) => [c.en, c.hi]));
+    for (const { slug } of pages) {
+      const html = readFileSync(`public/${slug}/index.html`, 'utf8');
+      expect((html.match(/<h1>/g) || []).length, slug).toBe(1);
+      expect(html, slug).toMatch(new RegExp(`rel="canonical" href="https://[^"]+/${slug}/"`));
+      expect(html.length, slug).toBeGreaterThan(5000);
+      for (const li of html.matchAll(/<li>([^<]+)<\/li>/g)) {
+        const text = li[1].replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, '&');
+        expect(hot.has(text), `${slug}: heat-3 card on a public page`).toBe(false);
+      }
+      for (const href of html.matchAll(/href="\/([a-z-]+)\/"/g)) expect(existsSync(`public/${href[1]}/index.html`), `${slug} links to /${href[1]}/`).toBe(true);
+    }
+    const sitemap = readFileSync('public/sitemap.xml', 'utf8');
+    for (const { slug } of pages) expect(sitemap).toContain(`/${slug}/</loc>`);
+  });
+});
