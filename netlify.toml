@@ -1,4 +1,4 @@
-# Netlify settings for TruthSpin. Every push to the main branch on GitHub publishes the game.
+# Netlify settings for Truth n Dare. Every push to the main branch on GitHub publishes the game.
 # See LAUNCH.md. Secrets (ADMIN_PASSWORD, optional TURNSTILE_SECRET) are set in the Netlify
 # dashboard, never in this file.
 

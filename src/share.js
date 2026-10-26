@@ -67,7 +67,7 @@ export async function shareCard(card, levelKey, typeLabel) {
 
     ctx.fillStyle = '#ffffff';
     ctx.font = `800 52px ${font}`;
-    ctx.fillText('TruthSpin', 80, 130);
+    ctx.fillText('Truth n Dare', 80, 130);
     ctx.font = `600 34px ${font}`;
     ctx.fillStyle = lvl.color;
     ctx.fillText(`${t(`level_${levelKey}`)} · ${lvl.age === 'all' ? t('allAges') : lvl.age}`, 80, 185);
@@ -118,7 +118,7 @@ export async function shareCard(card, levelKey, typeLabel) {
     ctx.fillText(location.host, qx + cell * n + 50, qy + 120);
 
     const blob = await new Promise((r) => canvas.toBlob(r, 'image/png'));
-    const file = new File([blob], 'truthspin-card.png', { type: 'image/png' });
+    const file = new File([blob], 'truthndare-card.png', { type: 'image/png' });
     track('share-card');
     if (navigator.canShare?.({ files: [file] })) {
       await navigator.share({ files: [file], text: `${t('shareCardText')} ${link}` });

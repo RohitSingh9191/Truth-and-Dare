@@ -2,7 +2,7 @@
 // feature off, so the game still works without them.
 
 export const CONFIG = {
-  // GoatCounter site code, e.g. 'truthspin' for https://truthspin.goatcounter.com
+  // GoatCounter site code, e.g. 'truthndare' for https://truthndare.goatcounter.com
   goatcounter: '',
   // Optional Cloudflare Turnstile site key (public). Empty: no spam check, which is fine to start with.
   turnstileSiteKey: '',

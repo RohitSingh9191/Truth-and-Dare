@@ -184,7 +184,7 @@ function backupSheet() {
       h('button', {
         class: 'btn', type: 'button',
         onclick: () => {
-          const a = h('a', { href: URL.createObjectURL(new Blob([code.value], { type: 'application/json' })), download: 'truthspin-questions.json' });
+          const a = h('a', { href: URL.createObjectURL(new Blob([code.value], { type: 'application/json' })), download: 'truthndare-questions.json' });
           a.click();
           setTimeout(() => URL.revokeObjectURL(a.href), 5000);
         },

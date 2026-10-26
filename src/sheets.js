@@ -229,7 +229,7 @@ export function settingsSheet(app) {
           h('a', { class: 'btn', href: '/privacy.html' }, icon('lock'), t('privacy')),
         ),
       ),
-      h('p', { class: 'fine center credit' }, `TruthSpin ${CONFIG.version} · ${t('developedBy')}`),
+      h('p', { class: 'fine center credit' }, `Truth n Dare ${CONFIG.version} · ${t('developedBy')}`),
     );
   };
   render();
@@ -253,7 +253,7 @@ export function aboutSheet() {
     h('h3', {}, t('contactTitle')),
     h('p', {}, t('contactText'), ' ', h('a', { href: `mailto:${CONFIG.contactEmail}` }, CONFIG.contactEmail)),
     h('p', {}, h('a', { href: '/privacy.html' }, t('privacy'))),
-    h('p', { class: 'fine center credit' }, `TruthSpin ${CONFIG.version} · ${t('developedBy')}`),
+    h('p', { class: 'fine center credit' }, `Truth n Dare ${CONFIG.version} · ${t('developedBy')}`),
   ]);
 }
 

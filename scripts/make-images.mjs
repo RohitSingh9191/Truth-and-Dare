@@ -31,7 +31,7 @@ const og = page(`<div class="bg"></div>
   <div class="ring" style="left:900px;width:520px;height:520px"></div>
   <div class="b" style="left:900px;height:430px;width:${430 * 100 / 260}px;translate:-50% -50%;rotate:35deg">${bottle}</div>
   <div style="position:absolute;left:80px;top:120px;width:620px">
-    <div style="font-size:96px;font-weight:900;letter-spacing:-1px">TruthSpin</div>
+    <div style="font-size:84px;font-weight:900;letter-spacing:-1px">Truth n Dare</div>
     <div style="font-size:44px;font-weight:700;margin-top:8px;line-height:1.2">Truth or Dare with a spinning bottle</div>
     <div style="font-size:30px;margin-top:34px;color:#b9b1df">Free · No sign-up · Works offline</div>
     <div style="font-size:30px;margin-top:10px;color:#2ED3C1;font-weight:700">Kids · Friends · Party · 18+</div>

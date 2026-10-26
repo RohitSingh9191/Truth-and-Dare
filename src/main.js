@@ -1,4 +1,4 @@
-// TruthSpin: open, spin, Truth or Dare. Two taps to the first question.
+// Truth n Dare: open, spin, Truth or Dare. Two taps to the first question.
 
 import './app.css';
 import { load, save } from './store.js';

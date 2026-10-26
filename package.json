@@ -2,7 +2,7 @@
   "name": "truthspin",
   "version": "1.0.0",
   "private": true,
-  "description": "TruthSpin: Truth or Dare with a spinning bottle. Free, offline, no sign-up.",
+  "description": "Truth n Dare: play truth or dare with a spinning bottle. Free, offline, no sign-up.",
   "type": "module",
   "scripts": {
     "questions": "node scripts/build-questions.mjs && node scripts/build-pages.mjs && node scripts/build-seo.mjs",

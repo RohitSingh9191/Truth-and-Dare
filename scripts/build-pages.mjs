@@ -20,12 +20,12 @@ function pick(level, type, n, { heats = [0, 1, 2], lang = 'en' } = {}) {
 const PAGES = [
   {
     slug: 'truth-and-dare-questions',
-    title: 'Truth and Dare Questions: 100 Best Truths and Dares | TruthSpin',
+    title: 'Truth and Dare Questions: 100 Best Truths and Dares | Truth n Dare',
     h1: 'Truth and Dare Questions',
     desc: 'The best truth and dare questions for friends, family and parties: funny truths, easy dares and group games. Play them free with a spinning bottle.',
     play: '/?level=friends&ref=page',
     intro: [
-      'Running out of ideas is the fastest way to end a game of truth and dare. Here are 100 of our favourite questions, taken from the 800 in the TruthSpin game: honest but kind truths, dares you can do right where you sit, and quick group questions everyone answers at once.',
+      'Running out of ideas is the fastest way to end a game of truth and dare. Here are 100 of our favourite questions, taken from the 800 in the Truth n Dare game: honest but kind truths, dares you can do right where you sit, and quick group questions everyone answers at once.',
       'Every dare stays in the room and takes about a minute. No calling, no posting and nothing risky. And anyone can skip a card, no questions asked.',
     ],
     lists: [
@@ -38,19 +38,19 @@ const PAGES = [
     faq: [
       ['How do you play truth and dare?', 'Sit in a circle. One player is picked, for example by spinning a bottle, and chooses truth or dare. A truth is a question they answer honestly; a dare is a small task they do right away. Then the next player is picked.'],
       ['What are good truth and dare questions for friends?', 'Good questions are funny and a little embarrassing but never mean, like asking about a secret favourite song or the weirdest thing someone searched online. The lists above are a good start, and the Friends page has more.'],
-      ['What if someone does not want to answer?', 'Let them skip. In TruthSpin, Skip is free and unlimited, because the game should be fun for everyone.'],
-      ['Is TruthSpin free?', 'Yes. It is free, needs no sign-up, has no ads and works offline after the first visit.'],
+      ['What if someone does not want to answer?', 'Let them skip. In Truth n Dare, Skip is free and unlimited, because the game should be fun for everyone.'],
+      ['Is Truth n Dare free?', 'Yes. It is free, needs no sign-up, has no ads and works offline after the first visit.'],
     ],
   },
   {
     slug: 'truth-and-dare-questions-for-friends',
-    title: 'Truth and Dare Questions for Friends: Funny Truths and Dares | TruthSpin',
+    title: 'Truth and Dare Questions for Friends: Funny Truths and Dares | Truth n Dare',
     h1: 'Truth and Dare Questions for Friends',
     desc: 'Funny truth and dare questions for friends: 75 truths, dares and group questions for hangouts, sleepovers and college nights. Free, with a spinning bottle.',
     play: '/?level=friends&ref=page',
     intro: [
       'These questions are made for school and college friends, cousins and hostel nights: funny and a little embarrassing, never mean. Crushes stay unnamed, and nothing touches on looks, exes or anything that could hurt.',
-      'Want to play them properly? Put a phone in the middle, open TruthSpin and spin the bottle. It picks fairly and never shows the same card twice until you have seen them all.',
+      'Want to play them properly? Put a phone in the middle, open Truth n Dare and spin the bottle. It picks fairly and never shows the same card twice until you have seen them all.',
     ],
     lists: [
       ['Truth questions for friends', pick('friends', 'truth', 30)],
@@ -61,13 +61,13 @@ const PAGES = [
     faq: [
       ['What are funny truth questions to ask friends?', 'Ask about harmless secrets and awkward moments, like a song they secretly love or a habit they hope nobody has noticed. Funny works best when nobody is embarrassed in a hurtful way.'],
       ['What are good dares for friends at home?', 'Dares that need nothing but the room: acting, silly voices, quick challenges with a cushion or paper. Every dare above takes about a minute.'],
-      ['How many players do you need?', 'Two or more. With TruthSpin you can add up to 20 names, or just put the phone in the middle and let everyone pick a number on the circle.'],
+      ['How many players do you need?', 'Two or more. With Truth n Dare you can add up to 20 names, or just put the phone in the middle and let everyone pick a number on the circle.'],
       ['Is this suitable for teenagers?', 'Yes. The Friends level is made for ages 13 and up: no kissing, touching, alcohol or sexual topics.'],
     ],
   },
   {
     slug: 'truth-and-dare-questions-for-couples',
-    title: 'Truth and Dare Questions for Couples: Romantic and Fun | TruthSpin',
+    title: 'Truth and Dare Questions for Couples: Romantic and Fun | Truth n Dare',
     h1: 'Truth and Dare Questions for Couples',
     desc: 'Romantic and fun truth and dare questions for couples: sweet memories, playful dares and would-you-rather questions for date night. Free couples game.',
     play: '/?level=couples&ref=page',
@@ -83,14 +83,14 @@ const PAGES = [
     ],
     faq: [
       ['What are good truth questions for couples?', 'Questions about your shared story work best: your first impression of each other, a small moment that made you fall for them, or a habit of theirs you secretly love.'],
-      ['Can we play over a video call?', 'Yes. Most truths and many dares work on a video call. Open TruthSpin on one phone and take turns.'],
+      ['Can we play over a video call?', 'Yes. Most truths and many dares work on a video call. Open Truth n Dare on one phone and take turns.'],
       ['Is the couples game only for adults?', 'The Couples level in the game is 18+ and asks everyone to confirm their age. The questions on this page are the sweet and lightly flirty ones.'],
       ['Do we need names?', 'No. With two names the bottle simply alternates between you, so you both get the same number of turns.'],
     ],
   },
   {
     slug: 'truth-and-dare-for-kids',
-    title: 'Truth and Dare for Kids and Family: Safe, Funny Questions | TruthSpin',
+    title: 'Truth and Dare for Kids and Family: Safe, Funny Questions | Truth n Dare',
     h1: 'Truth and Dare for Kids and Family',
     desc: 'Safe, funny truth and dare questions for kids and the whole family: silly truths, acting and animal dares, would-you-rather questions. Free family game.',
     play: '/?level=kids&ref=page',
@@ -106,19 +106,19 @@ const PAGES = [
     faq: [
       ['What are good truth questions for kids?', 'Imaginative ones: which animal would be you for a day, what you would invent, or the funniest dream you remember. Kids love questions where there is no wrong answer.'],
       ['What are safe dares for kids?', 'Acting, animal sounds, silly walks and small challenges with things like a cushion or paper. Nothing with food, phones or anything that could hurt.'],
-      ['Is TruthSpin safe for children?', 'The Kids & Family level is for all ages, and Family mode hides the Party and 18+ levels. There are no ads, no accounts and nothing personal is collected.'],
+      ['Is Truth n Dare safe for children?', 'The Kids & Family level is for all ages, and Family mode hides the Party and 18+ levels. There are no ads, no accounts and nothing personal is collected.'],
     ],
   },
   {
     slug: 'truth-and-dare-questions-in-hindi',
     lang: 'hi-Latn',
-    title: 'Truth and Dare Questions in Hindi (Hinglish) | TruthSpin',
+    title: 'Truth and Dare Questions in Hindi (Hinglish) | Truth n Dare',
     h1: 'Truth and Dare Questions in Hindi',
     desc: 'Truth and dare questions in Hindi (Hinglish): funny truth sawaal aur dares dosto aur family ke liye. Bottle ghumaiye aur free mein kheliye.',
     play: '/?level=friends&lang=hi&ref=page',
     intro: [
       'Dosto ke saath truth and dare khelna hai, par Hindi mein? Yahan Hinglish mein (Hindi, English letters mein) best truth sawaal aur dares hain: thode funny, thode embarrassing, par kabhi mean nahi.',
-      'TruthSpin game mein ek tap mein English aur Hinglish badal sakte hain. Phone ko beech mein rakhiye, bottle ghumaiye aur kheliye. Free hai, sign-up nahi chahiye.',
+      'Truth n Dare game mein ek tap mein English aur Hinglish badal sakte hain. Phone ko beech mein rakhiye, bottle ghumaiye aur kheliye. Free hai, sign-up nahi chahiye.',
     ],
     lists: [
       ['Truth sawaal (dosto ke liye)', pick('friends', 'truth', 30, { lang: 'hi' })],
@@ -128,18 +128,18 @@ const PAGES = [
     ],
     faq: [
       ['Truth and dare Hindi mein kaise khelte hain?', 'Sab gol ghere mein baith jaiye. Bottle ghumaiye; jiski taraf ruke, woh truth ya dare chune. Truth mein sach bolna hai, dare mein ek chhota sa task karna hai.'],
-      ['Kya yeh game free hai?', 'Haan, TruthSpin bilkul free hai, koi sign-up nahi, koi ads nahi, aur pehli baar ke baad internet ke bina bhi chalta hai.'],
+      ['Kya yeh game free hai?', 'Haan, Truth n Dare bilkul free hai, koi sign-up nahi, koi ads nahi, aur pehli baar ke baad internet ke bina bhi chalta hai.'],
       ['Kya Hindi script (देवनागरी) mein bhi milega?', 'Abhi sawaal Hinglish mein hain, yaani Hindi English letters mein. Devanagari jaldi aayega.'],
     ],
   },
   {
     slug: 'spin-the-bottle-game',
-    title: 'Spin the Bottle Game Online: Free Truth or Dare | TruthSpin',
+    title: 'Spin the Bottle Game Online: Free Truth or Dare | Truth n Dare',
     h1: 'Spin the Bottle Game Online',
     desc: 'Play spin the bottle online for free: a real spinning bottle on your phone that picks a player for truth or dare. Fair, no sign-up, works offline.',
     play: '/?ref=page',
     intro: [
-      'Spin the bottle without a bottle: open TruthSpin on any phone, put it in the middle of the group and tap SPIN, or flick the bottle with your finger. It spins and slows down like a real one, then points at whoever plays next.',
+      'Spin the bottle without a bottle: open Truth n Dare on any phone, put it in the middle of the group and tap SPIN, or flick the bottle with your finger. It spins and slows down like a real one, then points at whoever plays next.',
       'Then that player picks truth or dare, and the game shows a question. It is a friendly party game: the bottle only picks who plays, there are no kissing rules, and anyone can skip a card.',
     ],
     lists: [
@@ -160,13 +160,13 @@ const PAGES = [
   },
   {
     slug: 'never-have-i-ever-questions',
-    title: 'Never Have I Ever Questions: Funny List for Friends and Family | TruthSpin',
+    title: 'Never Have I Ever Questions: Funny List for Friends and Family | Truth n Dare',
     h1: 'Never Have I Ever Questions',
     desc: 'Funny never have I ever questions for friends, family and parties. Anyone who has done it raises a hand. Clean, easy and free to play.',
     play: '/?level=friends&ref=page',
     intro: [
       'Never have I ever is the easiest group game there is: someone reads a line, and everyone who has done it raises a hand and, if they want, tells the story. These questions are clean and funny, sorted from family-friendly to party.',
-      'In TruthSpin, a never have I ever round comes up every few turns between truths and dares, so the whole group gets to play.',
+      'In Truth n Dare, a never have I ever round comes up every few turns between truths and dares, so the whole group gets to play.',
     ],
     lists: [
       ['For kids and family', pick('kids', 'never-have-i-ever', 10)],
@@ -180,13 +180,13 @@ const PAGES = [
   },
   {
     slug: 'would-you-rather-questions',
-    title: 'Would You Rather Questions: Funny Choices for Everyone | TruthSpin',
+    title: 'Would You Rather Questions: Funny Choices for Everyone | Truth n Dare',
     h1: 'Would You Rather Questions',
     desc: 'Funny would you rather questions for kids, friends and parties: impossible choices that start the best conversations. Free to play with your group.',
     play: '/?level=friends&ref=page',
     intro: [
       'A good would you rather question has no easy answer. Everyone picks a side at the same time, then a few people explain why, and that is where the fun starts. Here are some of our favourites, sorted from kids to party.',
-      'In TruthSpin these come up as group rounds between truths and dares, so nobody sits out for long.',
+      'In Truth n Dare these come up as group rounds between truths and dares, so nobody sits out for long.',
     ],
     lists: [
       ['For kids and family', pick('kids', 'would-you-rather', 10)],
@@ -217,7 +217,7 @@ function render(p, all) {
   const url = `${SITE}/${p.slug}/`;
   const ld = [
     { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'TruthSpin', item: `${SITE}/` },
+      { '@type': 'ListItem', position: 1, name: 'Truth n Dare', item: `${SITE}/` },
       { '@type': 'ListItem', position: 2, name: p.h1, item: url },
     ] },
     { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: p.faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
@@ -237,7 +237,7 @@ function render(p, all) {
 <link rel="icon" href="/favicon-96.png" sizes="96x96" type="image/png">
 <meta name="theme-color" content="#15112b">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="TruthSpin">
+<meta property="og:site_name" content="Truth n Dare">
 <meta property="og:title" content="${esc(p.h1)}">
 <meta property="og:description" content="${esc(p.desc)}">
 <meta property="og:url" content="${url}">
@@ -247,9 +247,9 @@ function render(p, all) {
 <style>${css}</style>
 </head>
 <body>
-<header><a class="brand" href="/"><img src="/favicon.svg" alt="" width="28" height="28">TruthSpin</a><a class="play" href="${p.play}">Play free</a></header>
+<header><a class="brand" href="/"><img src="/favicon.svg" alt="" width="28" height="28">Truth n Dare</a><a class="play" href="${p.play}">Play free</a></header>
 <main>
-<nav class="crumbs" aria-label="Breadcrumb"><a href="/">TruthSpin</a> › ${esc(p.h1)}</nav>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Truth n Dare</a> › ${esc(p.h1)}</nav>
 <h1>${esc(p.h1)}</h1>
 ${p.intro.map((x, i) => `<p${i ? '' : ' class="lead"'}>${esc(x)}</p>`).join('\n')}
 <a class="cta" href="${p.play}">▶ Play with the spinning bottle</a>
@@ -261,7 +261,7 @@ ${p.faq.map(([q, a]) => `<h3>${esc(q)}</h3>\n<p>${esc(a)}</p>`).join('\n')}
 <h2>More question lists</h2>
 <ul class="more">${others}</ul>
 </main>
-<footer><a href="/">Play TruthSpin</a> · <a href="/privacy.html">Privacy</a> · Developed by Rohit Singh</footer>
+<footer><a href="/">Play Truth n Dare</a> · <a href="/privacy.html">Privacy</a> · Developed by Rohit Singh</footer>
 </body>
 </html>
 `;

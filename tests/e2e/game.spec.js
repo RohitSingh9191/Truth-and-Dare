@@ -404,7 +404,7 @@ test('Get app button opens install help, and is hidden inside the installed app'
   await page.goto('/');
   await expect(page.locator('#getAppBtn')).toBeVisible();
   await page.locator('#getAppBtn').click();
-  await expect(page.getByRole('dialog', { name: 'Get the TruthSpin app: free' })).toBeVisible();
+  await expect(page.getByRole('dialog', { name: 'Get the Truth n Dare app: free' })).toBeVisible();
   await expect(page.getByText('Other devices')).toBeVisible();
   await shot(page, '16-get-app');
 });

@@ -49,7 +49,7 @@ const HEADERS = {
 function page(title, active, body) {
   const tab = (href, label) => `<a href="${href}"${active === href ? ' class="on"' : ''}>${label}</a>`;
   return new Response(`<!doctype html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)} · TruthSpin admin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)} · Truth n Dare admin</title>
 <style>
 body{margin:0;font:16px/1.5 system-ui,sans-serif;background:#f6f3ff;color:#1b1638}
 main{max-width:900px;margin:0 auto;padding:16px}
@@ -246,7 +246,7 @@ async function cleanUp(store, now) {
 export async function handleAdmin(request, { store, env = {}, loadCards, now = new Date() }) {
   if (!env.ADMIN_PASSWORD) return new Response('Set ADMIN_PASSWORD in Netlify (Site configuration > Environment variables) first.', { status: 503 });
   if (!authorised(request, env.ADMIN_PASSWORD, env.ADMIN_USER)) {
-    return new Response('Password needed', { status: 401, headers: { 'www-authenticate': 'Basic realm="TruthSpin admin", charset="UTF-8"', 'cache-control': 'no-store' } });
+    return new Response('Password needed', { status: 401, headers: { 'www-authenticate': 'Basic realm="Truth n Dare admin", charset="UTF-8"', 'cache-control': 'no-store' } });
   }
   const url = new URL(request.url);
   const path = url.pathname.replace(/^\/admin\/?/, '').replace(/\/$/, '');

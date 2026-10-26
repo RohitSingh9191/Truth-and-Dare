@@ -1,4 +1,4 @@
-# Launching TruthSpin (GitHub + Netlify)
+# Launching Truth n Dare (GitHub + Netlify)
 
 The game goes live the same way as your other sites: push to GitHub, and Netlify publishes it.
 Everything is free except the domain (about ₹900–1,900 a year).
@@ -20,7 +20,7 @@ Everything is free except the domain (about ₹900–1,900 a year).
    - `ADMIN_PASSWORD`: a long password for your review page (mark it as secret).
    - `ADMIN_USER` (optional): the user name for the review page. Without it, any user name works with the right password.
 4. Deploy. The game appears at `https://<name>.netlify.app`. Open `/admin` there to check the password works.
-5. **Domain management → Add a domain**: add `truthspin.app` and follow Netlify's DNS steps.
+5. **Domain management → Add a domain**: add `truthndare.in` and follow Netlify's DNS steps.
 
 Nothing else is needed: suggestions, feedback and ratings are saved in Netlify Blobs, which every Netlify site has built in.
 
@@ -43,11 +43,11 @@ So:
 ## 4. Optional extras
 
 - **Spam check (Cloudflare Turnstile, free):** if robots start sending suggestions, create a Turnstile widget (mode Invisible) at dash.cloudflare.com, put the *site key* in `src/config.js` (`turnstileSiteKey`) and add the *secret key* in Netlify as `TURNSTILE_SECRET`. Set both or neither.
-- **Visit counts (GoatCounter, free):** sign up at goatcounter.com with the code `truthspin`, put `truthspin` in `src/config.js` (`goatcounter`).
+- **Visit counts (GoatCounter, free):** sign up at goatcounter.com with the code `truthndare`, put `truthndare` in `src/config.js` (`goatcounter`).
 
 ## 5. Every week (about 15 minutes)
 
-Open `https://truthspin.app/admin` and sign in with your `ADMIN_USER` (or any name, if you didn't set one) and `ADMIN_PASSWORD`.
+Open `https://truthndare.in/admin` and sign in with your `ADMIN_USER` (or any name, if you didn't set one) and `ADMIN_PASSWORD`.
 
 - **Suggestions:** approve (edit the text if needed) or reject. Checklist: nothing dangerous, no real names, nothing sexual below 18+, no alcohol or romance in Kids & Family. Rejected ones are deleted after 30 days.
 - **Approved:** copy the list into `content/questions/<level>.json`. Give each card the next free id (for example `ft069` after `ft068`) and a Hinglish line, push, then tap **Mark all as added**.

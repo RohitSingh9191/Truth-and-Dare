@@ -22,8 +22,8 @@ export default defineConfig({
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
       manifest: {
         id: '/',
-        name: 'TruthSpin: Truth or Dare',
-        short_name: 'TruthSpin',
+        name: 'Truth n Dare',
+        short_name: 'Truth n Dare',
         description: 'Truth and dare with a spinning bottle. Free, no sign-up, works offline.',
         start_url: '/?ref=app',
         scope: '/',
