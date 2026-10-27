@@ -22,7 +22,7 @@ const DEFAULTS = {
   lang: 'en', // English for everyone at first; Hinglish is one tap away (EN/HI button)
   sound: true,
   vibrate: true,
-  gentle: null, // null = follow the phone's "reduce motion" setting
+  gentle: false, // the real spin for everyone; Gentle spin only when switched on in Settings
   family: false,
   pin: '',
   familyOwn: false,
@@ -81,7 +81,7 @@ const els = {
 
 const heatOf = (level) => (LEVEL[level]?.heat ? settings.heat[level] : 0);
 const ownAllowed = () => !settings.family || settings.familyOwn;
-const gentle = () => settings.gentle ?? matchMedia('(prefers-reduced-motion: reduce)').matches;
+const gentle = () => settings.gentle === true; // older saves hold null (= followed the phone): now off
 const needsGrownUp = () => S.level === 'kids' || settings.family;
 
 // ---------- Settings and top bar ----------
@@ -359,7 +359,7 @@ function renderPickLine() {
 
 async function spin(dir = 1, speed = 0) {
   if ((S.phase !== 'idle' && S.phase !== 'choice') || bottle.spinning) return;
-  sound.unlock();
+  if (settings.sound) sound.unlock();
   S.started = true;
   keepAwake();
   if (LEVEL[S.level].adult && !(await confirmAdult())) {
@@ -634,7 +634,7 @@ function onTimer() {
   if (!card?.secs) return;
   if (S.timer) { stopTimer(); setTimerLabel(card.secs, false); return; }
   let left = card.secs;
-  sound.unlock();
+  if (settings.sound) sound.unlock();
   setTimerLabel(left, true);
   S.timer = setInterval(() => {
     left--;
@@ -801,6 +801,7 @@ function boot() {
   els.soundBtn.addEventListener('click', () => {
     setSetting('sound', !settings.sound);
     if (settings.sound) sound.unlock();
+    else sound.mute();
   });
   els.menuBtn.addEventListener('click', () => settingsSheet(app));
   $('namesBtn').addEventListener('click', () => namesSheet(app));

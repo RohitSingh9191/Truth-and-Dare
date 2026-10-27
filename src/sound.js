@@ -2,16 +2,33 @@
 // Browsers only allow sound after a tap, so unlock() is called from the first spin.
 
 let ctx = null;
+let warmed = false;
 
 export function unlock() {
+  // iPhone: sound made in code obeys the ring/silent switch unless the page says it plays media,
+  // and most iPhones are kept on silent (iOS 17+; older versions ignore this).
+  try { if (navigator.audioSession && navigator.audioSession.type !== 'playback') navigator.audioSession.type = 'playback'; } catch { /* not supported */ }
   try {
     if (!ctx) {
       const Ctx = window.AudioContext || window.webkitAudioContext;
       if (!Ctx) return;
       ctx = new Ctx();
     }
-    if (ctx.state === 'suspended') ctx.resume();
+    // 'suspended' before the first tap; 'interrupted' on iPhone after a call or locking the screen
+    if (ctx.state !== 'running' && ctx.state !== 'closed') ctx.resume();
+    if (!warmed) { // older iPhones only wake the sound up once something plays inside the tap
+      const src = ctx.createBufferSource();
+      src.buffer = ctx.createBuffer(1, 1, 22050);
+      src.connect(ctx.destination);
+      src.start(0);
+      warmed = true;
+    }
   } catch { ctx = null; }
+}
+
+/** Sound switched off: let go of the speaker so music from other apps can play. */
+export function mute() {
+  try { if (ctx && ctx.state === 'running') ctx.suspend(); } catch { /* ignore */ }
 }
 
 function blip(freq, start, length, volume, type = 'sine') {

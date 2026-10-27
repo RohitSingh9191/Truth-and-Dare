@@ -167,7 +167,7 @@ export function settingsSheet(app) {
   const body = h('div');
 
   const render = () => {
-    const gentleNow = settings.gentle ?? matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const gentleNow = settings.gentle === true;
     body.replaceChildren(
       section(t('setGame'),
         h('p', { class: 'label' }, t('language')),

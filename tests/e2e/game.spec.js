@@ -53,7 +53,7 @@ test('the bottle is ready on the first screen, two taps to the first question', 
 });
 
 test.describe('full animation', () => {
-  test.use({ reducedMotion: 'no-preference' });
+  test.use({ reducedMotion: 'no-preference', storageState: { cookies: [], origins: [] } });
   test('a spin slows down like a real bottle (about 4 to 5 seconds) and a swipe also spins', async ({ page }) => {
     await page.goto('/');
     const t0 = Date.now();
@@ -250,7 +250,7 @@ test('Report hides the card and waits to send only the card number and reason', 
 });
 
 test('group rounds come every few turns', async ({ page }) => {
-  await page.addInitScript(() => localStorage.setItem('ts1:settings', JSON.stringify({ group: 'often' })));
+  await page.addInitScript(() => localStorage.setItem('ts1:settings', JSON.stringify({ gentle: true, group: 'often' })));
   await page.goto('/');
   for (let i = 0; i < 3; i++) {
     await openCard(page);
@@ -298,7 +298,7 @@ test.describe('small phone', () => {
 
 test.describe('light theme', () => {
   test('light theme looks right', async ({ page }) => {
-    await page.addInitScript(() => localStorage.setItem('ts1:settings', JSON.stringify({ theme: 'light' })));
+    await page.addInitScript(() => localStorage.setItem('ts1:settings', JSON.stringify({ gentle: true, theme: 'light' })));
     await page.goto('/');
     await shot(page, '13-light');
     await openCard(page, '#dareBtn');
@@ -459,4 +459,34 @@ test('the Hindi page opens the game in Hinglish, the kids page on Kids & Family'
   await page.goto('/truth-and-dare-for-kids/');
   await page.locator('a.cta').first().click();
   await expect(page.locator('#levelName')).toHaveText('Kids & Family');
+});
+
+
+test.describe('first visit', () => {
+  test.use({ storageState: { cookies: [], origins: [] } });
+  test('the real spin is the default, even on a phone set to reduce motion', async ({ page }) => {
+    await page.goto('/'); // the test phone asks for reduced motion (see playwright.config.js)
+    const t0 = Date.now();
+    await spinToChoice(page);
+    expect(Date.now() - t0).toBeGreaterThan(3300);
+    await page.locator('#menuBtn').click();
+    await expect(page.getByRole('switch', { name: /Gentle spin/ })).not.toBeChecked();
+  });
+});
+
+test('iPhone on silent: the game asks to play its sounds as media, so the bottle can be heard', async ({ page }) => {
+  await page.addInitScript(() => Object.defineProperty(navigator, 'audioSession', { value: { type: 'auto' }, configurable: true }));
+  await page.goto('/');
+  await spinToChoice(page);
+  expect(await page.evaluate(() => navigator.audioSession.type)).toBe('playback');
+});
+
+test('with the game sound off, music from other apps is left alone', async ({ page }) => {
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator, 'audioSession', { value: { type: 'auto' }, configurable: true });
+    localStorage.setItem('ts1:settings', JSON.stringify({ gentle: true, sound: false }));
+  });
+  await page.goto('/');
+  await spinToChoice(page);
+  expect(await page.evaluate(() => navigator.audioSession.type)).toBe('auto');
 });

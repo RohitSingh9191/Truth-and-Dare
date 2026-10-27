@@ -106,7 +106,7 @@ for (const d of DEVICES) {
 
     for (const [key, card, lang] of [['long-en', LONG_EN, 'en'], ['long-hi', LONG_HI, 'hi'], ['timer', TIMER, 'en']]) {
       test(`card fits: ${key}`, async ({ page }) => {
-        await page.addInitScript((l) => localStorage.setItem('ts1:settings', JSON.stringify({ lang: l, skip: 'forfeit' })), lang);
+        await page.addInitScript((l) => localStorage.setItem('ts1:settings', JSON.stringify({ gentle: true, lang: l, skip: 'forfeit' })), lang);
         await page.goto(`/?q=${card.id}`);
         await expect(page.locator('#card')).toBeVisible();
         await expect.poll(async () => (await cardFits(page)).fits, { message: 'card text fits without scrolling' }).toBe(true);
@@ -125,7 +125,7 @@ for (const d of DEVICES) {
     }
 
     test('big text and Hinglish still fit', async ({ page }) => {
-      await page.addInitScript((id) => localStorage.setItem('ts1:settings', JSON.stringify({ lang: 'hi', big: true })), LONG_HI.id);
+      await page.addInitScript((id) => localStorage.setItem('ts1:settings', JSON.stringify({ gentle: true, lang: 'hi', big: true })), LONG_HI.id);
       await page.goto(`/?q=${LONG_HI.id}`);
       await expect(page.locator('#card')).toBeVisible();
       await expect.poll(async () => (await cardFits(page)).fits).toBe(true);
@@ -232,7 +232,7 @@ test.describe('level name in the header', () => {
       test.skip(width < 330, 'tiny screens may shorten long level names');
       await page.setViewportSize({ width, height: 740 });
       for (const lang of ['en', 'hi']) {
-        await page.addInitScript((l) => { localStorage.setItem('ts1:settings', JSON.stringify({ lang: l })); localStorage.setItem('ts1:level', '"kids"'); }, lang);
+        await page.addInitScript((l) => { localStorage.setItem('ts1:settings', JSON.stringify({ gentle: true, lang: l })); localStorage.setItem('ts1:level', '"kids"'); }, lang);
         await page.goto('/');
         const cut = await page.evaluate(() => { const n = document.getElementById('levelName'); return n.scrollWidth > n.clientWidth + 1; });
         expect(cut, `${lang}: "Kids & Family" shortened`).toBe(false);

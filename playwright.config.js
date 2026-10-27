@@ -14,6 +14,8 @@ export default defineConfig({
     isMobile: true,
     hasTouch: true,
     reducedMotion: 'reduce',
+    // Gentle spin (a short turn) keeps the many spins in these tests fast; full-spin tests clear it.
+    storageState: { cookies: [], origins: [{ origin: 'http://localhost:4173', localStorage: [{ name: 'ts1:settings', value: '{"gentle":true}' }] }] },
   },
   projects: [
     { name: 'android-chrome', use: { browserName: 'chromium', channel: 'chrome' } },
