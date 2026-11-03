@@ -229,7 +229,9 @@ export function settingsSheet(app) {
           h('a', { class: 'btn', href: '/privacy.html' }, icon('lock'), t('privacy')),
         ),
       ),
-      h('p', { class: 'fine center credit' }, `Truth n Dare ${CONFIG.version} · ${t('developedBy')}`),
+      h('p', { class: 'fine center credit' }, `Truth n Dare ${CONFIG.version} · ${t('developedBy')} · `,
+        // the owner's review page; it asks for the password (a new tab, so it also works from the installed app)
+        h('a', { class: 'admin-link', href: '/admin', target: '_blank', rel: 'noopener' }, t('admin'))),
     );
   };
   render();

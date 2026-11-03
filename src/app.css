@@ -461,6 +461,7 @@ dialog::backdrop { background: rgba(8, 6, 20, 0.6); }
 .note { display: block; color: var(--muted); font-size: 0.82em; margin-top: 6px; }
 .fine { color: var(--muted); font-size: 0.82em; margin: 14px 0 0; }
 .fine.center { text-align: center; }
+.admin-link { color: inherit; display: inline-block; padding: 12px 6px; margin: -12px -6px; } /* small text, finger-sized target */
 .muted { color: var(--muted); }
 .error { color: var(--danger); margin: 6px 0 0; font-weight: 600; }
 .error:empty { display: none; }

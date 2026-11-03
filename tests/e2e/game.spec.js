@@ -490,3 +490,12 @@ test('with the game sound off, music from other apps is left alone', async ({ pa
   await spinToChoice(page);
   expect(await page.evaluate(() => navigator.audioSession.type)).toBe('auto');
 });
+
+test('Settings has a small Admin link to the review page', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('#menuBtn').click();
+  const link = page.getByRole('link', { name: 'Admin', exact: true });
+  await expect(link).toBeVisible();
+  await expect(link).toHaveAttribute('href', '/admin');
+  await expect(link).toHaveAttribute('target', '_blank');
+});
